@@ -82,14 +82,20 @@ for opml_file in opml_files:
             except Exception as e:
                 print(f"   ⚠️ Échec du téléchargement de la source fixe : {e}")
 
-        # 1. TRAITEMENT RELEASES GITHUB
+# 1. TRAITEMENT RELEASES GITHUB
         if not downloaded and "github.com" in xml_url:
             repo_match = re.search(r'github\.com/([^/]+/[^/]+)', xml_url)
             if repo_match:
                 repo = repo_match.group(1)
                 try:
-                    res_tag = subprocess.check_output(f"gh repo view {repo} --json latestRelease --jq '.latestRelease.tagName'", shell=True).decode().strip()
-                    if res_tag: version = res_tag
+                    # CORRECTION : On demande la liste des releases (inclut les pré-releases) et on prend la première ([0])
+                    res_tag = subprocess.check_output(f"gh release list --repo {repo} --limit 1 --json tagName --jq '.[0].tagName'", shell=True).decode().strip()
+                    if res_tag: 
+                        version = res_tag
+                    else:
+                        # Si la liste est vide, on tente le coup avec le dernier tag Git classique
+                        res_tag = subprocess.check_output(f"gh repo view {repo} --json latestRelease --jq '.latestRelease.tagName'", shell=True).decode().strip()
+                        if res_tag: version = res_tag
                 except:
                     pass
                 
@@ -99,6 +105,7 @@ for opml_file in opml_files:
 
                 try:
                     print(f"   -> Téléchargement GitHub ({version})...")
+                    # On télécharge la version trouvée (qu'elle soit pré-release ou stable)
                     subprocess.call(f"gh release download '{version}' --repo '{repo}' --dir '{target_dir}' --clobber 2>/dev/null", shell=True)
                     
                     for f in os.listdir(target_dir):
