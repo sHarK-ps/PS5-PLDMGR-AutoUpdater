@@ -1,0 +1,208 @@
+name: 🎮 PS5 Mini-Store Automatique
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+
+jobs:
+  build-store:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📁 Récupération du dépôt courant
+        uses: actions/checkout@v4
+
+      - name: 🐍 Configuration de Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: ⚙️ Exécution du script de synchronisation universel
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python - << 'EOF'
+          import os, sys, json, re, hashlib, subprocess, urllib.request
+
+          FEED_DIR = "feed"
+          JSON_DIR = "json"
+          RSS_DIR = "rss"
+          os.makedirs(JSON_DIR, exist_ok=True)
+          os.makedirs(RSS_DIR, exist_ok=True)
+
+          global_json_data = {}
+          readme_rows = []
+          rss_items = []
+          credits_list = set() # Pour éviter les doublons de développeurs
+
+          print("=== Début de la synchronisation ===")
+
+          if not os.path.exists(FEED_DIR):
+              print(f"Erreur: Le dossier {FEED_DIR} n'existe pas.")
+              sys.exit(0)
+
+          opml_files = [f for f in os.listdir(FEED_DIR) if f.endswith('.opml')]
+
+          for opml_file in opml_files:
+              cat_name = opml_file.replace('.opml', '').replace('-', ' ').title()
+              if "Hen" in cat_name: cat_name = cat_name.replace("Hen", "HEN")
+              
+              print(f"\n📁 Catégorie : {cat_name}")
+              global_json_data[cat_name] = []
+
+              with open(os.path.join(FEED_DIR, opml_file), 'r', encoding='utf-8') as f:
+                  content = f.read()
+
+              outlines = re.findall(r'<outline\s+([^>]+)/>', content)
+              
+              for outline in outlines:
+                  attrs = dict(re.findall(r'(\w+)="([^"]*)"', outline))
+                  title = attrs.get('title', 'Inconnu')
+                  xml_url = attrs.get('xmlUrl', '').strip('/')
+                  author = attrs.get('author', 'Inconnu')
+                  description = attrs.get('description', '')
+
+                  if not xml_url:
+                      continue
+
+                  print(f" 🔍 Analyse de {title} ({xml_url})...")
+                  credits_list.add(f"- **{author}** : [{title}]({xml_url})")
+
+                  version = "v1.0.0"
+                  target_dir = ""
+                  base_cat = cat_name.split(' ')[0].lower() + "s"
+                  sub_cat = cat_name.split(' ')[-1].lower()
+                  
+                  if base_cat == sub_cat + "s":
+                      target_dir = os.path.join(base_cat, title.replace(" ", "_"), version)
+                  else:
+                      target_dir = os.path.join(base_cat, sub_cat, title.replace(" ", "_"), version)
+
+                  os.makedirs(target_dir, exist_ok=True)
+
+                  # STRATÉGIE DE TÉLÉCHARGEMENT
+                  downloaded = False
+                  if "github.com" in xml_url:
+                      repo_match = re.search(r'github\.com/([^/]+/[^/]+)', xml_url)
+                      if repo_match:
+                          repo = repo_match.group(1)
+                          try:
+                              res_tag = subprocess.check_output(f"gh repo view {repo} --json latestRelease --jq '.latestRelease.tagName'", shell=True, env=os.environ).decode().strip()
+                              if res_tag: version = res_tag
+                          except:
+                              pass
+                          
+                          # Recalcul du dossier avec la vraie version GitHub
+                          version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version)
+                          os.rmdir(target_dir) # On vire le dossier temporaire v1.0.0
+                          if base_cat == sub_cat + "s":
+                              target_dir = os.path.join(base_cat, title.replace(" ", "_"), version_clean)
+                          else:
+                              target_dir = os.path.join(base_cat, sub_cat, title.replace(" ", "_"), version_clean)
+                          os.makedirs(target_dir, exist_ok=True)
+
+                          try:
+                              subprocess.call(f"gh release download '{version}' --repo '{repo}' --dir '{target_dir}' --clobber 2>/dev/null", shell=True, env=os.environ)
+                              downloaded = True
+                          except:
+                              pass
+
+                  # SI DÉPÔT EXTERNE (Ex: Gitea / Forgejo comme etawen.dev)
+                  if not downloaded:
+                      try:
+                          # On tente de lire les releases via l'API RSS native de la plateforme Git externe
+                          rss_url = f"{xml_url}/releases.atom"
+                          req = urllib.request.Request(rss_url, headers={'User-Agent': 'Mozilla/5.0'})
+                          html = urllib.request.urlopen(req).read().decode('utf-8')
+                          # Extraction du premier lien de téléchargement disponible dans le flux RSS
+                          links = re.findall(r'href="([^"]+/(?:releases|archive)/[^"]+\.(?:elf|bin|pkg|zip))"', html)
+                          if links:
+                              file_dl_url = links[0]
+                              if file_dl_url.startswith('/'):
+                                  base_url = re.match(r'(https?://[^/]+)', xml_url).group(1)
+                                  file_dl_url = base_url + file_dl_url
+                              f_name = file_dl_url.split('/')[-1]
+                              urllib.request.urlretrieve(file_dl_url, os.path.join(target_dir, f_name))
+                              print(f"   => Fichier externe téléchargé avec succès : {f_name}")
+                      except Exception as e:
+                          print(f"   ⚠️ Échec du scan externe alternatif : {e}")
+
+                  # ANALYSE ET CALCUL DU SHA-256
+                  files_in_dir = os.listdir(target_dir) if os.path.exists(target_dir) else []
+                  main_file = None
+                  sha256_hash = ""
+
+                  for f_name in files_in_dir:
+                      if f_name.endswith('.elf') or f_name.endswith('.bin'):
+                          main_file = f_name
+                          full_path = os.path.join(target_dir, f_name)
+                          hasher = hashlib.sha256()
+                          with open(full_path, 'rb') as fb:
+                              for chunk in iter(lambda: fb.read(4096), b""): hasher.update(chunk)
+                          sha256_hash = hasher.hexdigest()
+                          break
+
+                  if not main_file:
+                      for f_name in files_in_dir:
+                          if f_name.endswith('.zip') or f_name.endswith('.pkg'):
+                              main_file = f_name
+                              sha256_hash = "N/A (Package/Archive)"
+                              break
+
+                  if main_file:
+                      repo_name = os.environ.get('GITHUB_REPOSITORY', 'PS5-Store').split('/')[-1]
+                      file_url = f"https://nexgen999.github.io/{repo_name}/{target_dir.replace(os.sep, '/')}/{main_file}"
+
+                      item_data = {
+                          "title": title,
+                          "author": author,
+                          "version": version,
+                          "url": file_url,
+                          "sha256": sha256_hash,
+                          "description": description
+                      }
+                      global_json_data[cat_name].append(item_data)
+                      
+                      repo_folder_url = f"https://github.com/nexgen999/{repo_name}/tree/main/{target_dir.replace(os.sep, '/')}"
+                      readme_rows.append(f"| **{title}** | {author} | {cat_name} | [{version}]({repo_folder_url}) | `{sha256_hash[:10]}...` | {description} |")
+                      
+                      rss_items.append(f"<item><title>[{cat_name}] {title} {version}</title><link>{repo_folder_url}</link><description><![CDATA[{description}]]></description></item>")
+
+              cat_filename = os.path.join(JSON_DIR, opml_file.replace('.opml', '.json'))
+              with open(cat_filename, 'w', encoding='utf-8') as out_cat:
+                  json.dump(global_json_data[cat_name], out_cat, indent=2, ensure_ascii=False)
+
+          with open(os.path.join(JSON_DIR, "payloads.json"), 'w', encoding='utf-8') as out_glob:
+              json.dump(global_json_data, out_glob, indent=2, ensure_ascii=False)
+
+          # MISE A JOUR DU README (TABLEAU + CREDITS)
+          if os.path.exists("README.md"):
+              with open("README.md", 'r', encoding='utf-8') as r_file:
+                  readme_content = r_file.read()
+              
+              # Injection Tableau
+              table_content = "| Application | Auteur | Catégorie | Version (Dépôt) | Empreinte SHA-256 | Description |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n" + "\n".join(readme_rows)
+              readme_content = re.sub(r".*?", f"\n\n{table_content}\n\n", readme_content, flags=re.DOTALL)
+              
+              # Injection Crédits
+              credits_content = "\n".join(sorted(list(credits_list)))
+              readme_content = re.sub(r".*?", f"\n\n{credits_content}\n\n", readme_content, flags=re.DOTALL)
+              
+              with open("README.md", 'w', encoding='utf-8') as r_file:
+                  r_file.write(readme_content)
+
+          print("=== Synchronisation terminée ===")
+          EOF
+
+      - name: 🚀 Push des modifications sur le dépôt
+        run: |
+          git config --global user.name "PS5 Store Bot"
+          git config --global user.email "actions@github.com"
+          git add .
+          if ! git diff --cached --quiet; then
+            git commit -m "🤖 [Mise à jour automatique] Index, Fichiers, RSS, Tableaux & Crédits"
+            git push
+          else
+            echo "Aucune modification."
+          fi
