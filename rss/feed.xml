@@ -5,6 +5,11 @@
     <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/</link>
     <description>Suivi automatique des payloads</description>
     <item>
+      <title>CheatRunner (v0.14)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Cheat/CheatRunner/v0.14/CheatRunner.elf</link>
+      <description>CheatRunner. - SHA256: 5ffe8ed97fd6021cfad2b44a1be68c1b9f6e84c1e3a8d925f9e3b975235aa99f</description>
+    </item>
+    <item>
       <title>kylin-core (Source-Fixe)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Cheat/kylin-core/Source-Fixe/kylin-core-community-lite-v131-global-release.elf</link>
       <description>kylin-core - SHA256: 2b731fc60b3d7996667b372bb8e31df7125d209ecacbb6838312a51b24b65c29</description>

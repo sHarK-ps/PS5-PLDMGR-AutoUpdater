@@ -2,6 +2,14 @@
   "name": "PS5_Cheat (PLDMGR Updater)",
   "payloads": [
     {
+      "title": "CheatRunner",
+      "author": "notmaj0r",
+      "version": "v0.14",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Cheat/CheatRunner/v0.14/CheatRunner.elf",
+      "sha256": "5ffe8ed97fd6021cfad2b44a1be68c1b9f6e84c1e3a8d925f9e3b975235aa99f",
+      "description": "CheatRunner."
+    },
+    {
       "title": "kylin-core",
       "author": "aydencharles",
       "version": "Source-Fixe",

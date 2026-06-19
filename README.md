@@ -10,6 +10,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 
 | Application | Auteur | Catégorie | Version (Dépôt) | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| **CheatRunner** | notmaj0r | Ps5 Cheat | [v0.14](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/PS5_Cheat/CheatRunner/v0.14) | `5ffe8ed97f...` | CheatRunner. |
 | **kylin-core** | aydencharles | Ps5 Cheat | [Source-Fixe](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/PS5_Cheat/kylin-core/Source-Fixe) | `2b731fc60b...` | kylin-core |
 | **BFpilot-Core** | ItsBlurf | Ps5 File Explorer | [Source-Fixe](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_file_explorer/BFpilot-Core/Source-Fixe) | `4375479705...` | BFpilot is a lightweight PS5 payload that serves a browser-based file manager. |
 | **BFpilot-Full** | ItsBlurf | Ps5 File Explorer | [Source-Fixe](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_file_explorer/BFpilot-Full/Source-Fixe) | `c5b6674533...` | BFpilot is a lightweight PS5 payload that serves a browser-based file manager. |
@@ -41,5 +42,6 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 - **earthonion** : [np-fake-signin](https://git.etawen.dev/earthonion/np-fake-signin)
 - **itsPLK** : [PS5 Payload Manager](https://github.com/itsPLK/ps5-payload-manager)
 - **itsPLK** : [PS5 Unified Autoloader](https://github.com/itsPLK/ps5-unified-autoloader)
+- **notmaj0r** : [CheatRunner](https://github.com/notmaj0r/CheatRunner)
 - **pegasus-ps5** : [pegasus-dl](https://github.com/pegasus-ps5/pegasus-dl)
 
