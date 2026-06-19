@@ -1,5 +1,6 @@
 {
-  "Ps5 Dns": [
+  "name": "payloads",
+  "payloads": [
     {
       "title": "nanoDNS",
       "author": "Drakmor",
@@ -15,9 +16,7 @@
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_dns/Chukei_DNS/0.9.0/chukei-ps5.elf",
       "sha256": "0cf13e1ed87b57ffa4fdcfca5d9afe1572be29b4f632677cedf17657a972d750",
       "description": "Serveur DNS de redirection d'envergure conçu spécifiquement pour bloquer les mises à jour de Sony et rediriger le guide de l'utilisateur."
-    }
-  ],
-  "Ps5 HEN Loader": [
+    },
     {
       "title": "etaHEN",
       "author": "LightningMods",
