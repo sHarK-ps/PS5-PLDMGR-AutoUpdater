@@ -2,19 +2,16 @@
 
 ![Logo ou Bannière](assets/banner.png)
 
-Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 ! Ce dépôt fait office de **back-end et de serveur de distribution** pour mon application PS5.
+Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 
-Toutes les X heures, un robot vérifie les dépôts officiels des développeurs, télécharge les derniers payloads, calcule leur empreinte de sécurité (SHA-256) et génère les index JSON nécessaires au fonctionnement du store sur la console.
-
-> 💡 **Configuration du Store sur l'application PS5 :** Pour connecter votre console, vous devez ajouter le fichier central **`payloads.json`** disponible à l'adresse de téléchargement direct suivante :
+> 💡 **Configuration du Store sur l'application PS5 :** Pour connecter votre console, ajoutez le fichier central **`payloads.json`** :
 > `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/payloads.json`
 
 ---
 
-## 📱 Flux RSS & Alertes (Notifications Mobile / PC)
-Vous pouvez suivre l'actualité du store directement depuis votre lecteur RSS favoris :
-* **Radar Global (Fichier OPML à importer) :** `rss/store-global.opml`
-* **Flux de mises à jour (Notifications en temps réel) :** `rss/feed.xml`
+## 📱 Flux RSS & Alertes
+* **Radar Global (OPML) :** `rss/store-global.opml`
+* **Flux de mises à jour (XML) :** `rss/feed.xml`
 
 ---
 
@@ -22,6 +19,7 @@ Vous pouvez suivre l'actualité du store directement depuis votre lecteur RSS fa
 
 | Application | Auteur | Catégorie | Version (Dépôt) | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| **np-fake-signin** | earthonion | Ps5 Activation | [v1.3](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/PS5_Activation/np-fake-signin/v1.3) | `f5c66fcb9e...` | Fake activate PS5 without PSN. |
 | **nanoDNS** | Drakmor | Ps5 Dns | [0.3](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_dns/nanoDNS/0.3) | `ce1c8b3103...` | Un serveur DNS ultra-léger et rapide idéal pour rediriger les requêtes de la console vers votre hôte local d'exploits. |
 | **Chukei DNS** | Al-Azif | Ps5 Dns | [0.9.0](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_dns/Chukei_DNS/0.9.0) | `0cf13e1ed8...` | Serveur DNS de redirection d'envergure conçu spécifiquement pour bloquer les mises à jour de Sony et rediriger le guide de l'utilisateur. |
 | **etaHEN** | LightningMods | Ps5 HEN Loader | [2.5B](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_hen_loader/etaHEN/2.5B) | `4845cac450...` | Le Homebrew Enabler (HEN) de référence pour la PS5 avec serveurs de triche, plugins et gestionnaire de mémoire intégrés. |
@@ -33,15 +31,17 @@ Vous pouvez suivre l'actualité du store directement depuis votre lecteur RSS fa
 ---
 
 ## 🤝 Crédits & Remerciements
-Ce store ne serait rien sans le travail incroyable des développeurs de la scène PS5. Retrouvez ci-dessous les liens vers leurs projets originaux :
-
 - **Al-Azif** : [Chukei DNS](https://github.com/Al-Azif/chukei-dns)
+- **ArkSama** : [Lapy JB Daemon](https://raw.githubusercontent.com/ArkSama/PS5-Lapy-JB-Daemon/main/lapy_jb_daemon.elf)
 - **Drakmor** : [nanoDNS](https://github.com/drakmor/nanoDNS)
 - **LightningMods** : [etaHEN](https://github.com/etaHEN/etaHEN)
 - **NookieAI** : [Kura](https://github.com/NookieAI/kura)
 - **SonicIso** : [ELF Arsenal](https://git.etawen.dev/soniciso/elf-arsenal)
+- **aydencharles** : [kylin-core](https://github.com/aydencharles/kylin-core-release)
+- **earthonion** : [np-fake-signin](https://git.etawen.dev/earthonion/np-fake-signin)
 - **itsPLK** : [PS5 Payload Manager](https://github.com/itsPLK/ps5-payload-manager)
 - **itsPLK** : [PS5 Unified Autoloader](https://github.com/itsPLK/ps5-unified-autoloader)
+- **notmaj0r** : [CheatRunner](https://github.com/notmaj0r/CheatRunner)
 
 ---
 *Dépôt 100% autonome géré par GitHub Actions.*

@@ -5,6 +5,11 @@
     <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/</link>
     <description>Suivi automatique des payloads</description>
     <item>
+      <title>np-fake-signin (v1.3)</title>
+      <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Activation/np-fake-signin/v1.3/np-fake-signin-ps5.elf</link>
+      <description>Fake activate PS5 without PSN. - SHA256: f5c66fcb9e3f512e5463a7123d819b87f063d9955639366fa7ad26a2f0abefa4</description>
+    </item>
+    <item>
       <title>nanoDNS (0.3)</title>
       <link>https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_dns/nanoDNS/0.3/nanodns.elf</link>
       <description>Un serveur DNS ultra-léger et rapide idéal pour rediriger les requêtes de la console vers votre hôte local d'exploits. - SHA256: ce1c8b31036ab948da65b362a4b6f249ffca8a555fc5bc4b051ec65d041bc944</description>
