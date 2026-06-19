@@ -104,11 +104,28 @@ for opml_file in opml_files:
                     print(f"   -> Téléchargement GitHub ({version})...")
                     subprocess.call(f"gh release download '{version}' --repo '{repo}' --dir '{target_dir}' --clobber 2>/dev/null", shell=True)
                     
-                    for f in os.listdir(target_dir):
-                        if "ps4" in f.lower():
-                            os.remove(os.path.join(target_dir, f))
-                            print(f"   🚫 Fichier joint spécifié PS4 supprimé : {f}")
-                            
+                    # --- FILTRAGE SPÉCIFIQUE (websrv & ps5upload) ---
+                    # Bien vu ! On applique le nettoyage uniquement si le dépôt fait partie des deux coupables encombrants.
+                    files_downloaded = os.listdir(target_dir)
+                    repo_lower = repo.lower()
+                    
+                    if "ps5-payload-dev/websrv" in repo_lower or "phantomptr/ps5upload" in repo_lower:
+                        print("   ⚠️ Dépôt lourd détecté : Application de la règle d'exception (.elf uniquement)")
+                        for f in files_downloaded:
+                            f_lower = f.lower()
+                            # On dégage TOUT ce qui n'est pas un fichier ELF
+                            if not f_lower.endswith('.elf'):
+                                try:
+                                    os.remove(os.path.join(target_dir, f))
+                                    print(f"   🚫 [Exception] Fichier lourd supprimé : {f}")
+                                except:
+                                    pass
+                    else:
+                        # Nettoyage standard léger pour les autres dépôts (juste la sécurité PS4)
+                        for f in files_downloaded:
+                            if "ps4" in f.lower():
+                                os.remove(os.path.join(target_dir, f))
+
                     if os.listdir(target_dir):
                         downloaded = True
                 except Exception as e:
@@ -192,7 +209,7 @@ for opml_file in opml_files:
                 except Exception as api_err:
                     print(f"   ⚠️ Échec de l'API de secours Forgejo: {api_err}")
 
-        # ANALYSE ET CALCUL SHA-256 (FILTRAGE STRICT : UNIQUEMENT LES EXÉCUTABLES PS5)
+        # ANALYSE ET CALCUL SHA-256 (FILTRAGE : EXÉCUTABLES OU ARCHIVES VALIDES SELON LE CAS)
         version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version) if version != "Source-Fixe" else "Source-Fixe"
         target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
         
@@ -200,21 +217,29 @@ for opml_file in opml_files:
         main_file = None
         sha256_hash = ""
 
-        # Recherche exclusive du binaire exécutable (.elf ou .bin)
+        # Priorité aux exécutables PS5 directs
         for f_name in files_in_dir:
             f_name_lower = f_name.lower()
             if f_name_lower.endswith('.elf') or f_name_lower.endswith('.bin'):
                 main_file = f_name
-                full_path = os.path.join(target_dir, f_name)
-                hasher = hashlib.sha256()
-                with open(full_path, 'rb') as fb:
-                    for chunk in iter(lambda: fb.read(4096), b""): 
-                        hasher.update(chunk)
-                sha256_hash = hasher.hexdigest()
                 break
+        
+        # Secours : Si aucun ELF/BIN n'est là, on prend le premier package/zip disponible (sauf pour nos deux exclus)
+        if not main_file:
+            for f_name in files_in_dir:
+                f_name_lower = f_name.lower()
+                if f_name_lower.endswith('.zip') or f_name_lower.endswith('.pkg'):
+                    main_file = f_name
+                    break
 
-        # SÉCURITÉ & RÈGLE PS5 : On n'ajoute aux crédits, au JSON et au README QUE si un vrai binaire exécutable est présent !
         if main_file:
+            full_path = os.path.join(target_dir, main_file)
+            hasher = hashlib.sha256()
+            with open(full_path, 'rb') as fb:
+                for chunk in iter(lambda: fb.read(4096), b""): 
+                    hasher.update(chunk)
+            sha256_hash = hasher.hexdigest()
+
             credits_list.add(f"- **{author}** : [{title}]({xml_url})")
             
             repo_name = os.environ.get('GITHUB_REPOSITORY', 'PS5-Super-PLDMGR-Auto-Updater').split('/')[-1]
@@ -234,8 +259,7 @@ for opml_file in opml_files:
             repo_folder_url = f"https://github.com/nexgen999/{repo_name}/tree/main/{target_dir.replace(os.sep, '/')}"
             readme_rows.append(f"| **{title}** | {author} | {cat_display_name} | [{version}]({repo_folder_url}) | `{sha256_hash[:10]}...` | {description} |")
         else:
-            # Le dépôt reste enregistré et téléchargé localement, mais il est masqué du store PS5
-            print(f"   ℹ️ Dépôt conservé mais masqué du JSON (uniquement une archive ZIP/source disponible pour le moment) pour {title}")
+            print(f"   ℹ️ Aucun fichier éligible retenu pour {title}")
 
     # Sauvegarde JSON Catégorie
     cat_final_json = {
