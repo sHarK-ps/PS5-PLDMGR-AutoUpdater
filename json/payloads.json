@@ -5,8 +5,8 @@
       "title": "nanoDNS",
       "author": "Drakmor",
       "version": "0.3",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_dns/nanoDNS/0.3/nanodns-ps4.elf",
-      "sha256": "09b7c87903dc28f5bbb40855572776adb10afa1b61f310fac5a9550f6dbd033b",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_dns/nanoDNS/0.3/nanodns.elf",
+      "sha256": "ce1c8b31036ab948da65b362a4b6f249ffca8a555fc5bc4b051ec65d041bc944",
       "description": "Un serveur DNS ultra-léger et rapide idéal pour rediriger les requêtes de la console vers votre hôte local d'exploits."
     },
     {
