@@ -18,7 +18,7 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: ⚙️ Exécution du script de synchronisation strict v9
+      - name: ⚙️ Exécution du script de synchronisation strict v10
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -28,12 +28,11 @@ jobs:
           FEED_DIR = "feed"
           JSON_DIR = "json"
           RSS_DIR = "rss"
-          # Utilisation d'un dossier temporaire hors de l'index Git pour les téléchargements binaire
-          TEMP_PAYLOADS = "/tmp/payloads_dl"
+          PAYLOADS_ROOT = "payloads"
           
           os.makedirs(JSON_DIR, exist_ok=True)
           os.makedirs(RSS_DIR, exist_ok=True)
-          os.makedirs(TEMP_PAYLOADS, exist_ok=True)
+          os.makedirs(PAYLOADS_ROOT, exist_ok=True)
 
           all_payloads_flat_list = []
           readme_rows = []
@@ -75,9 +74,8 @@ jobs:
 
                   version = "v1.0.0"
                   downloaded = False
-                  version_clean = "v1.0.0"
                   
-                  # 1. TRAITEMENT GITHUB
+                  # 1. CAS CLASSIQUE GITHUB
                   if "github.com" in xml_url:
                       repo_match = re.search(r'github\.com/([^/]+/[^/]+)', xml_url)
                       if repo_match:
@@ -89,7 +87,7 @@ jobs:
                               pass
                           
                           version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version)
-                          target_dir = os.path.join(TEMP_PAYLOADS, cat_tech_name, title.replace(" ", "_"), version_clean)
+                          target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
                           os.makedirs(target_dir, exist_ok=True)
 
                           try:
@@ -99,7 +97,7 @@ jobs:
                           except:
                               pass
 
-                  # 2. TRAITEMENT EXT-FORGEJO (git.etawen.dev)
+                  # 2. CAS DÉPÔT FORGEJO (elf-arsenal)
                   if not downloaded:
                       try:
                           rss_url = f"{xml_url}/releases.atom"
@@ -111,7 +109,7 @@ jobs:
                               version = tag_match.group(1).strip()
                           
                           version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version)
-                          target_dir = os.path.join(TEMP_PAYLOADS, cat_tech_name, title.replace(" ", "_"), version_clean)
+                          target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
                           os.makedirs(target_dir, exist_ok=True)
 
                           decoded_atom = html.unescape(raw_atom)
@@ -133,11 +131,11 @@ jobs:
                               print(f"   => Fichier externe récupéré : {f_name}")
                               downloaded = True
                       except Exception as e:
-                          print(f"   ⚠️ Échec de la récupération pour {title}: {e}")
+                          print(f"   ⚠️ Échec Forgejo pour {title}: {e}")
 
-                  # ANALYSE DU FICHIER ET CALCUL SHA-256
+                  # ANALYSE ET CALCUL SHA-256
                   version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version)
-                  target_dir = os.path.join(TEMP_PAYLOADS, cat_tech_name, title.replace(" ", "_"), version_clean)
+                  target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
                   
                   files_in_dir = os.listdir(target_dir) if os.path.exists(target_dir) else []
                   main_file = None
@@ -161,10 +159,10 @@ jobs:
                               break
 
                   if main_file:
-                      # Le lien pointe désormais vers le dépôt officiel du dev (Pas ton github pour économiser l'espace)
-                      # Si c'est github, on redirige vers l'URL de sa release, sinon on laisse l'URL d'origine
+                      repo_name = os.environ.get('GITHUB_REPOSITORY', 'PS5-Store').split('/')[-1]
+                      
+                      # Redirection propre de l'URL vers la source officielle pour le JSON final
                       if "github.com" in xml_url:
-                          repo_match = re.search(r'github\.com/([^/]+/[^/]+)', xml_url)
                           file_url = f"{xml_url}/releases/download/{version}/{main_file}"
                       else:
                           file_url = f"{xml_url}"
@@ -190,7 +188,7 @@ jobs:
               with open(os.path.join(JSON_DIR, f"{cat_tech_name}.json"), 'w', encoding='utf-8') as out_cat:
                   json.dump(cat_final_json, out_cat, indent=2, ensure_ascii=False)
 
-          # Écriture du payloads.json GLOBAL
+          # Écriture du payloads.json GLOBAL avec le bon nom
           global_flat_json = {
               "name": "PS5 Super PLDMGR Updater",
               "payloads": all_payloads_flat_list
@@ -198,8 +196,8 @@ jobs:
           with open(os.path.join(JSON_DIR, "payloads.json"), 'w', encoding='utf-8') as out_glob:
               json.dump(global_flat_json, out_glob, indent=2, ensure_ascii=False)
 
-          # RECONSTRUCTION SÉCURISÉE DU README SANS S'EMMÊLER LES PINCEAUX
-          if os.path.exists("README.md"):
+          # RECONSTRUCTION PROPRE DU README
+          if os.path.exists("README.md") and readme_rows:
               with open("README.md", 'r', encoding='utf-8') as r_file:
                   lines = r_file.readlines()
               
@@ -235,20 +233,17 @@ jobs:
           print("=== Synchronisation terminée ===")
           EOF
 
-      - name: 🚀 Push sélectif (Pas de payloads lourds)
+      - name: 🚀 Push sélectif protégé par .gitignore
         run: |
           git config --global user.name "PS5 Store Bot"
           git config --global user.email "actions@github.com"
           
-          # On force le nettoyage complet des fichiers binaires indésirables du cache git
-          git rm -rf --cached payloads/ ps5_hen_loaders/ ps5_dnss/ 2>/dev/null || true
-          
-          # Ajout EXCLUSIF du README et du dossier json (le reste est ignoré)
-          git add README.md json/
+          # Ajout strict et forcé uniquement des données de configuration et d'indexation
+          git add .gitignore README.md json/
           
           if ! git diff --cached --quiet; then
-            git commit -m "🤖 [Version Finale v9] Indexation propre sans fichiers lourds"
+            git commit -m "🤖 [Mise à jour v10] Téléchargement local réactivé & Push filtré sécurisé"
             git push origin main
           else
-            echo "Aucune modification textuelle détectée."
+            echo "Aucun changement textuel détecté."
           fi
