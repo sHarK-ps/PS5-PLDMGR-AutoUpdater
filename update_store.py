@@ -53,7 +53,7 @@ for opml_file in opml_files:
 
         # Exclusion globale si le titre ou la description contient explicitement PS4
         if "ps4" in title.lower() or "ps4" in description.lower():
-            print(f" 🚫 Ignoré (Critère d'exclusion PS4 trouvé dans les métadonnées de {title})")
+            print(f" 🚫 Ignoré (Critère d'exclusion PS4 trouvé dans {title})")
             continue
 
         print(f" 🔍 Analyse de {title} ({xml_url})...")
@@ -62,8 +62,26 @@ for opml_file in opml_files:
         version = "v1.0.0"
         downloaded = False
         
-        # 1. TRAITEMENT RELEASES GITHUB
-        if "github.com" in xml_url:
+        # 0. TRAITEMENT DES SOURCES FIXES (LIENS DIRECTS RAW .ELF / .BIN / .PKG)
+        clean_xml_url = xml_url.split('?')[0].lower()
+        if clean_xml_url.endswith('.elf') or clean_xml_url.endswith('.bin') or clean_xml_url.endswith('.pkg'):
+            try:
+                version = "Source-Fixe"
+                version_clean = "main"
+                target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
+                os.makedirs(target_dir, exist_ok=True)
+                
+                f_name = xml_url.split('?')[0].split('/')[-1]
+                print(f"   🎯 Source fixe détectée (Téléchargement Raw direct) : {f_name}")
+                
+                req = urllib.request.Request(xml_url, headers={'User-Agent': 'Mozilla/5.0'})
+                urllib.request.urlretrieve(req, os.path.join(target_dir, f_name))
+                downloaded = True
+            except Exception as e:
+                print(f"   ⚠️ Échec du téléchargement de la source fixe : {e}")
+
+        # 1. TRAITEMENT RELEASES GITHUB (Uniquement si pas déjà téléchargé via source fixe)
+        if not downloaded and "github.com" in xml_url:
             repo_match = re.search(r'github\.com/([^/]+/[^/]+)', xml_url)
             if repo_match:
                 repo = repo_match.group(1)
@@ -81,7 +99,7 @@ for opml_file in opml_files:
                     print(f"   -> Téléchargement GitHub ({version})...")
                     subprocess.call(f"gh release download '{version}' --repo '{repo}' --dir '{target_dir}' --clobber 2>/dev/null", shell=True)
                     
-                    # Nettoyage après téléchargement GitHub pour virer les fichiers PS4 s'ils ont atterri là
+                    # Nettoyage anti-PS4
                     for f in os.listdir(target_dir):
                         if "ps4" in f.lower():
                             os.remove(os.path.join(target_dir, f))
@@ -92,13 +110,12 @@ for opml_file in opml_files:
                 except Exception as e:
                     print(f"   ⚠️ Erreur gh release: {e}")
 
-# 2. TRAITEMENT RELEASES FORGEJO (VIA API RELEASES POUR ACCÉDER AUX VRAIS ASSETS)
+        # 2. TRAITEMENT RELEASES FORGEJO
         if not downloaded and "git.etawen.dev" in xml_url:
             try:
                 api_repo_match = re.search(r'git\.etawen\.dev/([^/]+/[^/]+)', xml_url)
                 if api_repo_match:
                     repo_path = api_repo_match.group(1)
-                    # On interroge l'API des releases qui liste explicitement les fichiers attachés (assets)
                     api_url = f"https://git.etawen.dev/api/v1/repos/{repo_path}/releases"
                     
                     req = urllib.request.Request(api_url, headers={'User-Agent': 'Mozilla/5.0'})
@@ -106,7 +123,6 @@ for opml_file in opml_files:
                         releases_data = json.loads(response.read().decode('utf-8'))
                         
                         if releases_data:
-                            # Récupération de la dernière release publique
                             latest_release = releases_data[0]
                             version = latest_release.get('tag_name', 'v1.0.0')
                             
@@ -118,7 +134,6 @@ for opml_file in opml_files:
                             valid_file_url = None
                             f_name = None
                             
-                            # Étape A : Recherche prioritaire du binaire PS5 brut (.elf, .bin, .pkg)
                             for asset in assets:
                                 asset_url = asset.get('browser_download_url', '')
                                 asset_name = asset.get('name', '')
@@ -132,7 +147,6 @@ for opml_file in opml_files:
                                     f_name = asset_name
                                     break
                                     
-                            # Étape B : Secours si l'auteur a publié un .zip d'asset spécifique (pas le code source global)
                             if not valid_file_url:
                                 for asset in assets:
                                     asset_url = asset.get('browser_download_url', '')
@@ -149,37 +163,29 @@ for opml_file in opml_files:
                             
                             if valid_file_url and f_name:
                                 print(f"   🎯 Asset Forgejo détecté : {f_name}")
-                                print(f"   -> Téléchargement direct : {f_name}...")
                                 urllib.request.urlretrieve(valid_file_url, os.path.join(target_dir, f_name))
                                 downloaded = True
-                            else:
-                                print("   ⚠️ Aucun asset (.elf / .bin / .zip) éligible trouvé dans cette release Forgejo.")
             except Exception as e:
-                print(f"   ℹ️ Erreur lors de l'appel à l'API Forgejo ({e})")
+                print(f"   ℹ️ Erreur API Forgejo ({e})")
 
-            # Secours ultime via l'API des Tags si vraiment aucune release n'est configurée
-            if not downloaded:
+            # Secours API Tags
+            if not downloaded and api_repo_match:
                 try:
-                    if api_repo_match:
-                        api_url = f"https://git.etawen.dev/api/v1/repos/{repo_path}/tags"
-                        req = urllib.request.Request(api_url, headers={'User-Agent': 'Mozilla/5.0'})
-                        with urllib.request.urlopen(req) as response:
-                            tags_data = json.loads(response.read().decode('utf-8'))
-                            if tags_data:
-                                tag_name = tags_data[0].get('name', '')
-                                zip_url = tags_data[0].get('zipball_url', '')
-                                
-                                if "ps4" in tag_name.lower() or "ps4" in zip_url.lower():
-                                    print(f"   🚫 [API Tags] Rejet de l'archive de secours (PS4 détecté)")
-                                else:
-                                    version = tag_name if tag_name else "v1.0.0"
-                                    version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version)
-                                    target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
-                                    os.makedirs(target_dir, exist_ok=True)
-                                    f_name = f"{title.replace(' ', '_')}_{version_clean}.zip"
-                                    print(f"   -> [Secours Tag] Téléchargement du zip source : {f_name}")
-                                    urllib.request.urlretrieve(zip_url, os.path.join(target_dir, f_name))
-                                    downloaded = True
+                    api_url = f"https://git.etawen.dev/api/v1/repos/{repo_path}/tags"
+                    req = urllib.request.Request(api_url, headers={'User-Agent': 'Mozilla/5.0'})
+                    with urllib.request.urlopen(req) as response:
+                        tags_data = json.loads(response.read().decode('utf-8'))
+                        if tags_data:
+                            tag_name = tags_data[0].get('name', '')
+                            zip_url = tags_data[0].get('zipball_url', '')
+                            if "ps4" not in tag_name.lower() and "ps4" not in zip_url.lower():
+                                version = tag_name if tag_name else "v1.0.0"
+                                version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version)
+                                target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
+                                os.makedirs(target_dir, exist_ok=True)
+                                f_name = f"{title.replace(' ', '_')}_{version_clean}.zip"
+                                urllib.request.urlretrieve(zip_url, os.path.join(target_dir, f_name))
+                                downloaded = True
                 except Exception as api_err:
                     print(f"   ⚠️ Échec de l'API de secours Forgejo: {api_err}")
 
@@ -270,15 +276,13 @@ with open(os.path.join(RSS_DIR, "feed.xml"), "w", encoding="utf-8") as feed_out:
 with open("README.md", "w", encoding="utf-8") as r_file:
     r_file.write("# 🎮 PS5 Payload Manager & Mini-Store\n\n")
     r_file.write("![Logo ou Bannière](assets/banner.png)\n\n")
-    r_file.write("Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 ! Ce dépôt fait office de **back-end et de serveur de distribution** pour mon application PS5.\n\n")
-    r_file.write("Toutes les X heures, un robot vérifie les dépôts officiels des développeurs, télécharge les derniers payloads, calcule leur empreinte de sécurité (SHA-256) et génère les index JSON nécessaires au fonctionnement du store sur la console.\n\n")
-    r_file.write("> 💡 **Configuration du Store sur l'application PS5 :** Pour connecter votre console, vous devez ajouter le fichier central **`payloads.json`** disponible à l'adresse de téléchargement direct suivante :\n")
+    r_file.write("Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !\n\n")
+    r_file.write("> 💡 **Configuration du Store sur l'application PS5 :** Pour connecter votre console, ajoutez le fichier central **`payloads.json`** :\n")
     r_file.write(f"> `https://nexgen999.github.io/{repo_name}/json/payloads.json`\n\n")
     r_file.write("---\n\n")
-    r_file.write("## 📱 Flux RSS & Alertes (Notifications Mobile / PC)\n")
-    r_file.write("Vous pouvez suivre l'actualité du store directement depuis votre lecteur RSS favoris :\n")
-    r_file.write("* **Radar Global (Fichier OPML à importer) :** `rss/store-global.opml`\n")
-    r_file.write("* **Flux de mises à jour (Notifications en temps réel) :** `rss/feed.xml`\n\n")
+    r_file.write("## 📱 Flux RSS & Alertes\n")
+    r_file.write("* **Radar Global (OPML) :** `rss/store-global.opml`\n")
+    r_file.write("* **Flux de mises à jour (XML) :** `rss/feed.xml`\n\n")
     r_file.write("---\n\n")
     r_file.write("## 📦 Liste des Applications & Payloads disponibles\n\n")
     r_file.write("| Application | Auteur | Catégorie | Version (Dépôt) | Empreinte SHA-256 | Description |\n")
@@ -286,7 +290,6 @@ with open("README.md", "w", encoding="utf-8") as r_file:
     r_file.write("\n".join(readme_rows) + "\n\n")
     r_file.write("---\n\n")
     r_file.write("## 🤝 Crédits & Remerciements\n")
-    r_file.write("Ce store ne serait rien sans le travail incroyable des développeurs de la scène PS5. Retrouvez ci-dessous les liens vers leurs projets originaux :\n\n")
     r_file.write("\n".join(sorted(list(credits_list))) + "\n\n")
     r_file.write("---\n")
     r_file.write("*Dépôt 100% autonome géré par GitHub Actions.*\n")
