@@ -9,9 +9,11 @@ import html
 
 FEED_DIR = "feed"
 JSON_DIR = "json"
+RSS_DIR = "rss"
 PAYLOADS_ROOT = "payloads"
 
 os.makedirs(JSON_DIR, exist_ok=True)
+os.makedirs(RSS_DIR, exist_ok=True)
 os.makedirs(PAYLOADS_ROOT, exist_ok=True)
 
 all_payloads_flat_list = []
@@ -78,73 +80,73 @@ for opml_file in opml_files:
                 except Exception as e:
                     print(f"   ⚠️ Erreur gh release: {e}")
 
-        # 2. TRAITEMENT SÉCURISÉ FORGEJO (RELEASES ET TAGS)
+        # 2. TRAITEMENT RELEASES FORGEJO (MÉTHODE ATOM PRIORITAIRE POUR EVITER LES ZIP DE CODE SOURCE)
         if not downloaded and "git.etawen.dev" in xml_url:
             try:
-                # Étape A: On tente d'abord de lire via l'API publique des Tags de Gitea/Forgejo
-                # Format URL attendu: https://git.etawen.dev/api/v1/repos/user/repo/tags
-                api_repo_match = re.search(r'git\.etawen\.dev/([^/]+/[^/]+)', xml_url)
-                if api_repo_match:
-                    repo_path = api_repo_match.group(1)
-                    api_url = f"https://git.etawen.dev/api/v1/repos/{repo_path}/tags"
-                    
-                    req = urllib.request.Request(api_url, headers={'User-Agent': 'Mozilla/5.0'})
-                    with urllib.request.urlopen(req) as response:
-                        tags_data = json.loads(response.read().decode('utf-8'))
-                        if tags_data and len(tags_data) > 0:
-                            version = tags_data[0].get('name', 'v1.0.0')
-                            # Lien de téléchargement direct de l'archive du tag fournit par l'API
-                            zip_url = tags_data[0].get('zipball_url', '')
-                            
-                            if zip_url:
-                                version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version)
-                                target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
-                                os.makedirs(target_dir, exist_ok=True)
-                                
-                                f_name = f"{title.replace(' ', '_')}_{version_clean}.zip"
-                                print(f"   -> Tag Forgejo détecté ({version}), téléchargement de l'archive...")
-                                urllib.request.urlretrieve(zip_url, os.path.join(target_dir, f_name))
-                                downloaded = True
-            except Exception as api_err:
-                print(f"   ℹ️ API Tags Forgejo non accessible, bascule sur la méthode Atom classique... ({api_err})")
+                rss_url = f"{xml_url}/releases.atom"
+                req = urllib.request.Request(rss_url, headers={'User-Agent': 'Mozilla/5.0'})
+                raw_atom = urllib.request.urlopen(req).read().decode('utf-8')
+                
+                tag_match = re.search(r'<title>[^<]*?(v?\d+\.\d+\.\d+[^<]*?)</title>', raw_atom)
+                if tag_match:
+                    version = tag_match.group(1).strip()
+                
+                version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version)
+                target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
+                os.makedirs(target_dir, exist_ok=True)
 
-            # Étape B: Méthode de secours Atom si l'API n'a pas répondu
+                decoded_atom = html.unescape(raw_atom)
+                
+                # Extraction des liens se terminant par .elf ou .bin en priorité absolue
+                links = re.findall(r'href="([^"]+?\.(?:elf|bin|pkg))"', decoded_atom)
+                if not links:
+                    # Secours sur les archives si aucun binaire brut n'est présent
+                    links = re.findall(r'href="([^"]+?\.(?:zip|tar\.gz))"', decoded_atom)
+                if not links:
+                    # Secours chemin générique
+                    links = re.findall(r'/[^"\s>]+?/(?:archive|releases/download)/[^"\s>]+', decoded_atom)
+
+                if links:
+                    file_dl_url = links[0]
+                    if file_dl_url.startswith('/'):
+                        base_url = re.match(r'(https?://[^/]+)', xml_url).group(1)
+                        file_dl_url = base_url + file_dl_url
+                    
+                    f_name = file_dl_url.split('/')[-1]
+                    if "?" in f_name: f_name = f_name.split('?')[0]
+                    
+                    print(f"   -> Téléchargement binaire brut Forgejo : {f_name}...")
+                    urllib.request.urlretrieve(file_dl_url, os.path.join(target_dir, f_name))
+                    downloaded = True
+            except Exception as e:
+                print(f"   ℹ️ Échec méthode Atom Forgejo ({e}), bascule sur l'API des Tags...")
+
+            # Secours via l'API publique des Tags si l'Atom n'avait pas de fichiers valides
             if not downloaded:
                 try:
-                    rss_url = f"{xml_url}/releases.atom"
-                    req = urllib.request.Request(rss_url, headers={'User-Agent': 'Mozilla/5.0'})
-                    raw_atom = urllib.request.urlopen(req).read().decode('utf-8')
-                    
-                    tag_match = re.search(r'<title>[^<]*?(v?\d+\.\d+\.\d+[^<]*?)</title>', raw_atom)
-                    if tag_match:
-                        version = tag_match.group(1).strip()
-                    
-                    version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version)
-                    target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
-                    os.makedirs(target_dir, exist_ok=True)
-
-                    decoded_atom = html.unescape(raw_atom)
-                    links = re.findall(r'href="([^"]+?\.(?:elf|bin|pkg|zip|tar\.gz))"', decoded_atom)
-                    
-                    if not links:
-                        links = re.findall(r'/[^"\s>]+?/(?:archive|releases/download)/[^"\s>]+', decoded_atom)
-
-                    if links:
-                        file_dl_url = links[0]
-                        if file_dl_url.startswith('/'):
-                            base_url = re.match(r'(https?://[^/]+)', xml_url).group(1)
-                            file_dl_url = base_url + file_dl_url
+                    api_repo_match = re.search(r'git\.etawen\.dev/([^/]+/[^/]+)', xml_url)
+                    if api_repo_match:
+                        repo_path = api_repo_match.group(1)
+                        api_url = f"https://git.etawen.dev/api/v1/repos/{repo_path}/tags"
                         
-                        f_name = file_dl_url.split('/')[-1]
-                        if "?" in f_name: f_name = f_name.split('?')[0]
-                        
-                        print(f"   -> Téléchargement binaire Atom Forgejo : {f_name}...")
-                        urllib.request.urlretrieve(file_dl_url, os.path.join(target_dir, f_name))
-                        downloaded = True
-                except Exception as e:
-                    print(f"   ⚠️ Échec complet Forgejo pour {title}: {e}")
+                        req = urllib.request.Request(api_url, headers={'User-Agent': 'Mozilla/5.0'})
+                        with urllib.request.urlopen(req) as response:
+                            tags_data = json.loads(response.read().decode('utf-8'))
+                            if tags_data:
+                                version = tags_data[0].get('name', 'v1.0.0')
+                                zip_url = tags_data[0].get('zipball_url', '')
+                                if zip_url:
+                                    version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version)
+                                    target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
+                                    os.makedirs(target_dir, exist_ok=True)
+                                    f_name = f"{title.replace(' ', '_')}_{version_clean}.zip"
+                                    print(f"   -> Tag Forgejo utilisé ({version}) : {f_name}")
+                                    urllib.request.urlretrieve(zip_url, os.path.join(target_dir, f_name))
+                                    downloaded = True
+                except Exception as api_err:
+                    print(f"   ⚠️ Échec complet Forgejo pour {title}: {api_err}")
 
-        # ANALYSE DU RÉPERTOIRE LOCAL POUR LES LINKS ET SHA-256
+        # ANALYSE ET CALCUL SHA-256
         version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version)
         target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
         
@@ -152,7 +154,6 @@ for opml_file in opml_files:
         main_file = None
         sha256_hash = ""
 
-        # En premier on cherche les exécutables bruts
         for f_name in files_in_dir:
             if f_name.endswith('.elf') or f_name.endswith('.bin'):
                 main_file = f_name
@@ -164,7 +165,6 @@ for opml_file in opml_files:
                 sha256_hash = hasher.hexdigest()
                 break
 
-        # Si pas trouvé, on prend l'archive zip/pkg
         if not main_file:
             for f_name in files_in_dir:
                 if f_name.endswith('.zip') or f_name.endswith('.pkg') or f_name.endswith('.tar.gz'):
@@ -199,6 +199,7 @@ for opml_file in opml_files:
         json.dump(cat_final_json, out_cat, indent=2, ensure_ascii=False)
 
 # Sauvegarde JSON Global
+repo_name = os.environ.get('GITHUB_REPOSITORY', 'PS5-Super-PLDMGR-Auto-Updater').split('/')[-1]
 global_flat_json = {
     "name": "PS5 Super PLDMGR Updater",
     "payloads": all_payloads_flat_list
@@ -206,12 +207,39 @@ global_flat_json = {
 with open(os.path.join(JSON_DIR, "payloads.json"), 'w', encoding='utf-8') as out_glob:
     json.dump(global_flat_json, out_glob, indent=2, ensure_ascii=False)
 
-# REGENERATION COMPLÈTE ET ULTRA-PROPRE DU README STRUCTUREL EN DUR
+# GENERATION DES FICHIERS DANS RSS/ (Flux & OPML Global)
+print("\n📡 Génération des flux RSS et OPML...")
+# 1. OPML Global Réseau
+with open(os.path.join(RSS_DIR, "store-global.opml"), "w", encoding="utf-8") as opml_out:
+    opml_out.write('<?xml version="1.0" encoding="UTF-8"?>\n<opml version="2.0">\n  <head>\n    <title>PS5 Store Global Radar</title>\n  </head>\n  <body>\n')
+    for row in sorted(list(credits_list)):
+        # Extrait le titre et l'url brute pour reconstruire proprement l'OPML
+        match = re.search(r'\*\*([^*]+)\*\*\s*:\s*\[([^\]]+)\]\(([^)]+)\)', row)
+        if match:
+            author_name, title_name, raw_url = match.group(1), match.group(2), match.group(3)
+            opml_out.write(f'    <outline text="{title_name}" title="{title_name}" type="rss" xmlUrl="{raw_url}" author="{author_name}"/>\n')
+    opml_out.write('  </body>\n</opml>')
+
+# 2. Flux XML d'actualités basique
+with open(os.path.join(RSS_DIR, "feed.xml"), "w", encoding="utf-8") as feed_out:
+    feed_out.write('<?xml version="1.0" encoding="UTF-8" ?>\n<rss version="2.0">\n  <channel>\n    <title>PS5 Mini-Store Mises à jour</title>\n')
+    feed_out.write(f'    <link>https://nexgen999.github.io/{repo_name}/</link>\n    <description>Suivi automatique des payloads</description>\n')
+    for item in all_payloads_flat_list:
+        feed_out.write('    <item>\n')
+        feed_out.write(f'      <title>{item["title"]} ({item["version"]})</title>\n')
+        feed_out.write(f'      <link>{item["url"]}</link>\n')
+        feed_out.write(f'      <description>{item["description"]} - SHA256: {item["sha256"]}</description>\n')
+        feed_out.write('    </item>\n')
+    feed_out.write('  </channel>\n</rss>')
+
+# REGENERATION STRUCTURELLE ET COMPLÈTE DU README (Avec tes instructions pour payloads.json)
 with open("README.md", "w", encoding="utf-8") as r_file:
     r_file.write("# 🎮 PS5 Payload Manager & Mini-Store\n\n")
     r_file.write("![Logo ou Bannière](assets/banner.png)\n\n")
     r_file.write("Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 ! Ce dépôt fait office de **back-end et de serveur de distribution** pour mon application PS5.\n\n")
     r_file.write("Toutes les X heures, un robot vérifie les dépôts officiels des développeurs, télécharge les derniers payloads, calcule leur empreinte de sécurité (SHA-256) et génère les index JSON nécessaires au fonctionnement du store sur la console.\n\n")
+    r_file.write("> 💡 **Configuration du Store sur l'application PS5 :** Pour connecter votre console, vous devez ajouter le fichier central **`payloads.json`** disponible à l'adresse de téléchargement direct suivante :\n")
+    r_file.write(f"> `https://nexgen999.github.io/{repo_name}/json/payloads.json`\n\n")
     r_file.write("---\n\n")
     r_file.write("## 📱 Flux RSS & Alertes (Notifications Mobile / PC)\n")
     r_file.write("Vous pouvez suivre l'actualité du store directement depuis votre lecteur RSS favoris :\n")
