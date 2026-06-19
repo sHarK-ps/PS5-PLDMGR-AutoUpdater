@@ -17,12 +17,10 @@ Vous pouvez suivre l'actualité du store directement depuis votre lecteur RSS fa
 
 ## 📦 Liste des Applications & Payloads disponibles
 
-*(Le tableau des payloads s'affichera ici après le premier scan réussi)*
 ---
 
 ## 🤝 Crédits & Remerciements
 Ce store ne serait rien sans le travail incroyable des développeurs de la scène PS5. Retrouvez ci-dessous les liens vers leurs projets originaux :
 
-*(La liste des auteurs s'affichera ici après le premier scan réussi)*
 ---
 *Dépôt 100% autonome géré par GitHub Actions.*
