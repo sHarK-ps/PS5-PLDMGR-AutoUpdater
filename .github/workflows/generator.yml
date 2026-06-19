@@ -18,12 +18,12 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: ⚙️ Exécution du script de synchronisation strict v4
+      - name: ⚙️ Exécution du script de synchronisation strict v5
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           python - << 'EOF'
-          import os, sys, json, re, hashlib, subprocess, urllib.request
+          import os, sys, json, re, hashlib, subprocess, urllib.request, html
 
           FEED_DIR = "feed"
           JSON_DIR = "json"
@@ -75,7 +75,7 @@ jobs:
                   version = "v1.0.0"
                   downloaded = False
                   
-                  # 1. CAS GITHUB
+                  # 1. CAS GITHUB INITIAL
                   if "github.com" in xml_url:
                       repo_match = re.search(r'github\.com/([^/]+/[^/]+)', xml_url)
                       if repo_match:
@@ -92,48 +92,51 @@ jobs:
 
                           try:
                               subprocess.call(f"gh release download '{version}' --repo '{repo}' --dir '{target_dir}' --clobber 2>/dev/null", shell=True, env=os.environ)
-                              downloaded = True
+                              if os.listdir(target_dir):
+                                  downloaded = True
                           except:
                               pass
 
-                  # 2. CAS EXTRACTION FLUX EXTERNES (Ex: Gitea / Forgejo de git.etawen.dev)
+                  # 2. CAS EXTRACTION COMPLÈTE RSS/ATOM (Ex: git.etawen.dev / Gitea)
                   if not downloaded:
-                      version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version)
-                      target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
-                      os.makedirs(target_dir, exist_ok=True)
                       try:
                           rss_url = f"{xml_url}/releases.atom"
                           req = urllib.request.Request(rss_url, headers={'User-Agent': 'Mozilla/5.0'})
-                          html = urllib.request.urlopen(req).read().decode('utf-8')
+                          raw_atom = urllib.request.urlopen(req).read().decode('utf-8')
                           
-                          # Extraction agressive de la version
-                          tag_match = re.search(r'<title>[^<]*?(v?\d+\.\d+\.\d+[^<]*?)</title>', html)
+                          # Extraction propre de la version sur un dépôt Gitea
+                          tag_match = re.search(r'<title>[^<]*?(v?\d+\.\d+\.\d+[^<]*?)</title>', raw_atom)
                           if tag_match:
                               version = tag_match.group(1).strip()
-                              version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version)
-                              try: os.rmdir(target_dir)
-                              except: pass
-                              target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
-                              os.makedirs(target_dir, exist_ok=True)
+                          
+                          version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version)
+                          target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
+                          os.makedirs(target_dir, exist_ok=True)
 
-                          # Recherche globale de fichiers compilés dans le flux
-                          links = re.findall(r'href="([^"]+?\.(?:elf|bin|pkg|zip|tar\.gz))"', html)
-                          if not links:
-                              # Recherche alternative au cas où les entités HTML soient encodées
-                              links = re.findall(r'href=&quot;([^&]+?\.(?:elf|bin|pkg|zip|tar\.gz))&quot;', html)
-                              
+                          # On convertit les entités HTML (ex: &quot; ou &#39;) pour exposer les vrais liens bruts
+                          decoded_atom = html.unescape(raw_atom)
+                          
+                          # Recherche de fichiers binaires PS5 (.elf, .bin) ou d'archives de releases
+                          links = re.findall(r'href="([^"]+?\.(?:elf|bin|pkg|zip|tar\.gz))"', decoded_atom)
+                          
                           if links:
                               file_dl_url = links[0]
+                              # Si l'URL est relative, on reconstruit le lien absolu
                               if file_dl_url.startswith('/'):
                                   base_url = re.match(r'(https?://[^/]+)', xml_url).group(1)
                                   file_dl_url = base_url + file_dl_url
+                              
                               f_name = file_dl_url.split('/')[-1]
                               urllib.request.urlretrieve(file_dl_url, os.path.join(target_dir, f_name))
                               print(f"   => Fichier externe récupéré avec succès : {f_name}")
+                              downloaded = True
                       except Exception as e:
-                          print(f"   ⚠️ Échec de la récupération externe : {e}")
+                          print(f"   ⚠️ Échec de la récupération externe pour {title}: {e}")
 
-                  # ANALYSE ET CALCUL SHA-256
+                  # ANALYSE DU RÉPERTOIRE POUR LE CALCUL SHA-256
+                  version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version)
+                  target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
+                  
                   files_in_dir = os.listdir(target_dir) if os.path.exists(target_dir) else []
                   main_file = None
                   sha256_hash = ""
@@ -181,7 +184,7 @@ jobs:
               with open(os.path.join(JSON_DIR, f"{cat_tech_name}.json"), 'w', encoding='utf-8') as out_cat:
                   json.dump(cat_final_json, out_cat, indent=2, ensure_ascii=False)
 
-          # Génération du payloads.json GLOBAL avec le nom exact demandé !
+          # Génération du payloads.json GLOBAL avec le nom exact requis
           global_flat_json = {
               "name": "PS5 Super PLDMGR Updater",
               "payloads": all_payloads_flat_list
@@ -189,30 +192,24 @@ jobs:
           with open(os.path.join(JSON_DIR, "payloads.json"), 'w', encoding='utf-8') as out_glob:
               json.dump(global_flat_json, out_glob, indent=2, ensure_ascii=False)
 
-          # RECONSTRUCTION PROPRE ET SECURISEE DU README
+          # RECONSTRUCTION SÉCURISÉE DU README (Remplacement par bloc complet)
           if os.path.exists("README.md"):
               with open("README.md", 'r', encoding='utf-8') as r_file:
-                  readme_original = r_file.read()
+                  readme_content = r_file.read()
               
-              # On nettoie d'abord les restes d'anciens bugs d'injection s'il y en a
-              readme_clean = re.sub(r".*?", "\n", readme_original, flags=re.DOTALL)
-              readme_clean = re.sub(r".*?", "\n", readme_clean, flags=re.DOTALL)
+              # Nettoyage des anciennes injections cassées si présentes pour repartir sur une base saine
+              readme_content = re.sub(r".*?", "\n", readme_content, flags=re.DOTALL)
+              readme_content = re.sub(r".*?", "\n", readme_content, flags=re.DOTALL)
               
-              lines = readme_clean.splitlines()
-              new_lines = []
+              table_str = "\n\n| Application | Auteur | Catégorie | Version (Dépôt) | Empreinte SHA-256 | Description |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n" + "\n".join(readme_rows) + "\n\n"
+              credits_str = "\n\n" + "\n".join(sorted(list(credits_list))) + "\n\n" # Utilisation de END_TABLE ou END_CREDITS de manière uniforme selon le modèle
               
-              table_content = "| Application | Auteur | Catégorie | Version (Dépôt) | Empreinte SHA-256 | Description |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n" + "\n".join(readme_rows)
-              credits_content = "\n".join(sorted(list(credits_list)))
-
-              for line in lines:
-                  new_lines.append(line)
-                  if "" in line:
-                      new_lines.append("\n" + table_content + "\n")
-                  elif "" in line:
-                      new_lines.append("\n" + credits_content + "\n")
-
+              # On cible les balises propres pour injecter le nouveau contenu sans duplication
+              readme_content = readme_content.replace("\n", table_str)
+              readme_content = readme_content.replace("\n", credits_str)
+              
               with open("README.md", 'w', encoding='utf-8') as r_file:
-                  r_file.write("\n".join(new_lines) + "\n")
+                  r_file.write(readme_content)
 
           print("=== Synchronisation terminée ===")
           EOF
@@ -223,7 +220,7 @@ jobs:
           git config --global user.email "actions@github.com"
           git add .
           if ! git diff --cached --quiet; then
-            git commit -m "🤖 [Mise à jour v4] Correction injection README, name payloads.json & support strict Forgejo"
+            git commit -m "🤖 [Mise à jour v5] Résolution définitive README, payloads.json et support strict elf-arsenal"
             git push
           else
             echo "Aucune modification."
