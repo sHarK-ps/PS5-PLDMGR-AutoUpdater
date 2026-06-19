@@ -6,7 +6,7 @@
   <body>
     <outline title="PS5 Cheat">
       <outline title="CheatRunner" xmlUrl="https://github.com/notmaj0r/CheatRunner" author="notmaj0r" description="CheatRunner." />
-      <outline text="kylin-core" title="kylin-core" type="rss" xmlUrl="https://github.com/nexgen999/PS5_Payload_Manager_Updater/raw/refs/heads/main/ps5_cheat/kylin-core-community-lite-v131-global-release.elf" author="aydencharles" description="kylin-core"/>
+      <outline text="kylin-core" title="kylin-core" type="rss" xmlUrl="https://raw.githubusercontent.com/nexgen999/PS5_Payload_Manager_Updater/main/ps5_cheat/kylin-core-community-lite-v131-global-release.elf" author="aydencharles" description="kylin-core"/>
     </outline>
   </body>
 </opml>
