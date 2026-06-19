@@ -1,0 +1,85 @@
+{
+  "name": "ps5_server (PLDMGR Updater)",
+  "payloads": [
+    {
+      "title": "zftpd",
+      "author": "seregonwar",
+      "version": "v1.5.0",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftpd-ps5-v1.5.0.elf",
+      "sha256": "68a80e1cb45544c15b1581a49154ad14aa8e29483e5fec786f2a95e0e28ea6cb",
+      "description": "FTP server payload for PS5. Port: 21"
+    },
+    {
+      "title": "elfldr",
+      "author": "ps5-payload-dev",
+      "version": "v0.23",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/elfldr/v0.23/elfldr-ps5.elf",
+      "sha256": "092d16ee0ede0c494947efd38d1a17bbd7cc4b022d3858ea898833c188c703e8",
+      "description": "ELF Loader utility. Port: 9020 / 9021"
+    },
+    {
+      "title": "ftpsrv",
+      "author": "ps5-payload-dev",
+      "version": "v0.20",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ftpsrv/v0.20/ftpsrv-ps5-install.elf",
+      "sha256": "23f69de0f1ab1e1a3869473e87a271f750ec595056df0142fabbf21f5153c077",
+      "description": "FTP server background daemon. Port: 21"
+    },
+    {
+      "title": "websrv",
+      "author": "ps5-payload-dev",
+      "version": "v0.32",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/websrv/v0.32/websrv-ps5.elf",
+      "sha256": "8dd24df100bff6db156e86bdf9380d5c0fcd2a680c2b08f5c87380d5007190c5",
+      "description": "HTTP Web server payload. Port: 8080"
+    },
+    {
+      "title": "gdbsrv",
+      "author": "ps5-payload-dev",
+      "version": "v0.8",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/gdbsrv/v0.8/gdbsrv-ps5.elf",
+      "sha256": "7621b829bd8b6d6f3d2328fa12c16af956b0ca128250f92a91eddc100c87f208",
+      "description": "GDB Debugger server payload. Port: 1234"
+    },
+    {
+      "title": "klogsrv",
+      "author": "ps5-payload-dev",
+      "version": "v0.8",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/klogsrv/v0.8/klogsrv-ps5.elf",
+      "sha256": "f6eb1b415ecf3340b89a56a0cb04ba5c714430085851ada13a98012b63a5a4cf",
+      "description": "Kernel log server daemon. Port: 3232"
+    },
+    {
+      "title": "ftpsrv (drakmor)",
+      "author": "drakmor",
+      "version": "1.6-ng-test2",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ftpsrv_(drakmor)/1.6-ng-test2/ftpsrv-ps5.elf",
+      "sha256": "6364e0529416f400be123c52acdcda68efd5179d971c060286022131fd047b8e",
+      "description": "Drakmor's variant of the FTP server. Port: 21"
+    },
+    {
+      "title": "ps5-ezremote-client",
+      "author": "cy33hc",
+      "version": "2.06",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5-ezremote-client/2.06/Ps5_ezRemote_Client_2.00.pkg",
+      "sha256": "27059e236ac8e87110f2316870512669e67ab6e8d6b6ac8926673f368dda2b81",
+      "description": "Easy remote client application for PS5."
+    },
+    {
+      "title": "ps5upload",
+      "author": "phantomptr",
+      "version": "v3.3.22",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v3.3.22/ps5upload-3.3.22.elf",
+      "sha256": "6fac6e1fa572e8780a39b7d32f418eff8900f9d6c921d6aad926270db30f9527",
+      "description": "PS5 Upload server / tool. Port: 9025"
+    },
+    {
+      "title": "airpsx",
+      "author": "barisyild",
+      "version": "0.19",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/airpsx/0.19/airpsx.elf",
+      "sha256": "ae025ca7727b3a8abf6a705903ca9116a6fa6e7f7ead606916109cf9044c5d63",
+      "description": "AirPSX server tool for PS5 ecosystem."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "ps5_linux (PLDMGR Updater)",
+  "payloads": [
+    {
+      "title": "ps5-linux-loader",
+      "author": "ps5-linux",
+      "version": "v2.1",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_linux/ps5-linux-loader/v2.1/ps5-linux-loader.elf",
+      "sha256": "c1014a153e4f60449fd88d6799abfb46d6fb6c3048d77c9641bc8d38d96ead0a",
+      "description": "Linux loader payload for the PS5."
+    }
+  ]
+}

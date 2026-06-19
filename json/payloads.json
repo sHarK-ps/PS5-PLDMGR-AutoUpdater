@@ -18,6 +18,238 @@
       "description": "kylin-core"
     },
     {
+      "title": "garlic-savemgr",
+      "author": "earthonion",
+      "version": "v1.10",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/garlic-savemgr/v1.10/garlic-savemgr.elf",
+      "sha256": "b82bf7aa83943c957f56c1b65c0739057d6b21f5b417215db17c9418fc265a27",
+      "description": "Save manager utility hosted on Forgejo."
+    },
+    {
+      "title": "garlic-worker",
+      "author": "earthonion",
+      "version": "v1.1.4",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/garlic-worker/v1.1.4/garlic-worker-ps5.elf",
+      "sha256": "da311b3ff92fd06acf513a849b9a7eecdc43ecc34e5b7137d9f3f6f2c16c1704",
+      "description": "Garlic worker payload component."
+    },
+    {
+      "title": "Playstation-5-Save-Mounter",
+      "author": "n0llptr",
+      "version": "v1.5.0-Beta2",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/Playstation-5-Save-Mounter/v1.5.0-Beta2/save-mounter.zip",
+      "sha256": "208bc44ac43d4a44c1a6adb52045fc9a2f182f8d6f42493cc86183246ab0a51a",
+      "description": "PS5 Save Mounter application."
+    },
+    {
+      "title": "savemnt-offset-dumper",
+      "author": "StonedModder",
+      "version": "1.0.0",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/savemnt-offset-dumper/1.0.0/savemnt-offset-dumper.elf",
+      "sha256": "946328551f74e3b6a34a7c0169f9b40792e392775768b84874b55ecdff71222e",
+      "description": "Offset dumper for save mounting utilities."
+    },
+    {
+      "title": "zftpd",
+      "author": "seregonwar",
+      "version": "v1.5.0",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftpd-ps5-v1.5.0.elf",
+      "sha256": "68a80e1cb45544c15b1581a49154ad14aa8e29483e5fec786f2a95e0e28ea6cb",
+      "description": "FTP server payload for PS5. Port: 21"
+    },
+    {
+      "title": "elfldr",
+      "author": "ps5-payload-dev",
+      "version": "v0.23",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/elfldr/v0.23/elfldr-ps5.elf",
+      "sha256": "092d16ee0ede0c494947efd38d1a17bbd7cc4b022d3858ea898833c188c703e8",
+      "description": "ELF Loader utility. Port: 9020 / 9021"
+    },
+    {
+      "title": "ftpsrv",
+      "author": "ps5-payload-dev",
+      "version": "v0.20",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ftpsrv/v0.20/ftpsrv-ps5-install.elf",
+      "sha256": "23f69de0f1ab1e1a3869473e87a271f750ec595056df0142fabbf21f5153c077",
+      "description": "FTP server background daemon. Port: 21"
+    },
+    {
+      "title": "websrv",
+      "author": "ps5-payload-dev",
+      "version": "v0.32",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/websrv/v0.32/websrv-ps5.elf",
+      "sha256": "8dd24df100bff6db156e86bdf9380d5c0fcd2a680c2b08f5c87380d5007190c5",
+      "description": "HTTP Web server payload. Port: 8080"
+    },
+    {
+      "title": "gdbsrv",
+      "author": "ps5-payload-dev",
+      "version": "v0.8",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/gdbsrv/v0.8/gdbsrv-ps5.elf",
+      "sha256": "7621b829bd8b6d6f3d2328fa12c16af956b0ca128250f92a91eddc100c87f208",
+      "description": "GDB Debugger server payload. Port: 1234"
+    },
+    {
+      "title": "klogsrv",
+      "author": "ps5-payload-dev",
+      "version": "v0.8",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/klogsrv/v0.8/klogsrv-ps5.elf",
+      "sha256": "f6eb1b415ecf3340b89a56a0cb04ba5c714430085851ada13a98012b63a5a4cf",
+      "description": "Kernel log server daemon. Port: 3232"
+    },
+    {
+      "title": "ftpsrv (drakmor)",
+      "author": "drakmor",
+      "version": "1.6-ng-test2",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ftpsrv_(drakmor)/1.6-ng-test2/ftpsrv-ps5.elf",
+      "sha256": "6364e0529416f400be123c52acdcda68efd5179d971c060286022131fd047b8e",
+      "description": "Drakmor's variant of the FTP server. Port: 21"
+    },
+    {
+      "title": "ps5-ezremote-client",
+      "author": "cy33hc",
+      "version": "2.06",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5-ezremote-client/2.06/Ps5_ezRemote_Client_2.00.pkg",
+      "sha256": "27059e236ac8e87110f2316870512669e67ab6e8d6b6ac8926673f368dda2b81",
+      "description": "Easy remote client application for PS5."
+    },
+    {
+      "title": "ps5upload",
+      "author": "phantomptr",
+      "version": "v3.3.22",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v3.3.22/ps5upload-3.3.22.elf",
+      "sha256": "6fac6e1fa572e8780a39b7d32f418eff8900f9d6c921d6aad926270db30f9527",
+      "description": "PS5 Upload server / tool. Port: 9025"
+    },
+    {
+      "title": "airpsx",
+      "author": "barisyild",
+      "version": "0.19",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/airpsx/0.19/airpsx.elf",
+      "sha256": "ae025ca7727b3a8abf6a705903ca9116a6fa6e7f7ead606916109cf9044c5d63",
+      "description": "AirPSX server tool for PS5 ecosystem."
+    },
+    {
+      "title": "ps5debug-NG",
+      "author": "OpenSourcereR-dev",
+      "version": "1.2.7",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5debug-NG/1.2.7/ps5debug-NG_v1.2.7.elf",
+      "sha256": "bfb07865611df05d4a07236f375e7e0b64e2f387124052fa67510f8b4fcae1a7",
+      "description": "Next generation debugger payload for PS5."
+    },
+    {
+      "title": "ps5-fw-spoof",
+      "author": "illusionyy",
+      "version": "26616621599",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-fw-spoof/26616621599/ps5-fw-spoof.elf",
+      "sha256": "f1754521caa92a6a1ac313a1b6c969ec49d67750e290ba99870958290a0961f0",
+      "description": "Firmware spoofer utility for PS5."
+    },
+    {
+      "title": "ps5-self-pager",
+      "author": "idlesauce",
+      "version": "v1.2",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-shellcore.elf",
+      "sha256": "2b500bc356b5bcfca5c3e5187bcec0a37c80ed05e39348b8f06bd2e5a6f3342b",
+      "description": "SELF pager payload tool."
+    },
+    {
+      "title": "PS5-SELF-Decrypter",
+      "author": "idlesauce",
+      "version": "v0.5.2",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-full-system.elf",
+      "sha256": "46340d3048a977f5603b3def0a0ba1c85b5c182891388442e51b39e281257b6a",
+      "description": "SELF decrypter tool for PS5 binaries."
+    },
+    {
+      "title": "ps5-remoteplay-get-pin",
+      "author": "idlesauce",
+      "version": "v0.1.1",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-remoteplay-get-pin/v0.1.1/rp-get-pin.elf",
+      "sha256": "1d611c1856dd2f4b4b6cb42ead1128a7f08a26585788f92de79fa4f67d721472",
+      "description": "Utility to get Remote Play PIN."
+    },
+    {
+      "title": "PS5-Custom-Tool-Manager-",
+      "author": "NikoBellikJR31",
+      "version": "Custom",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_themes-avatars/PS5-Custom-Tool-Manager-/Custom/PS5.Custom.Tool.Manager.V1.elf",
+      "sha256": "297824ceaf6ea53fde57550adf9b5c2fc44c63ef60e8196ab92d351d1615d9cb",
+      "description": "Custom manager tool for PS5 personalization."
+    },
+    {
+      "title": "ps5-wallpaper-modd",
+      "author": "hgr9519",
+      "version": "v1.0",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_themes-avatars/ps5-wallpaper-modd/v1.0/ps5-wallpaper-modd.elf",
+      "sha256": "b18a866bac9deff45b921b7d3ea6143d541117b56c666d817ecdc81961829139",
+      "description": "Wallpaper modification utility for PS5."
+    },
+    {
+      "title": "kstuff",
+      "author": "EchoStretch",
+      "version": "v1.6.7",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff/v1.6.7/kstuff.elf",
+      "sha256": "f1c1f4b2b6395644af04cbe9828aba58586acf7aacb9e01113cac92ce16e3569",
+      "description": "Fnd Kstuff payload for PS5."
+    },
+    {
+      "title": "kstuff-lite",
+      "author": "EchoStretch",
+      "version": "v1.07",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff-lite/v1.07/kstuff.elf",
+      "sha256": "eb730eccd1a333f94e918076d053b4d20701f7c97e6356e591cebabfb4e0fa2d",
+      "description": "Lightweight version of kstuff."
+    },
+    {
+      "title": "kstuff-toggle",
+      "author": "EchoStretch",
+      "version": "0.6",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff-toggle/0.6/kstuff-toggle.zip",
+      "sha256": "ec6b227b233810e2e9cea2895820b74b5185732d2c2153f3508a03bc68a7f14d",
+      "description": "Utility to toggle kstuff features."
+    },
+    {
+      "title": "kstuff-lite (drakmor)",
+      "author": "drakmor",
+      "version": "1.2-dr-test2",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff-lite_(drakmor)/1.2-dr-test2/kstuff.elf",
+      "sha256": "2b699d411079a21dba7c39a02993fc0fb21e52f434103e884a0c892fafe56b75",
+      "description": "Drakmor's variant of kstuff-lite."
+    },
+    {
+      "title": "ps5-linux-loader",
+      "author": "ps5-linux",
+      "version": "v2.1",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_linux/ps5-linux-loader/v2.1/ps5-linux-loader.elf",
+      "sha256": "c1014a153e4f60449fd88d6799abfb46d6fb6c3048d77c9641bc8d38d96ead0a",
+      "description": "Linux loader payload for the PS5."
+    },
+    {
+      "title": "ChronicLoader-PS5-Payload",
+      "author": "StonedModder",
+      "version": "0.1",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/ChronicLoader-PS5-Payload/0.1/chronicloader.elf",
+      "sha256": "3561120f85e0ec32de5de15cdd61a1fe8d5146eb4c6aa99ee88209914a2774b1",
+      "description": "ChronicLoader utility payload for PS5."
+    },
+    {
+      "title": "Ghostpad",
+      "author": "StonedModder",
+      "version": "v1.0.0",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/Ghostpad/v1.0.0/ghostpad.elf",
+      "sha256": "94d43a8db7ec9df6e18f0a0da25aac0f60e1a0b14d35bfff261f6f5cdeabdba1",
+      "description": "Ghostpad controller input utility."
+    },
+    {
+      "title": "Ghostcontrol-PS5-USB-Controller-Patcher",
+      "author": "StonedModder",
+      "version": "1.0.4",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/Ghostcontrol-PS5-USB-Controller-Patcher/1.0.4/Ghostcontrol.elf",
+      "sha256": "e2e658fc3c4b041e630fae897acdefa23c4f79f0adc8473a69b49bfc4897ccf0",
+      "description": "USB Controller patcher tool for PS5."
+    },
+    {
       "title": "BFpilot-Core",
       "author": "ItsBlurf",
       "version": "Source-Fixe",
@@ -50,6 +282,14 @@
       "description": "Fake activate PS5 without PSN."
     },
     {
+      "title": "uds-trophy-unlocker",
+      "author": "soniciso",
+      "version": "v1.0.0",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_trophy/uds-trophy-unlocker/v1.0.0/fw_probe.elf",
+      "sha256": "3a338eccaa236e13e52b790140146f4cf8fd10aa79fd9127e2a91880bd85a1cb",
+      "description": "Trophy unlocker utility for PS5 hosted on Forgejo."
+    },
+    {
       "title": "PS5-Game-Compressor",
       "author": "juma-sayeh",
       "version": "v1.0.1",
@@ -66,6 +306,22 @@
       "description": "PS5 App Dumper payload."
     },
     {
+      "title": "dump_installer",
+      "author": "EchoStretch",
+      "version": "1.06",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/dump_installer/1.06/dump_installer.zip",
+      "sha256": "696bee1c03311269bde9de1d7e56dcfbfdefdf047a805d2b2ba7cb18e574fb5c",
+      "description": "Dump Installer utility."
+    },
+    {
+      "title": "dump_runner",
+      "author": "EchoStretch",
+      "version": "v1.02",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/dump_runner/v1.02/dump_runner.zip",
+      "sha256": "0ffc4af70b23f7a3c6e943732fab76a7b353f03048958df7699b40e2ec539b1d",
+      "description": "Dump Runner tool."
+    },
+    {
       "title": "ShadowMountPlus",
       "author": "drakmor",
       "version": "1.6test15-fix2",
@@ -80,6 +336,22 @@
       "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/BackPork/0.1/ps5-backpork.elf",
       "sha256": "d74e4cd119b2bb1fd423f2f5b1c9a7f096b3e588c753af1ab48b983d56216a52",
       "description": "BackPork PS5 tool."
+    },
+    {
+      "title": "dlc_emu",
+      "author": "drakmor",
+      "version": "0.2",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/dlc_emu/0.2/dcl_emu_0.2.zip",
+      "sha256": "cffe71d2b247ac3c37b260586ade79df2cb0a76951e4f5de15cca2677c4bd4c7",
+      "description": "DLC Emulator for PS5."
+    },
+    {
+      "title": "pgo_stub",
+      "author": "drakmor",
+      "version": "0.4",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/pgo_stub/0.4/pg_stub_0.4.zip",
+      "sha256": "615999cf2869218f0f1b07b27545dde62905887435c3c0e9fa9f119eceb85732",
+      "description": "PGO stub utility."
     },
     {
       "title": "Spectrum-Library",
