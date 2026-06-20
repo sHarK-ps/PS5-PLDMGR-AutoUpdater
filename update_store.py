@@ -51,7 +51,6 @@ for opml_file in opml_files:
         if not xml_url:
             continue
 
-        # Exclusion globale si le titre ou la description contient explicitement PS4
         if "ps4" in title.lower() or "ps4" in description.lower():
             print(f" 🚫 Ignoré (Critère d'exclusion PS4 trouvé dans {title})")
             continue
@@ -61,7 +60,7 @@ for opml_file in opml_files:
         version = "v1.0.0"
         downloaded = False
         
-        # 0. TRAITEMENT DES SOURCES FIXES (LIENS DIRECTS RAW .ELF / .BIN / .PKG)
+        # 0. TRAITEMENT DES SOURCES FIXES
         clean_xml_url = xml_url.split('?')[0].lower()
         if clean_xml_url.endswith('.elf') or clean_xml_url.endswith('.bin') or clean_xml_url.endswith('.pkg'):
             try:
@@ -81,7 +80,7 @@ for opml_file in opml_files:
             except Exception as e:
                 print(f"   ⚠️ Échec du téléchargement de la source fixe : {e}")
 
-        # 1. TRAITEMENT RELEASES GITHUB (Prend en compte les pré-releases)
+        # 1. TRAITEMENT RELEASES GITHUB
         if not downloaded and "github.com" in xml_url:
             repo_match = re.search(r'github\.com/([^/]+/[^/]+)', xml_url)
             if repo_match:
@@ -104,7 +103,6 @@ for opml_file in opml_files:
                     print(f"   -> Téléchargement GitHub ({version})...")
                     subprocess.call(f"gh release download '{version}' --repo '{repo}' --dir '{target_dir}' --clobber 2>/dev/null", shell=True)
                     
-                    # --- FILTRAGE DE SÉCURITÉ GITHUB ---
                     files_downloaded = os.listdir(target_dir)
                     repo_lower = repo.lower()
                     
@@ -115,7 +113,6 @@ for opml_file in opml_files:
                             if not f_lower.endswith('.elf'):
                                 try:
                                     os.remove(os.path.join(target_dir, f))
-                                    print(f"   🚫 [Exception] Fichier lourd supprimé : {f}")
                                 except:
                                     pass
                     else:
@@ -206,7 +203,7 @@ for opml_file in opml_files:
                 except Exception as api_err:
                     print(f"   ⚠️ Échec de l'API de secours Forgejo: {api_err}")
 
-        # ANALYSE ET CALCUL SHA-256 (FILTRAGE STRICT DES EXÉCUTABLES SUR LE JSON FINAL)
+        # ANALYSE ET CALCUL CHECKSUM
         version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version) if version != "Source-Fixe" else "Source-Fixe"
         target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
         
@@ -214,14 +211,12 @@ for opml_file in opml_files:
         main_file = None
         sha256_hash = ""
 
-        # RÈGLE ABSOLUE : On cherche uniquement un exécutable natif .elf ou .bin
         for f_name in files_in_dir:
             f_name_lower = f_name.lower()
             if f_name_lower.endswith('.elf') or f_name_lower.endswith('.bin'):
                 main_file = f_name
                 break
 
-        # Si un binaire exécutable PS5 valide est trouvé, on l'ajoute au Store !
         if main_file:
             full_path = os.path.join(target_dir, main_file)
             hasher = hashlib.sha256()
@@ -235,13 +230,14 @@ for opml_file in opml_files:
             repo_name = os.environ.get('GITHUB_REPOSITORY', 'PS5-Super-PLDMGR-Auto-Updater').split('/')[-1]
             file_url = f"https://nexgen999.github.io/{repo_name}/{target_dir.replace(os.sep, '/')}/{main_file}"
 
+            # FORMAT CONSOLE STRICT EXIGÉ
             item_data = {
-                "title": title,
-                "author": author,
-                "version": version,
+                "name": title,
+                "filename": main_file,
                 "url": file_url,
-                "sha256": sha256_hash,
-                "description": description
+                "description": description if description else f"Payload {title} pour PS5",
+                "version": version,
+                "checksum": sha256_hash
             }
             category_payloads_list.append(item_data)
             all_payloads_flat_list.append(item_data)
@@ -249,27 +245,17 @@ for opml_file in opml_files:
             repo_folder_url = f"https://github.com/nexgen999/{repo_name}/tree/main/{target_dir.replace(os.sep, '/')}"
             readme_rows.append(f"| **{title}** | {author} | {cat_display_name} | [{version}]({repo_folder_url}) | `{sha256_hash[:10]}...` | {description} |")
         else:
-            # S'il n'y a pas d'ELF ou de BIN, le dépôt est ignoré du fichier payloads.json final
-            print(f"   🚫 Ignoré du JSON final car aucun fichier exécutable (.elf / .bin) n'a été détecté pour {title}")
+            print(f"   🚫 Ignoré du JSON final car aucun binaire (.elf / .bin) détecté pour {title}")
 
-    # Sauvegarde JSON Catégorie
-    cat_final_json = {
-        "name": f"{cat_tech_name} (PLDMGR Updater)",
-        "payloads": category_payloads_list
-    }
+    # Sauvegarde JSON Catégorie (Liste plate)
     with open(os.path.join(JSON_DIR, f"{cat_tech_name}.json"), 'w', encoding='utf-8') as out_cat:
-        json.dump(cat_final_json, out_cat, indent=2, ensure_ascii=False)
+        json.dump(category_payloads_list, out_cat, indent=2, ensure_ascii=False)
 
-# Sauvegarde JSON Global
-repo_name = os.environ.get('GITHUB_REPOSITORY', 'PS5-Super-PLDMGR-Auto-Updater').split('/')[-1]
-global_flat_json = {
-    "name": "PS5 Super PLDMGR Updater",
-    "payloads": all_payloads_flat_list
-}
+# Sauvegarde JSON Global complet (Liste plate directe)
 with open(os.path.join(JSON_DIR, "payloads.json"), 'w', encoding='utf-8') as out_glob:
-    json.dump(global_flat_json, out_glob, indent=2, ensure_ascii=False)
+    json.dump(all_payloads_flat_list, out_glob, indent=2, ensure_ascii=False)
 
-# GENERATION DES FICHIERS DANS RSS/
+# GENERATION RSS & README
 print("\n📡 Génération des flux RSS et OPML...")
 with open(os.path.join(RSS_DIR, "store-global.opml"), "w", encoding="utf-8") as opml_out:
     opml_out.write('<?xml version="1.0" encoding="UTF-8"?>\n<opml version="2.0">\n  <head>\n    <title>PS5 Store Global Radar</title>\n  </head>\n  <body>\n')
@@ -281,18 +267,19 @@ with open(os.path.join(RSS_DIR, "store-global.opml"), "w", encoding="utf-8") as 
     opml_out.write('  </body>\n</opml>')
 
 with open(os.path.join(RSS_DIR, "feed.xml"), "w", encoding="utf-8") as feed_out:
+    repo_name = os.environ.get('GITHUB_REPOSITORY', 'PS5-Super-PLDMGR-Auto-Updater').split('/')[-1]
     feed_out.write('<?xml version="1.0" encoding="UTF-8" ?>\n<rss version="2.0">\n  <channel>\n    <title>PS5 Mini-Store Mises à jour</title>\n')
     feed_out.write(f'    <link>https://nexgen999.github.io/{repo_name}/</link>\n    <description>Suivi automatique des payloads</description>\n')
     for item in all_payloads_flat_list:
         feed_out.write('    <item>\n')
-        feed_out.write(f'      <title>{item["title"]} ({item["version"]})</title>\n')
+        feed_out.write(f'      <title>{item["name"]} ({item["version"]})</title>\n')
         feed_out.write(f'      <link>{item["url"]}</link>\n')
-        feed_out.write(f'      <description>{item["description"]} - SHA256: {item["sha256"]}</description>\n')
+        feed_out.write(f'      <description>{item["description"]} - Checksum: {item["checksum"]}</description>\n')
         feed_out.write('    </item>\n')
     feed_out.write('  </channel>\n</rss>')
 
-# REGENERATION DU README
 with open("README.md", "w", encoding="utf-8") as r_file:
+    repo_name = os.environ.get('GITHUB_REPOSITORY', 'PS5-Super-PLDMGR-Auto-Updater').split('/')[-1]
     r_file.write("# 🎮 PS5 Payload Manager & Mini-Store\n\n")
     r_file.write("Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !\n\n")
     r_file.write("> 💡 **Configuration du Store sur l'application PS5 :** Pour connecter votre console, ajoutez le fichier central **`payloads.json`** :\n")
