@@ -1,21 +1,18 @@
-{
-  "name": "PS5_Cheat (PLDMGR Updater)",
-  "payloads": [
-    {
-      "title": "CheatRunner",
-      "author": "notmaj0r",
-      "version": "v0.14",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Cheat/CheatRunner/v0.14/CheatRunner.elf",
-      "sha256": "5ffe8ed97fd6021cfad2b44a1be68c1b9f6e84c1e3a8d925f9e3b975235aa99f",
-      "description": "CheatRunner."
-    },
-    {
-      "title": "kylin-core",
-      "author": "aydencharles",
-      "version": "Source-Fixe",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Cheat/kylin-core/Source-Fixe/kylin-core-community-lite-v131-global-release.elf",
-      "sha256": "2b731fc60b3d7996667b372bb8e31df7125d209ecacbb6838312a51b24b65c29",
-      "description": "kylin-core"
-    }
-  ]
-}
+[
+  {
+    "name": "CheatRunner",
+    "filename": "CheatRunner.elf",
+    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Cheat/CheatRunner/v0.14/CheatRunner.elf",
+    "description": "CheatRunner.",
+    "version": "v0.14",
+    "checksum": "5ffe8ed97fd6021cfad2b44a1be68c1b9f6e84c1e3a8d925f9e3b975235aa99f"
+  },
+  {
+    "name": "kylin-core",
+    "filename": "kylin-core-community-lite-v131-global-release.elf",
+    "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Cheat/kylin-core/Source-Fixe/kylin-core-community-lite-v131-global-release.elf",
+    "description": "kylin-core",
+    "version": "Source-Fixe",
+    "checksum": "2b731fc60b3d7996667b372bb8e31df7125d209ecacbb6838312a51b24b65c29"
+  }
+]
