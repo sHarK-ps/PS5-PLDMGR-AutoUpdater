@@ -183,15 +183,20 @@ for opml_file in opml_files:
             except Exception as e:
                 print(f"   ℹ️ Erreur API Forgejo ({e})")
 
-        # ANALYSE, RENOMMAGE AUTOMATIQUE ET CALCUL CHECKSUM
+        # =========================================================================
+        # ANALYSE, RENOMMAGE UNIQUE ET RÈGLES DÉDIÉES DE SIMPLIFICATION
+        # =========================================================================
         version_clean = re.sub(r'[^a-zA-Z0-9._-]', '', version) if version != "Source-Fixe" else "Source-Fixe"
         target_dir = os.path.join(PAYLOADS_ROOT, cat_tech_name, title.replace(" ", "_"), version_clean)
         
         files_in_dir = os.listdir(target_dir) if os.path.exists(target_dir) else []
-        main_file = None
-        sha256_hash = ""
+        eligible_binaries = []
 
-        # Formatage propre du tag de version pour le nom de fichier (ex: "0.14" -> "_v0.14", "v1.2" -> "_v1.2")
+        # Génération du nom absolu par défaut à partir du title OPML
+        default_base_name = re.sub(r'[^a-zA-Z0-9._-]', '_', title)
+        default_base_name = re.sub(r'_{2,}', '_', default_base_name).strip('_')
+
+        # Préparation du suffixe de version propre
         v_suffix = version_clean
         if v_suffix != "Source-Fixe":
             if not v_suffix.lower().startswith('v'):
@@ -200,58 +205,70 @@ for opml_file in opml_files:
         else:
             v_suffix = ""
 
-        for f_name in files_in_dir:
+        # On isole les .elf / .bin
+        binaries_found = [f for f in files_in_dir if f.lower().endswith('.elf') or f.lower().endswith('.bin')]
+
+        for f_name in binaries_found:
             f_name_lower = f_name.lower()
-            if f_name_lower.endswith('.elf') or f_name_lower.endswith('.bin'):
-                # Extraction du nom d'origine et de l'extension
-                base_name, ext = os.path.splitext(f_name)
-                
-                # On évite de rajouter la version en boucle si elle est déjà présente dans le fichier d'origine
-                if v_suffix and v_suffix in base_name:
-                    new_f_name = f_name
+            base_name, ext = os.path.splitext(f_name)
+            
+            # --- RÈGLE DÉDIÉE PURE POUR ZFTP / ZHTTP ---
+            if "zftpd" in f_name_lower or "zftp" in f_name_lower:
+                if "zhttp" in f_name_lower:
+                    final_base = "zhttp"
                 else:
-                    new_f_name = f"{base_name}{v_suffix}{ext}"
-                
-                # Renommage physique du fichier sur le stockage
-                old_path = os.path.join(target_dir, f_name)
-                new_path = os.path.join(target_dir, new_f_name)
-                if old_path != new_path:
-                    try:
-                        os.rename(old_path, new_path)
-                        print(f"   🏷️  Fichier renommé : {f_name} -> {new_f_name}")
-                    except Exception as rn_err:
-                        print(f"   ⚠️ Erreur renommage : {rn_err}")
-                        new_f_name = f_name
-                
-                main_file = new_f_name
-                break
+                    final_base = "zftp"
+            else:
+                # Règle par défaut pour le reste des outils (Nom absolu basé sur l'OPML)
+                final_base = default_base_name
 
-        if main_file:
-            full_path = os.path.join(target_dir, main_file)
-            hasher = hashlib.sha256()
-            with open(full_path, 'rb') as fb:
-                for chunk in iter(lambda: fb.read(4096), b""): 
-                    hasher.update(chunk)
-            sha256_hash = hasher.hexdigest()
-
-            credits_list.add(f"- **{author}** : [{title}]({xml_url})")
+            # Assemblage final sans fioritures (ex: zftp_v1.5.0.elf)
+            new_f_name = f"{final_base}{v_suffix}{ext}"
             
-            repo_name = os.environ.get('GITHUB_REPOSITORY', 'PS5-Super-PLDMGR-Auto-Updater').split('/')[-1]
-            file_url = f"https://nexgen999.github.io/{repo_name}/{target_dir.replace(os.sep, '/')}/{main_file}"
-
-            item_data = {
-                "name": title,
-                "filename": main_file,
-                "url": file_url,
-                "description": description if description else f"Payload {title} pour PS5",
-                "version": version,
-                "checksum": sha256_hash
-            }
-            category_payloads_list.append(item_data)
-            all_payloads_flat_list.append(item_data)
+            old_path = os.path.join(target_dir, f_name)
+            new_path = os.path.join(target_dir, new_f_name)
             
-            repo_folder_url = f"https://github.com/nexgen999/{repo_name}/tree/main/{target_dir.replace(os.sep, '/')}"
-            readme_rows.append(f"| **{title}** | {author} | {cat_display_name} | [{version}]({repo_folder_url}) | `{sha256_hash[:10]}...` | {description} |")
+            if old_path != new_path:
+                try:
+                    os.rename(old_path, new_path)
+                    print(f"   🏷️  Fichier renommé (Règle courte) : {f_name} -> {new_f_name}")
+                except Exception as rn_err:
+                    print(f"   ⚠️ Erreur renommage : {rn_err}")
+                    new_f_name = f_name
+            
+            eligible_binaries.append(new_f_name)
+
+        # Génération finale des entrées du Store
+        if eligible_binaries:
+            for main_file in eligible_binaries:
+                full_path = os.path.join(target_dir, main_file)
+                hasher = hashlib.sha256()
+                with open(full_path, 'rb') as fb:
+                    for chunk in iter(lambda: fb.read(4096), b""): 
+                        hasher.update(chunk)
+                sha256_hash = hasher.hexdigest()
+
+                credits_list.add(f"- **{author}** : [{title}]({xml_url})")
+                
+                repo_name = os.environ.get('GITHUB_REPOSITORY', 'PS5-Super-PLDMGR-Auto-Updater').split('/')[-1]
+                file_url = f"https://nexgen999.github.io/{repo_name}/{target_dir.replace(os.sep, '/')}/{main_file}"
+
+                # Pour l'affichage dans le JSON de la console : on utilise le nom ultra court du binaire
+                display_name = os.path.splitext(main_file)[0].split('_v')[0]
+
+                item_data = {
+                    "name": display_name,
+                    "filename": main_file,
+                    "url": file_url,
+                    "description": description if description else f"Payload {display_name} pour PS5",
+                    "version": version,
+                    "checksum": sha256_hash
+                }
+                category_payloads_list.append(item_data)
+                all_payloads_flat_list.append(item_data)
+                
+                repo_folder_url = f"https://github.com/nexgen999/{repo_name}/tree/main/{target_dir.replace(os.sep, '/')}"
+                readme_rows.append(f"| **{display_name}** | {author} | {cat_display_name} | [{version}]({repo_folder_url}) | `{sha256_hash[:10]}...` | {description} |")
         else:
             print(f"   🚫 Ignoré du JSON final car aucun binaire (.elf / .bin) détecté pour {title}")
 
