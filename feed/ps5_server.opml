@@ -6,7 +6,7 @@
   <body>
     <outline text="zftpd" title="zftpd" type="rss" xmlUrl="https://github.com/seregonwar/zftpd" author="seregonwar" description="FTP server payload for PS5. Port: 21" />
     <outline text="elfldr" title="elfldr" type="rss" xmlUrl="https://github.com/ps5-payload-dev/elfldr" author="ps5-payload-dev" description="ELF Loader utility. Port: 9020 / 9021" />
-    <outline text="ftpsrv" title="ftpsrv" type="rss" xmlUrl="https://github.com/ps5-payload-dev/ftpsrv" author="ps5-payload-dev" description="FTP server background daemon. Port: 21" />
+    <outline text="ftpsrv" title="ftpsrv (ps5-payload)" type="rss" xmlUrl="https://github.com/ps5-payload-dev/ftpsrv" author="ps5-payload-dev" description="FTP server background daemon. Port: 21" />
     <outline text="websrv" title="websrv" type="rss" xmlUrl="https://github.com/ps5-payload-dev/websrv" author="ps5-payload-dev" description="HTTP Web server payload. Port: 8080" />
     <outline text="gdbsrv" title="gdbsrv" type="rss" xmlUrl="https://github.com/ps5-payload-dev/gdbsrv" author="ps5-payload-dev" description="GDB Debugger server payload. Port: 1234" />
     <outline text="klogsrv" title="klogsrv" type="rss" xmlUrl="https://github.com/ps5-payload-dev/klogsrv" author="ps5-payload-dev" description="Kernel log server daemon. Port: 3232" />
