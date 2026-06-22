@@ -1,3 +1,5 @@
+![Banner](assets/banner.png)
+
 # 🎮 PS5 Payload Manager & Mini-Store
 
 Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
@@ -13,70 +15,152 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 
 ---
 
-## 📦 Liste des Applications & Payloads disponibles
+## 📦 Liste des Applications & Payloads disponibles par Catégorie
 
-| Application | Auteur | Catégorie | Version (Dépôt) | Empreinte SHA-256 | Description |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **CheatRunner** | notmaj0r | Ps5 Cheat | [v0.14](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/PS5_Cheat/CheatRunner/v0.14) | `5ffe8ed97f...` | CheatRunner. |
-| **kylin-core-community-lite-v131-global-release** | aydencharles | Ps5 Cheat | [Source-Fixe](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/PS5_Cheat/kylin-core/Source-Fixe) | `2b731fc60b...` | kylin-core |
-| **kylin-core** | aydencharles | Ps5 Cheat | [Source-Fixe](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/PS5_Cheat/kylin-core/Source-Fixe) | `2b731fc60b...` | kylin-core |
-| **garlic-savemgr** | earthonion | Ps5 Saves | [v1.10](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_saves/garlic-savemgr/v1.10) | `b82bf7aa83...` | Save manager utility hosted on Forgejo. |
-| **garlic-worker** | earthonion | Ps5 Saves | [v1.1.4](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_saves/garlic-worker/v1.1.4) | `da311b3ff9...` | Garlic worker payload component. |
-| **savemnt-offset-dumper** | StonedModder | Ps5 Saves | [1.0.0](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_saves/savemnt-offset-dumper/1.0.0) | `946328551f...` | Offset dumper for save mounting utilities. |
-| **zftp** | seregonwar | Ps5 Server | [v1.5.0](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_server/zftpd/v1.5.0) | `68a80e1cb4...` | FTP server payload for PS5. Port: 21 |
-| **zhttp** | seregonwar | Ps5 Server | [v1.5.0](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_server/zftpd/v1.5.0) | `6cf6a73811...` | FTP server payload for PS5. Port: 21 |
-| **zhttp** | seregonwar | Ps5 Server | [v1.5.0](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_server/zftpd/v1.5.0) | `9340aa91f8...` | FTP server payload for PS5. Port: 21 |
-| **zftp** | seregonwar | Ps5 Server | [v1.5.0](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_server/zftpd/v1.5.0) | `f430dc1fde...` | FTP server payload for PS5. Port: 21 |
-| **elfldr** | ps5-payload-dev | Ps5 Server | [v0.23](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_server/elfldr/v0.23) | `092d16ee0e...` | ELF Loader utility. Port: 9020 / 9021 |
-| **ftpsrv_ps5-payload** | ps5-payload-dev | Ps5 Server | [v0.20](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_server/ftpsrv_(ps5-payload)/v0.20) | `8f305a959f...` | FTP server background daemon. Port: 21 |
-| **websrv** | ps5-payload-dev | Ps5 Server | [v0.32](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_server/websrv/v0.32) | `8dd24df100...` | HTTP Web server payload. Port: 8080 |
-| **gdbsrv** | ps5-payload-dev | Ps5 Server | [v0.8](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_server/gdbsrv/v0.8) | `7621b829bd...` | GDB Debugger server payload. Port: 1234 |
-| **klogsrv** | ps5-payload-dev | Ps5 Server | [v0.8](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_server/klogsrv/v0.8) | `f6eb1b415e...` | Kernel log server daemon. Port: 3232 |
-| **ftpsrv_drakmor** | drakmor | Ps5 Server | [1.6-ng-test2](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_server/ftpsrv_(drakmor)/1.6-ng-test2) | `da65f0c5b5...` | Drakmor's variant of the FTP server. Port: 21 |
-| **ps5upload** | phantomptr | Ps5 Server | [v3.3.22](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_server/ps5upload/v3.3.22) | `6fac6e1fa5...` | PS5 Upload server / tool. Port: 9025 |
-| **airpsx** | barisyild | Ps5 Server | [0.19](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_server/airpsx/0.19) | `ae025ca772...` | AirPSX server tool for PS5 ecosystem. |
-| **ps5debug-NG** | OpenSourcereR-dev | Ps5 Sdk Debug | [1.3.0](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_sdk_debug/ps5debug-NG/1.3.0) | `8f75fb90b4...` | Next generation debugger payload for PS5. |
-| **ps5-fw-spoof** | illusionyy | Ps5 Sdk Debug | [26616621599](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_sdk_debug/ps5-fw-spoof/26616621599) | `f1754521ca...` | Firmware spoofer utility for PS5. |
-| **ps5-self-pager-full-system** | idlesauce | Ps5 Sdk Debug | [v1.2](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_sdk_debug/ps5-self-pager/v1.2) | `fb498d4112...` | SELF pager payload tool. |
-| **ps5-self-pager-game** | idlesauce | Ps5 Sdk Debug | [v1.2](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_sdk_debug/ps5-self-pager/v1.2) | `73d94fea5d...` | SELF pager payload tool. |
-| **ps5-self-pager-shellcore** | idlesauce | Ps5 Sdk Debug | [v1.2](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_sdk_debug/ps5-self-pager/v1.2) | `2b500bc356...` | SELF pager payload tool. |
-| **ps5-self-pager-system-common-lib** | idlesauce | Ps5 Sdk Debug | [v1.2](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_sdk_debug/ps5-self-pager/v1.2) | `a86c3e69ed...` | SELF pager payload tool. |
-| **ps5-self-decrypter-system-common-lib** | idlesauce | Ps5 Sdk Debug | [v0.5.2](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2) | `6a16c6457c...` | SELF decrypter tool for PS5 binaries. |
-| **ps5-self-decrypter-game** | idlesauce | Ps5 Sdk Debug | [v0.5.2](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2) | `190b350759...` | SELF decrypter tool for PS5 binaries. |
-| **ps5-self-decrypter-full-system** | idlesauce | Ps5 Sdk Debug | [v0.5.2](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2) | `46340d3048...` | SELF decrypter tool for PS5 binaries. |
-| **ps5-self-decrypter-shellcore** | idlesauce | Ps5 Sdk Debug | [v0.5.2](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2) | `15050c691c...` | SELF decrypter tool for PS5 binaries. |
-| **ps5-remoteplay-get-pin** | idlesauce | Ps5 Sdk Debug | [v0.1.1](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_sdk_debug/ps5-remoteplay-get-pin/v0.1.1) | `1d611c1856...` | Utility to get Remote Play PIN. |
-| **PS5-Custom-Tool-Manager-** | NikoBellikJR31 | Ps5 Themes-Avatars | [Custom](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_themes-avatars/PS5-Custom-Tool-Manager-/Custom) | `297824ceaf...` | Custom manager tool for PS5 personalization. |
-| **ps5-wallpaper-modd** | hgr9519 | Ps5 Themes-Avatars | [v1.0](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_themes-avatars/ps5-wallpaper-modd/v1.0) | `b18a866bac...` | Wallpaper modification utility for PS5. |
-| **kstuff_EchoStretch** | EchoStretch | Ps5 Kstuff | [v1.6.7](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_kstuff/kstuff_(EchoStretch)/v1.6.7) | `f1c1f4b2b6...` | Fnd Kstuff payload for PS5. |
-| **kstuff-lite_EchoStretch** | EchoStretch | Ps5 Kstuff | [v1.07](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_kstuff/kstuff-lite_(EchoStretch)/v1.07) | `eb730eccd1...` | Lightweight version of kstuff. |
-| **kstuff-lite_drakmor** | drakmor | Ps5 Kstuff | [1.2-dr-test2](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_kstuff/kstuff-lite_(drakmor)/1.2-dr-test2) | `2b699d4110...` | Drakmor's variant of kstuff-lite. |
-| **ps5-linux-loader** | ps5-linux | Ps5 Linux | [v2.1](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_linux/ps5-linux-loader/v2.1) | `c1014a153e...` | Linux loader payload for the PS5. |
-| **ChronicLoader-PS5-Payload** | StonedModder | Ps5 Utility | [0.1](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_utility/ChronicLoader-PS5-Payload/0.1) | `3561120f85...` | ChronicLoader utility payload for PS5. |
-| **Ghostpad** | StonedModder | Ps5 Utility | [v1.0.0](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_utility/Ghostpad/v1.0.0) | `94d43a8db7...` | Ghostpad controller input utility. |
-| **Ghostcontrol-PS5-USB-Controller-Patcher** | StonedModder | Ps5 Utility | [1.0.4](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_utility/Ghostcontrol-PS5-USB-Controller-Patcher/1.0.4) | `e2e658fc3c...` | USB Controller patcher tool for PS5. |
-| **bfpilot-core** | ItsBlurf | Ps5 File Explorer | [Source-Fixe](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_file_explorer/BFpilot-Core/Source-Fixe) | `4375479705...` | BFpilot is a lightweight PS5 payload that serves a browser-based file manager. |
-| **BFpilot-Core** | ItsBlurf | Ps5 File Explorer | [Source-Fixe](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_file_explorer/BFpilot-Core/Source-Fixe) | `4375479705...` | BFpilot is a lightweight PS5 payload that serves a browser-based file manager. |
-| **BFpilot-Full** | ItsBlurf | Ps5 File Explorer | [Source-Fixe](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_file_explorer/BFpilot-Full/Source-Fixe) | `c5b6674533...` | BFpilot is a lightweight PS5 payload that serves a browser-based file manager. |
-| **bfpilot-full** | ItsBlurf | Ps5 File Explorer | [Source-Fixe](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_file_explorer/BFpilot-Full/Source-Fixe) | `c5b6674533...` | BFpilot is a lightweight PS5 payload that serves a browser-based file manager. |
-| **Lapy_JB_Daemon** | ArkSama | Ps5 File Explorer | [Source-Fixe](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_file_explorer/Lapy_JB_Daemon/Source-Fixe) | `e8230ac459...` | Daemon pour le jailbreak de Lapy |
-| **lapy_jb_daemon** | ArkSama | Ps5 File Explorer | [Source-Fixe](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_file_explorer/Lapy_JB_Daemon/Source-Fixe) | `e8230ac459...` | Daemon pour le jailbreak de Lapy |
-| **np-fake-signin** | earthonion | Ps5 Activation | [v1.3](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/PS5_Activation/np-fake-signin/v1.3) | `f5c66fcb9e...` | Fake activate PS5 without PSN. |
-| **uds-trophy-unlocker** | soniciso | Ps5 Trophy | [v1.0.0](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_trophy/uds-trophy-unlocker/v1.0.0) | `3a338eccaa...` | Trophy unlocker utility for PS5 hosted on Forgejo. |
-| **PS5-Game-Compressor** | juma-sayeh | Ps5 Game Dump | [v1.0.3](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_game_dump/PS5-Game-Compressor/v1.0.3) | `51b66edf62...` | Tool to compress PS5 games. |
-| **ps5-app-dumper** | EchoStretch | Ps5 Game Dump | [v1.10](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_game_dump/ps5-app-dumper/v1.10) | `95382a9e37...` | PS5 App Dumper payload. |
-| **ShadowMountPlus** | drakmor | Ps5 Game Dump | [1.6test15-fix2](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_game_dump/ShadowMountPlus/1.6test15-fix2) | `8ab32f4ced...` | ShadowMountPlus payload for game mounting. |
-| **BackPork** | BestPig | Ps5 Game Dump | [0.1](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_game_dump/BackPork/0.1) | `d74e4cd119...` | BackPork PS5 tool. |
-| **Spectrum-Library** | Phoenixx1202 | Ps5 Freeshop | [1.4.2](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_freeshop/Spectrum-Library/1.4.2) | `54755ce62d...` | free store webadmin http://your-ps5-ip:7575. |
-| **pegasus-dl** | pegasus-ps5 | Ps5 Freeshop | [v1.6.0](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_freeshop/pegasus-dl/v1.6.0) | `29b62ef500...` | free store webadmin http://your-ps5-ip:6970. |
-| **nanoDNS** | Drakmor | Ps5 Dns | [0.3](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_dns/nanoDNS/0.3) | `ce1c8b3103...` | Un serveur DNS ultra-léger et rapide idéal pour rediriger les requêtes de la console vers votre hôte local d'exploits. |
-| **Chukei_DNS** | Al-Azif | Ps5 Dns | [0.9.0](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_dns/Chukei_DNS/0.9.0) | `0cf13e1ed8...` | Serveur DNS de redirection d'envergure conçu spécifiquement pour bloquer les mises à jour de Sony et rediriger le guide de l'utilisateur. |
-| **etaHEN** | LightningMods | Ps5 HEN Loader | [2.5B](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_hen_loader/etaHEN/2.5B) | `4845cac450...` | Le Homebrew Enabler (HEN) de référence pour la PS5 avec serveurs de triche, plugins et gestionnaire de mémoire intégrés. |
-| **PS5_Unified_Autoloader** | itsPLK | Ps5 HEN Loader | [v0.1.2-8e96846](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_hen_loader/PS5_Unified_Autoloader/v0.1.2-8e96846) | `14312044a4...` | Chargeur universel de payloads permettant de lancer automatiquement vos outils favoris au démarrage de l'exploit. |
-| **PS5_Payload_Manager** | itsPLK | Ps5 HEN Loader | [v0.3.1](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.3.1) | `518740adba...` | Interface d'administration et de gestion réseau pour envoyer, activer et ordonner vos fichiers ELF/BIN sur la console. |
-| **pldmgr** | itsPLK | Ps5 HEN Loader | [v0.3.1](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.3.1) | `518740adba...` | Interface d'administration et de gestion réseau pour envoyer, activer et ordonner vos fichiers ELF/BIN sur la console. |
-| **ELF_Arsenal** | SonicIso | Ps5 HEN Loader | [v1.6.21](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_hen_loader/ELF_Arsenal/v1.6.21) | `cec8008893...` | Boîte à outils regroupant une collection complète de payloads utilitaires pour les consoles jailbreakées. |
-| **Kura** | NookieAI | Ps5 HEN Loader | [v1.0.0-beta.22](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater/tree/main/payloads/ps5_hen_loader/Kura/v1.0.0-beta.22) | `5e4489709c...` | Un loader de payloads moderne et épuré conçu pour optimiser l'injection de code sur PS5. |
+### 🔓 Ps5 Activation
+📂 **Fichier JSON Dédié :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/PS5_Activation.json`
+
+| Application | Version | Empreinte SHA-256 | Description |
+| :--- | :--- | :--- | :--- |
+| **np-fake-signin** | [v1.3](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Activation/np-fake-signin/v1.3/np-fake-signin_v1.3.elf) | `f5c66fcb9e...` | Fake activate PS5 without PSN. |
+
+### 🏴‍☠️ Ps5 Cheat
+📂 **Fichier JSON Dédié :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/PS5_Cheat.json`
+
+| Application | Version | Empreinte SHA-256 | Description |
+| :--- | :--- | :--- | :--- |
+| **CheatRunner** | [v0.14](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Cheat/CheatRunner/v0.14/CheatRunner_v0.14.elf) | `5ffe8ed97f...` | CheatRunner. |
+| **kylin-core-community-lite-v131-global-release** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/PS5_Cheat/kylin-core/Source-Fixe/kylin-core-community-lite-v131-global-release.elf) | `2b731fc60b...` | kylin-core |
+
+### 🌐 Ps5 Dns
+📂 **Fichier JSON Dédié :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/ps5_dns.json`
+
+| Application | Version | Empreinte SHA-256 | Description |
+| :--- | :--- | :--- | :--- |
+| **nanoDNS** | [0.3](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_dns/nanoDNS/0.3/nanoDNS_v0.3.elf) | `ce1c8b3103...` | Un serveur DNS ultra-léger et rapide idéal pour rediriger les requêtes de la console vers votre hôte local d'exploits. |
+| **Chukei_DNS** | [0.9.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_dns/Chukei_DNS/0.9.0/Chukei_DNS_v0.9.0.elf) | `0cf13e1ed8...` | Serveur DNS de redirection d'envergure conçu spécifiquement pour bloquer les mises à jour de Sony et rediriger le guide de l'utilisateur. |
+
+### 📂 Ps5 File Explorer
+📂 **Fichier JSON Dédié :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/ps5_file_explorer.json`
+
+| Application | Version | Empreinte SHA-256 | Description |
+| :--- | :--- | :--- | :--- |
+| **bfpilot-core** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/BFpilot-Core/Source-Fixe/bfpilot-core_v0.2.1.elf) | `4375479705...` | BFpilot is a lightweight PS5 payload that serves a browser-based file manager. |
+| **bfpilot-full** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/BFpilot-Full/Source-Fixe/bfpilot-full_v0.2.1.elf) | `c5b6674533...` | BFpilot is a lightweight PS5 payload that serves a browser-based file manager. |
+| **lapy_jb_daemon** | [Source-Fixe](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_file_explorer/Lapy_JB_Daemon/Source-Fixe/lapy_jb_daemon.elf) | `e8230ac459...` | Daemon pour le jailbreak de Lapy |
+
+### 💾 Ps5 Freeshop
+📂 **Fichier JSON Dédié :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/ps5_freeshop.json`
+
+| Application | Version | Empreinte SHA-256 | Description |
+| :--- | :--- | :--- | :--- |
+| **Spectrum-Library** | [1.4.2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/Spectrum-Library/1.4.2/Spectrum-Library_v1.4.2.elf) | `54755ce62d...` | free store webadmin http://your-ps5-ip:7575. |
+| **pegasus-dl** | [v1.6.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_freeshop/pegasus-dl/v1.6.0/pegasus-dl_v1.6.0.elf) | `29b62ef500...` | free store webadmin http://your-ps5-ip:6970. |
+
+### 💿 Ps5 Game Dump
+📂 **Fichier JSON Dédié :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/ps5_game_dump.json`
+
+| Application | Version | Empreinte SHA-256 | Description |
+| :--- | :--- | :--- | :--- |
+| **PS5-Game-Compressor** | [v1.0.3](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/PS5-Game-Compressor/v1.0.3/PS5-Game-Compressor_v1.0.3.elf) | `51b66edf62...` | Tool to compress PS5 games. |
+| **ps5-app-dumper** | [v1.10](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ps5-app-dumper/v1.10/ps5-app-dumper_v1.10.elf) | `95382a9e37...` | PS5 App Dumper payload. |
+| **ShadowMountPlus** | [1.6test15-fix2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/ShadowMountPlus/1.6test15-fix2/ShadowMountPlus_v1.6test15-fix2.elf) | `8ab32f4ced...` | ShadowMountPlus payload for game mounting. |
+| **BackPork** | [0.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_game_dump/BackPork/0.1/BackPork_v0.1.elf) | `d74e4cd119...` | BackPork PS5 tool. |
+
+### 🚀 Ps5 HEN Loader
+📂 **Fichier JSON Dédié :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/ps5_hen_loader.json`
+
+| Application | Version | Empreinte SHA-256 | Description |
+| :--- | :--- | :--- | :--- |
+| **etaHEN** | [2.5B](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/etaHEN/2.5B/etaHEN_v2.5B.bin) | `4845cac450...` | Le Homebrew Enabler (HEN) de référence pour la PS5 avec serveurs de triche, plugins et gestionnaire de mémoire intégrés. |
+| **PS5_Unified_Autoloader** | [v0.1.2-8e96846](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Unified_Autoloader/v0.1.2-8e96846/PS5_Unified_Autoloader_v0.1.2-8e96846.elf) | `14312044a4...` | Chargeur universel de payloads permettant de lancer automatiquement vos outils favoris au démarrage de l'exploit. |
+| **pldmgr** | [v0.3.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.3.1/pldmgr_v0.3.1.elf) | `518740adba...` | Interface d'administration et de gestion réseau pour envoyer, activer et ordonner vos fichiers ELF/BIN sur la console. |
+| **ELF_Arsenal** | [v1.6.21](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/ELF_Arsenal/v1.6.21/ELF_Arsenal_v1.6.21.elf) | `cec8008893...` | Boîte à outils regroupant une collection complète de payloads utilitaires pour les consoles jailbreakées. |
+| **Kura** | [v1.0.0-beta.22](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.0.0-beta.22/Kura_v1.0.0-beta.22.elf) | `5e4489709c...` | Un loader de payloads moderne et épuré conçu pour optimiser l'injection de code sur PS5. |
+
+### 🧪 Ps5 Kstuff
+📂 **Fichier JSON Dédié :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/ps5_kstuff.json`
+
+| Application | Version | Empreinte SHA-256 | Description |
+| :--- | :--- | :--- | :--- |
+| **kstuff_EchoStretch** | [v1.6.7](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff_EchoStretch/v1.6.7/kstuff_EchoStretch_v1.6.7.elf) | `f1c1f4b2b6...` | Fnd Kstuff payload for PS5. |
+| **kstuff-lite_EchoStretch** | [v1.07](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff-lite_EchoStretch/v1.07/kstuff-lite_EchoStretch_v1.07.elf) | `eb730eccd1...` | Lightweight version of kstuff. |
+| **kstuff-lite_drakmor** | [1.2-dr-test2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_kstuff/kstuff-lite_drakmor/1.2-dr-test2/kstuff-lite_drakmor_v1.2-dr-test2.elf) | `2b699d4110...` | Drakmor's variant of kstuff-lite. |
+
+### 🐧 Ps5 Linux
+📂 **Fichier JSON Dédié :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/ps5_linux.json`
+
+| Application | Version | Empreinte SHA-256 | Description |
+| :--- | :--- | :--- | :--- |
+| **ps5-linux-loader** | [v2.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_linux/ps5-linux-loader/v2.1/ps5-linux-loader_v2.1.elf) | `c1014a153e...` | Linux loader payload for the PS5. |
+
+### 📝 Ps5 Saves
+📂 **Fichier JSON Dédié :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/ps5_saves.json`
+
+| Application | Version | Empreinte SHA-256 | Description |
+| :--- | :--- | :--- | :--- |
+| **garlic-savemgr** | [v1.10](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/garlic-savemgr/v1.10/garlic-savemgr_v1.10.elf) | `b82bf7aa83...` | Save manager utility hosted on Forgejo. |
+| **garlic-worker** | [v1.1.4](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/garlic-worker/v1.1.4/garlic-worker_v1.1.4.elf) | `da311b3ff9...` | Garlic worker payload component. |
+| **savemnt-offset-dumper** | [1.0.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_saves/savemnt-offset-dumper/1.0.0/savemnt-offset-dumper_v1.0.0.elf) | `946328551f...` | Offset dumper for save mounting utilities. |
+
+### ⚙️ Ps5 Sdk Debug
+📂 **Fichier JSON Dédié :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/ps5_sdk_debug.json`
+
+| Application | Version | Empreinte SHA-256 | Description |
+| :--- | :--- | :--- | :--- |
+| **ps5debug-NG** | [1.3.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5debug-NG/1.3.0/ps5debug-NG_v1.3.0.elf) | `8f75fb90b4...` | Next generation debugger payload for PS5. |
+| **ps5-fw-spoof** | [26616621599](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-fw-spoof/26616621599/ps5-fw-spoof_v26616621599.elf) | `f1754521ca...` | Firmware spoofer utility for PS5. |
+| **ps5-self-pager-shellcore** | [v1.2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-shellcore_v1.2.elf) | `2b500bc356...` | SELF pager payload tool. |
+| **ps5-self-pager-game** | [v1.2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-game_v1.2.elf) | `73d94fea5d...` | SELF pager payload tool. |
+| **ps5-self-pager-full-system** | [v1.2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-full-system_v1.2.elf) | `fb498d4112...` | SELF pager payload tool. |
+| **ps5-self-pager-system-common-lib** | [v1.2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-system-common-lib_v1.2.elf) | `a86c3e69ed...` | SELF pager payload tool. |
+| **ps5-self-decrypter-full-system** | [v0.5.2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-full-system_v0.5.2.elf) | `46340d3048...` | SELF decrypter tool for PS5 binaries. |
+| **ps5-self-decrypter-game** | [v0.5.2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-game_v0.5.2.elf) | `190b350759...` | SELF decrypter tool for PS5 binaries. |
+| **ps5-self-decrypter-shellcore** | [v0.5.2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-shellcore_v0.5.2.elf) | `15050c691c...` | SELF decrypter tool for PS5 binaries. |
+| **ps5-self-decrypter-system-common-lib** | [v0.5.2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-system-common-lib_v0.5.2.elf) | `6a16c6457c...` | SELF decrypter tool for PS5 binaries. |
+| **ps5-remoteplay-get-pin** | [v0.1.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_sdk_debug/ps5-remoteplay-get-pin/v0.1.1/ps5-remoteplay-get-pin_v0.1.1.elf) | `1d611c1856...` | Utility to get Remote Play PIN. |
+
+### 🖥️ Ps5 Server
+📂 **Fichier JSON Dédié :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/ps5_server.json`
+
+| Application | Version | Empreinte SHA-256 | Description |
+| :--- | :--- | :--- | :--- |
+| **zftp** | [v1.5.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftp_v1.5.0.elf) | `68a80e1cb4...` | FTP server payload for PS5. Port: 21 |
+| **zhttp** | [v1.5.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zhttp_v1.5.0.elf) | `6cf6a73811...` | FTP server payload for PS5. Port: 21 |
+| **zhttp** | [v1.5.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zhttp_v1.5.0.bin) | `9340aa91f8...` | FTP server payload for PS5. Port: 21 |
+| **zftp** | [v1.5.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/zftpd/v1.5.0/zftp_v1.5.0.bin) | `f430dc1fde...` | FTP server payload for PS5. Port: 21 |
+| **elfldr** | [v0.23](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/elfldr/v0.23/elfldr_v0.23.elf) | `092d16ee0e...` | ELF Loader utility. Port: 9020 / 9021 |
+| **ftpsrv_ps5-payload** | [v0.20](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ftpsrv_ps5-payload/v0.20/ftpsrv_ps5-payload_v0.20.elf) | `8f305a959f...` | FTP server background daemon. Port: 21 |
+| **websrv** | [v0.32](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/websrv/v0.32/websrv_v0.32.elf) | `8dd24df100...` | HTTP Web server payload. Port: 8080 |
+| **gdbsrv** | [v0.8](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/gdbsrv/v0.8/gdbsrv_v0.8.elf) | `7621b829bd...` | GDB Debugger server payload. Port: 1234 |
+| **klogsrv** | [v0.8](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/klogsrv/v0.8/klogsrv_v0.8.elf) | `f6eb1b415e...` | Kernel log server daemon. Port: 3232 |
+| **ftpsrv_drakmor** | [1.6-ng-test2](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ftpsrv_drakmor/1.6-ng-test2/ftpsrv_drakmor_v1.6-ng-test2.elf) | `da65f0c5b5...` | Drakmor's variant of the FTP server. Port: 21 |
+| **ps5upload** | [v3.3.22](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/ps5upload/v3.3.22/ps5upload_v3.3.22.elf) | `6fac6e1fa5...` | PS5 Upload server / tool. Port: 9025 |
+| **airpsx** | [0.19](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_server/airpsx/0.19/airpsx_v0.19.elf) | `ae025ca772...` | AirPSX server tool for PS5 ecosystem. |
+
+### 📦 Ps5 Themes-Avatars
+📂 **Fichier JSON Dédié :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/ps5_themes-avatars.json`
+
+| Application | Version | Empreinte SHA-256 | Description |
+| :--- | :--- | :--- | :--- |
+| **PS5-Custom-Tool-Manager-** | [Custom](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_themes-avatars/PS5-Custom-Tool-Manager-/Custom/PS5-Custom-Tool-Manager-_vCustom.elf) | `297824ceaf...` | Custom manager tool for PS5 personalization. |
+| **ps5-wallpaper-modd** | [v1.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_themes-avatars/ps5-wallpaper-modd/v1.0/ps5-wallpaper-modd_v1.0.elf) | `b18a866bac...` | Wallpaper modification utility for PS5. |
+
+### 🏆 Ps5 Trophy
+📂 **Fichier JSON Dédié :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/ps5_trophy.json`
+
+| Application | Version | Empreinte SHA-256 | Description |
+| :--- | :--- | :--- | :--- |
+| **uds-trophy-unlocker** | [v1.0.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_trophy/uds-trophy-unlocker/v1.0.0/uds-trophy-unlocker_v1.0.0.elf) | `3a338eccaa...` | Trophy unlocker utility for PS5 hosted on Forgejo. |
+
+### 🛠️ Ps5 Utility
+📂 **Fichier JSON Dédié :** `https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/json/ps5_utility.json`
+
+| Application | Version | Empreinte SHA-256 | Description |
+| :--- | :--- | :--- | :--- |
+| **ChronicLoader-PS5-Payload** | [0.1](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/ChronicLoader-PS5-Payload/0.1/ChronicLoader-PS5-Payload_v0.1.elf) | `3561120f85...` | ChronicLoader utility payload for PS5. |
+| **Ghostpad** | [v1.0.0](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/Ghostpad/v1.0.0/Ghostpad_v1.0.0.elf) | `94d43a8db7...` | Ghostpad controller input utility. |
+| **Ghostcontrol-PS5-USB-Controller-Patcher** | [1.0.4](https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_utility/Ghostcontrol-PS5-USB-Controller-Patcher/1.0.4/Ghostcontrol-PS5-USB-Controller-Patcher_v1.0.4.elf) | `e2e658fc3c...` | USB Controller patcher tool for PS5. |
 
 ---
 
@@ -85,8 +169,8 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 - **ArkSama** : [Lapy JB Daemon](https://raw.githubusercontent.com/ArkSama/PS5-Lapy-JB-Daemon/main/lapy_jb_daemon.elf)
 - **BestPig** : [BackPork](https://github.com/BestPig/BackPork)
 - **Drakmor** : [nanoDNS](https://github.com/drakmor/nanoDNS)
-- **EchoStretch** : [kstuff (EchoStretch)](https://github.com/EchoStretch/kstuff)
-- **EchoStretch** : [kstuff-lite (EchoStretch)](https://github.com/EchoStretch/kstuff-lite)
+- **EchoStretch** : [kstuff-lite_EchoStretch](https://github.com/EchoStretch/kstuff-lite)
+- **EchoStretch** : [kstuff_EchoStretch](https://github.com/EchoStretch/kstuff)
 - **EchoStretch** : [ps5-app-dumper](https://github.com/EchoStretch/ps5-app-dumper)
 - **ItsBlurf** : [BFpilot-Core](https://raw.githubusercontent.com/nexgen999/PS5_Payload_Manager_Updater/main/ps5_file_explorer/bfpilot-core_v0.2.1.elf)
 - **ItsBlurf** : [BFpilot-Full](https://raw.githubusercontent.com/nexgen999/PS5_Payload_Manager_Updater/main/ps5_file_explorer/bfpilot-full_v0.2.1.elf)
@@ -103,8 +187,8 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 - **aydencharles** : [kylin-core](https://raw.githubusercontent.com/nexgen999/PS5_Payload_Manager_Updater/main/ps5_cheat/kylin-core-community-lite-v131-global-release.elf)
 - **barisyild** : [airpsx](https://github.com/barisyild/airpsx)
 - **drakmor** : [ShadowMountPlus](https://github.com/drakmor/ShadowMountPlus)
-- **drakmor** : [ftpsrv (drakmor)](https://github.com/drakmor/ftpsrv)
-- **drakmor** : [kstuff-lite (drakmor)](https://github.com/drakmor/kstuff-lite)
+- **drakmor** : [ftpsrv_drakmor](https://github.com/drakmor/ftpsrv)
+- **drakmor** : [kstuff-lite_drakmor](https://github.com/drakmor/kstuff-lite)
 - **earthonion** : [garlic-savemgr](https://git.etawen.dev/earthonion/garlic-savemgr)
 - **earthonion** : [garlic-worker](https://git.etawen.dev/earthonion/garlic-worker)
 - **earthonion** : [np-fake-signin](https://git.etawen.dev/earthonion/np-fake-signin)
@@ -121,7 +205,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 - **phantomptr** : [ps5upload](https://github.com/phantomptr/ps5upload)
 - **ps5-linux** : [ps5-linux-loader](https://github.com/ps5-linux/ps5-linux-loader)
 - **ps5-payload-dev** : [elfldr](https://github.com/ps5-payload-dev/elfldr)
-- **ps5-payload-dev** : [ftpsrv (ps5-payload)](https://github.com/ps5-payload-dev/ftpsrv)
+- **ps5-payload-dev** : [ftpsrv_ps5-payload](https://github.com/ps5-payload-dev/ftpsrv)
 - **ps5-payload-dev** : [gdbsrv](https://github.com/ps5-payload-dev/gdbsrv)
 - **ps5-payload-dev** : [klogsrv](https://github.com/ps5-payload-dev/klogsrv)
 - **ps5-payload-dev** : [websrv](https://github.com/ps5-payload-dev/websrv)
