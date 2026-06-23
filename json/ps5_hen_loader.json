@@ -35,10 +35,10 @@
     },
     {
       "name": "Kura",
-      "filename": "Kura_v1.0.0-beta.41.elf",
-      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.0.0-beta.41/Kura_v1.0.0-beta.41.elf",
+      "filename": "Kura_v1.0.0.elf",
+      "url": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/payloads/ps5_hen_loader/Kura/v1.0.0/Kura_v1.0.0.elf",
       "description": "Un loader de payloads moderne et épuré conçu pour optimiser l'injection de code sur PS5.",
-      "version": "v1.0.0-beta.41",
+      "version": "v1.0.0",
       "checksum": "6116475fdc40610b1da01746d8dc7498ee13a54e8ace9f76b8ff0cfd9d5f1aae"
     }
   ]
