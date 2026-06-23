@@ -5,6 +5,9 @@ on:
     - cron: '0 */6 * * *' # S'exécute toutes les 6 heures
   workflow_dispatch: # Permet un lancement manuel depuis l'onglet Actions
 
+permissions:         
+  contents: write     # ← Donne le droit de push
+  
 jobs:
   build-store:
     runs-on: ubuntu-latest
@@ -18,12 +21,11 @@ jobs:
       - name: Configuration de Python
         uses: actions/setup-python@v4
         with:
-          python-python-version: '3.x'
+          python-version: '3.x'
 
       - name: Lancement du script de synchronisation globale
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
           python update_store.py
 
@@ -43,4 +45,5 @@ jobs:
           # On commit uniquement s'il y a des changements pour éviter de faire planter le workflow
           git diff-index --quiet HEAD || git commit -m "[Build Dédié] Synchronisation complète, payloads et JSON mis à jour"
           
-          git push origin main
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
+          
