@@ -91,7 +91,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
-| **ps5-linux-loader** | [v2.1](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_linux/ps5-linux-loader/v2.1/ps5-linux-loader_v2.1.elf) | `c1014a153e...` | Linux loader payload for the PS5. |
+| **ps5-linux-loader** | [v2.2](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_linux/ps5-linux-loader/v2.2/ps5-linux-loader_v2.2.elf) | `ec64491c0c...` | Linux loader payload for the PS5. |
 
 ### 📝 Ps5 Saves
 📂 **Fichier JSON Dédié :** `https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/json/ps5_saves.json`
