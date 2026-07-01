@@ -267,11 +267,11 @@
     },
     {
       "name": "ps5-linux-loader",
-      "filename": "ps5-linux-loader_v2.2.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_linux/ps5-linux-loader/v2.2/ps5-linux-loader_v2.2.elf",
+      "filename": "ps5-linux-loader_v2.3.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_linux/ps5-linux-loader/v2.3/ps5-linux-loader_v2.3.elf",
       "description": "Linux loader payload for the PS5.",
-      "version": "v2.2",
-      "checksum": "ec64491c0c8f559244709fbd6a1d6d0c43a402e40502c40ddccbd1722f376338"
+      "version": "v2.3",
+      "checksum": "0723b5d5e09120861023e91780d9ec345a3aa2f32c8a17fdfb3a60a9e934e8a5"
     },
     {
       "name": "ChronicLoader-PS5-Payload",
