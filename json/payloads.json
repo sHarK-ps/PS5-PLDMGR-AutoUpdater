@@ -27,11 +27,11 @@
     },
     {
       "name": "garlic-worker",
-      "filename": "garlic-worker_v1.1.4.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-worker/v1.1.4/garlic-worker_v1.1.4.elf",
+      "filename": "garlic-worker_v1.1.6.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-worker/v1.1.6/garlic-worker_v1.1.6.elf",
       "description": "Garlic worker payload component.",
-      "version": "v1.1.4",
-      "checksum": "da311b3ff92fd06acf513a849b9a7eecdc43ecc34e5b7137d9f3f6f2c16c1704"
+      "version": "v1.1.6",
+      "checksum": "a16fdd755e5de0dd047f8680f46763ad60a2cee048a1afc61b9d6496290ddf12"
     },
     {
       "name": "savemnt-offset-dumper",
@@ -431,7 +431,7 @@
       "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_hen_loader/ELF_Arsenal/v1.6.22/ELF_Arsenal_v1.6.22.elf",
       "description": "Boîte à outils regroupant une collection complète de payloads utilitaires pour les consoles jailbreakées.",
       "version": "v1.6.22",
-      "checksum": "c9793086f68cc9403634642448b2aceb07059aecb331a0b8ae0caaff7cedf860"
+      "checksum": "ee8f47e4d6a5fd85cef113341aa1eb74d68e373a58fcb1fb5a9274acd2b83bd2"
     }
   ]
 }

@@ -75,7 +75,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | **etaHEN** | [2.5B](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_hen_loader/etaHEN/2.5B/etaHEN_v2.5B.bin) | `4845cac450...` | Le Homebrew Enabler (HEN) de référence pour la PS5 avec serveurs de triche, plugins et gestionnaire de mémoire intégrés. |
 | **PS5_Unified_Autoloader** | [v0.1.2-8e96846](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_hen_loader/PS5_Unified_Autoloader/v0.1.2-8e96846/PS5_Unified_Autoloader_v0.1.2-8e96846.elf) | `14312044a4...` | Chargeur universel de payloads permettant de lancer automatiquement vos outils favoris au démarrage de l'exploit. |
 | **pldmgr** | [v0.3.1](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.3.1/pldmgr_v0.3.1.elf) | `518740adba...` | Interface d'administration et de gestion réseau pour envoyer, activer et ordonner vos fichiers ELF/BIN sur la console. |
-| **ELF_Arsenal** | [v1.6.22](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_hen_loader/ELF_Arsenal/v1.6.22/ELF_Arsenal_v1.6.22.elf) | `c9793086f6...` | Boîte à outils regroupant une collection complète de payloads utilitaires pour les consoles jailbreakées. |
+| **ELF_Arsenal** | [v1.6.22](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_hen_loader/ELF_Arsenal/v1.6.22/ELF_Arsenal_v1.6.22.elf) | `ee8f47e4d6...` | Boîte à outils regroupant une collection complète de payloads utilitaires pour les consoles jailbreakées. |
 
 ### 🧪 Ps5 Kstuff
 📂 **Fichier JSON Dédié :** `https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/json/ps5_kstuff.json`
@@ -99,7 +99,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
 | **garlic-savemgr** | [v1.10](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-savemgr/v1.10/garlic-savemgr_v1.10.elf) | `b82bf7aa83...` | Save manager utility hosted on Forgejo. |
-| **garlic-worker** | [v1.1.4](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-worker/v1.1.4/garlic-worker_v1.1.4.elf) | `da311b3ff9...` | Garlic worker payload component. |
+| **garlic-worker** | [v1.1.6](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-worker/v1.1.6/garlic-worker_v1.1.6.elf) | `a16fdd755e...` | Garlic worker payload component. |
 | **savemnt-offset-dumper** | [1.0.0](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/savemnt-offset-dumper/1.0.0/savemnt-offset-dumper_v1.0.0.elf) | `946328551f...` | Offset dumper for save mounting utilities. |
 
 ### ⚙️ Ps5 Sdk Debug
