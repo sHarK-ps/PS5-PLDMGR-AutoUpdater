@@ -80,9 +80,9 @@
       <description>Drakmor's variant of the FTP server. Port: 21 - Checksum: da65f0c5b5dffd2b803e2521d73e96d35db4ff9711e661f49be5795f72da2cd3</description>
     </item>
     <item>
-      <title>ps5upload (v3.3.24)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v3.3.24/ps5upload_v3.3.24.elf</link>
-      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 0669701436835059cf5ddefbc7a739268fcb621337b59922d1670d36a5599896</description>
+      <title>ps5upload (v3.3.25)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v3.3.25/ps5upload_v3.3.25.elf</link>
+      <description>PS5 Upload server / tool. Port: 9025 - Checksum: b3798ea6c42a7d9200aee718dad37cd8fc901bdfc4fa7eba75026712db5d38da</description>
     </item>
     <item>
       <title>airpsx (0.19)</title>
@@ -170,9 +170,9 @@
       <description>Drakmor's variant of kstuff-lite. - Checksum: 2b699d411079a21dba7c39a02993fc0fb21e52f434103e884a0c892fafe56b75</description>
     </item>
     <item>
-      <title>ps5-linux-loader (v2.3)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_linux/ps5-linux-loader/v2.3/ps5-linux-loader_v2.3.elf</link>
-      <description>Linux loader payload for the PS5. - Checksum: 0723b5d5e09120861023e91780d9ec345a3aa2f32c8a17fdfb3a60a9e934e8a5</description>
+      <title>ps5-linux-loader (v2.4)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_linux/ps5-linux-loader/v2.4/ps5-linux-loader_v2.4.elf</link>
+      <description>Linux loader payload for the PS5. - Checksum: 51382795b486f7c5a3681648d457d129088311fc3f9601aeaff78dc72fafcf1d</description>
     </item>
     <item>
       <title>ChronicLoader-PS5-Payload (0.1)</title>
@@ -185,9 +185,9 @@
       <description>Ghostpad controller input utility. - Checksum: 94d43a8db7ec9df6e18f0a0da25aac0f60e1a0b14d35bfff261f6f5cdeabdba1</description>
     </item>
     <item>
-      <title>Ghostcontrol-PS5-USB-Controller-Patcher (1.0.4)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_utility/Ghostcontrol-PS5-USB-Controller-Patcher/1.0.4/Ghostcontrol-PS5-USB-Controller-Patcher_v1.0.4.elf</link>
-      <description>USB Controller patcher tool for PS5. - Checksum: e2e658fc3c4b041e630fae897acdefa23c4f79f0adc8473a69b49bfc4897ccf0</description>
+      <title>Ghostcontrol-PS5-USB-Controller-Patcher (1.0.5)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_utility/Ghostcontrol-PS5-USB-Controller-Patcher/1.0.5/Ghostcontrol-PS5-USB-Controller-Patcher_v1.0.5.elf</link>
+      <description>USB Controller patcher tool for PS5. - Checksum: 69271d91f27397c9ad42150129639ce452ecb405021108f42c6c87926123a6f1</description>
     </item>
     <item>
       <title>bfpilot-core (Source-Fixe)</title>
