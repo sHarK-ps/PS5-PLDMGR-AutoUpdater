@@ -29,7 +29,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
-| **CheatRunner** | [v0.15](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/PS5_Cheat/CheatRunner/v0.15/CheatRunner_v0.15.elf) | `b48a2424d9...` | CheatRunner. |
+| **CheatRunner** | [v0.16](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/PS5_Cheat/CheatRunner/v0.16/CheatRunner_v0.16.elf) | `a548325392...` | CheatRunner. |
 | **kylin-core-community-lite-v131-global-release** | [Source-Fixe](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/PS5_Cheat/kylin-core/Source-Fixe/kylin-core-community-lite-v131-global-release.elf) | `2b731fc60b...` | kylin-core |
 
 ### 🌐 Ps5 Dns
