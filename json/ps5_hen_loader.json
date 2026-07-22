@@ -19,11 +19,11 @@
     },
     {
       "name": "pldmgr",
-      "filename": "pldmgr_v0.4.2.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.4.2/pldmgr_v0.4.2.elf",
+      "filename": "pldmgr_v0.5.0.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.5.0/pldmgr_v0.5.0.elf",
       "description": "Interface d'administration et de gestion réseau pour envoyer, activer et ordonner vos fichiers ELF/BIN sur la console.",
-      "version": "v0.4.2",
-      "checksum": "ed6039f1f62a9de5016721e003a11da001a09695718e5b893424d9af0a5d56a2"
+      "version": "v0.5.0",
+      "checksum": "1fe181908027fc625147ac888288ed1bee72a378b4751d36a8a8e0582d306169"
     },
     {
       "name": "ELF_Arsenal",
