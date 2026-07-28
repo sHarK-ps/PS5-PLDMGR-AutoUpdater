@@ -20,9 +20,9 @@
       <description>Tool to compress PS5 games. - Checksum: 51b66edf6210c022d57a31ab12bf97f95a3c71ea683df387d9081494f11606b2</description>
     </item>
     <item>
-      <title>ps5-app-dumper (v1.10)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ps5-app-dumper/v1.10/ps5-app-dumper_v1.10.elf</link>
-      <description>PS5 App Dumper payload. - Checksum: 95382a9e37987d8eb931cbe5db618e77d293099ef4314e3288d9899bd5ac5c00</description>
+      <title>ps5-app-dumper (v1.11)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ps5-app-dumper/v1.11/ps5-app-dumper_v1.11.elf</link>
+      <description>PS5 App Dumper payload. - Checksum: 18483751ebaea6879b020a9dd87c0a4fb4f1bf09f3708d950362a483f78cc0d0</description>
     </item>
     <item>
       <title>BackPork (0.1)</title>
@@ -105,9 +105,9 @@
       <description>Drakmor's variant of the FTP server. Port: 21 - Checksum: 6364e0529416f400be123c52acdcda68efd5179d971c060286022131fd047b8e</description>
     </item>
     <item>
-      <title>ps5upload (v4.1.2)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v4.1.2/ps5upload_v4.1.2.elf</link>
-      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 4ecdd43a638ebcf1028d1648ee3534ba776e7ba80e1f8c04b8f5c2e827700c93</description>
+      <title>ps5upload (v4.1.3)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v4.1.3/ps5upload_v4.1.3.elf</link>
+      <description>PS5 Upload server / tool. Port: 9025 - Checksum: dbd3a16f83bbd6c4df01663dd871e72eb6b86ad0fee53607011963860776837b</description>
     </item>
     <item>
       <title>airpsx (0.19)</title>
