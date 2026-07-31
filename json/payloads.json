@@ -67,11 +67,11 @@
     },
     {
       "name": "CheatRunner",
-      "filename": "CheatRunner_v0.16.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/PS5_Cheat/CheatRunner/v0.16/CheatRunner_v0.16.elf",
+      "filename": "CheatRunner_v0.17.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/PS5_Cheat/CheatRunner/v0.17/CheatRunner_v0.17.elf",
       "description": "CheatRunner.",
-      "version": "v0.16",
-      "checksum": "a5483253926a0188c76a68101714cbd9bbc9c2305e0b071fad775d752da995bb"
+      "version": "v0.17",
+      "checksum": "2f296d3f1e69b65439bb5dc362f0f6504f6dc9f245fa16a3683e9d7ec9533773"
     },
     {
       "name": "kylin-core-community-lite-v131-global-release",
@@ -163,11 +163,11 @@
     },
     {
       "name": "ps5upload",
-      "filename": "ps5upload_v4.1.3.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v4.1.3/ps5upload_v4.1.3.elf",
+      "filename": "ps5upload_v4.1.4.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v4.1.4/ps5upload_v4.1.4.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v4.1.3",
-      "checksum": "dbd3a16f83bbd6c4df01663dd871e72eb6b86ad0fee53607011963860776837b"
+      "version": "v4.1.4",
+      "checksum": "3a1ba519e573cb0bc572d7e6fec8e0ec6f8609fe58efa7bd06a7b3d9dfd15c85"
     },
     {
       "name": "airpsx",

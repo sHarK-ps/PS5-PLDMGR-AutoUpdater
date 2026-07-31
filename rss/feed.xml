@@ -45,9 +45,9 @@
       <description>USB Controller patcher tool for PS5. - Checksum: 69271d91f27397c9ad42150129639ce452ecb405021108f42c6c87926123a6f1</description>
     </item>
     <item>
-      <title>CheatRunner (v0.16)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/PS5_Cheat/CheatRunner/v0.16/CheatRunner_v0.16.elf</link>
-      <description>CheatRunner. - Checksum: a5483253926a0188c76a68101714cbd9bbc9c2305e0b071fad775d752da995bb</description>
+      <title>CheatRunner (v0.17)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/PS5_Cheat/CheatRunner/v0.17/CheatRunner_v0.17.elf</link>
+      <description>CheatRunner. - Checksum: 2f296d3f1e69b65439bb5dc362f0f6504f6dc9f245fa16a3683e9d7ec9533773</description>
     </item>
     <item>
       <title>kylin-core-community-lite-v131-global-release (Source-Fixe)</title>
@@ -105,9 +105,9 @@
       <description>Drakmor's variant of the FTP server. Port: 21 - Checksum: 6364e0529416f400be123c52acdcda68efd5179d971c060286022131fd047b8e</description>
     </item>
     <item>
-      <title>ps5upload (v4.1.3)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v4.1.3/ps5upload_v4.1.3.elf</link>
-      <description>PS5 Upload server / tool. Port: 9025 - Checksum: dbd3a16f83bbd6c4df01663dd871e72eb6b86ad0fee53607011963860776837b</description>
+      <title>ps5upload (v4.1.4)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v4.1.4/ps5upload_v4.1.4.elf</link>
+      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 3a1ba519e573cb0bc572d7e6fec8e0ec6f8609fe58efa7bd06a7b3d9dfd15c85</description>
     </item>
     <item>
       <title>airpsx (0.19)</title>
