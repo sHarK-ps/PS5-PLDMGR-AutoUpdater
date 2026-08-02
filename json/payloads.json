@@ -115,19 +115,19 @@
     },
     {
       "name": "elfldr",
-      "filename": "elfldr_v0.23.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/elfldr/v0.23/elfldr_v0.23.elf",
+      "filename": "elfldr_v0.24.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/elfldr/v0.24/elfldr_v0.24.elf",
       "description": "ELF Loader utility. Port: 9020 / 9021",
-      "version": "v0.23",
-      "checksum": "092d16ee0ede0c494947efd38d1a17bbd7cc4b022d3858ea898833c188c703e8"
+      "version": "v0.24",
+      "checksum": "e23313367cf59a9b0a09e34eb59e435e2c387de418e557d65bf578b7744942a5"
     },
     {
       "name": "ftpsrv_ps5-payload",
-      "filename": "ftpsrv_ps5-payload_v0.20.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ftpsrv_ps5-payload/v0.20/ftpsrv_ps5-payload_v0.20.elf",
+      "filename": "ftpsrv_ps5-payload_v0.21.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ftpsrv_ps5-payload/v0.21/ftpsrv_ps5-payload_v0.21.elf",
       "description": "FTP server background daemon. Port: 21",
-      "version": "v0.20",
-      "checksum": "8f305a959fb9d70fd8d52ba88409e0d5a1632e83d4ecdd38646a0a33e54089da"
+      "version": "v0.21",
+      "checksum": "c580f0534ac6349dc5a4a5c656eaced537b4c2b18da51886d943cea6393436c8"
     },
     {
       "name": "websrv",
@@ -139,19 +139,19 @@
     },
     {
       "name": "gdbsrv",
-      "filename": "gdbsrv_v0.8.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/gdbsrv/v0.8/gdbsrv_v0.8.elf",
+      "filename": "gdbsrv_v0.9.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/gdbsrv/v0.9/gdbsrv_v0.9.elf",
       "description": "GDB Debugger server payload. Port: 1234",
-      "version": "v0.8",
-      "checksum": "7621b829bd8b6d6f3d2328fa12c16af956b0ca128250f92a91eddc100c87f208"
+      "version": "v0.9",
+      "checksum": "80952d75f423768b95385f0944e5a5c2f417dcc10c22c1bb6516a923ad8894e5"
     },
     {
       "name": "klogsrv",
-      "filename": "klogsrv_v0.8.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/klogsrv/v0.8/klogsrv_v0.8.elf",
+      "filename": "klogsrv_v0.9.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/klogsrv/v0.9/klogsrv_v0.9.elf",
       "description": "Kernel log server daemon. Port: 3232",
-      "version": "v0.8",
-      "checksum": "f6eb1b415ecf3340b89a56a0cb04ba5c714430085851ada13a98012b63a5a4cf"
+      "version": "v0.9",
+      "checksum": "e828ec144231f81547cb58bc7d2c396fa984be0c2295f31364b58017816dcceb"
     },
     {
       "name": "ftpsrv_drakmor",
@@ -163,11 +163,11 @@
     },
     {
       "name": "ps5upload",
-      "filename": "ps5upload_v4.3.1.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v4.3.1/ps5upload_v4.3.1.elf",
+      "filename": "ps5upload_v4.3.2.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v4.3.2/ps5upload_v4.3.2.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v4.3.1",
-      "checksum": "7bfc22c082f57f2b9ab59100954a6142d725a8665a8ad6c1dddc6405caf09747"
+      "version": "v4.3.2",
+      "checksum": "5cc36fbcea9ffd99eabca7d192c2c8f2e471446e029e042d38f9f06722d2b2ac"
     },
     {
       "name": "airpsx",
@@ -339,11 +339,11 @@
     },
     {
       "name": "PS5_Unified_Autoloader",
-      "filename": "PS5_Unified_Autoloader_v0.1.2-8e96846.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_hen_loader/PS5_Unified_Autoloader/v0.1.2-8e96846/PS5_Unified_Autoloader_v0.1.2-8e96846.elf",
+      "filename": "PS5_Unified_Autoloader_v0.1.3-78a6f02.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_hen_loader/PS5_Unified_Autoloader/v0.1.3-78a6f02/PS5_Unified_Autoloader_v0.1.3-78a6f02.elf",
       "description": "Chargeur universel de payloads permettant de lancer automatiquement vos outils favoris au démarrage de l'exploit.",
-      "version": "v0.1.2-8e96846",
-      "checksum": "14312044a48ec136dcf4b3481fcab20d45a84aa5f859b88bcfaef5ab9c500963"
+      "version": "v0.1.3-78a6f02",
+      "checksum": "f411cc69872d7bdfc1d5166b37e93cd31bffdce355ff204c74f787767a4acad8"
     },
     {
       "name": "pldmgr",
