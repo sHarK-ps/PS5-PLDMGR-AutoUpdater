@@ -85,9 +85,9 @@
       <description>FTP server background daemon. Port: 21 - Checksum: c580f0534ac6349dc5a4a5c656eaced537b4c2b18da51886d943cea6393436c8</description>
     </item>
     <item>
-      <title>websrv (v0.33)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/websrv/v0.33/websrv_v0.33.elf</link>
-      <description>HTTP Web server payload. Port: 8080 - Checksum: 4676a40ac4c7ca1adeb04980efa48dd33a8961446b42e6a12abfcbe96090c8ac</description>
+      <title>websrv (v0.34)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/websrv/v0.34/websrv_v0.34.elf</link>
+      <description>HTTP Web server payload. Port: 8080 - Checksum: 54730c867c6e1148536fdcb370e63a7762d989ea87b62488ad4caff64d43f263</description>
     </item>
     <item>
       <title>gdbsrv (v0.9)</title>
@@ -105,9 +105,9 @@
       <description>Drakmor's variant of the FTP server. Port: 21 - Checksum: 6364e0529416f400be123c52acdcda68efd5179d971c060286022131fd047b8e</description>
     </item>
     <item>
-      <title>ps5upload (v4.3.2)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v4.3.2/ps5upload_v4.3.2.elf</link>
-      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 5cc36fbcea9ffd99eabca7d192c2c8f2e471446e029e042d38f9f06722d2b2ac</description>
+      <title>ps5upload (v4.4.0)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v4.4.0/ps5upload_v4.4.0.elf</link>
+      <description>PS5 Upload server / tool. Port: 9025 - Checksum: dde0fd9edee7a9cc2fbb0fc43117cf0e8d207a94e3f0d1c28ea59e0e7b5d986e</description>
     </item>
     <item>
       <title>airpsx (0.19)</title>

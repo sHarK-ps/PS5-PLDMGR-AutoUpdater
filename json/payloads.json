@@ -131,11 +131,11 @@
     },
     {
       "name": "websrv",
-      "filename": "websrv_v0.33.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/websrv/v0.33/websrv_v0.33.elf",
+      "filename": "websrv_v0.34.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/websrv/v0.34/websrv_v0.34.elf",
       "description": "HTTP Web server payload. Port: 8080",
-      "version": "v0.33",
-      "checksum": "4676a40ac4c7ca1adeb04980efa48dd33a8961446b42e6a12abfcbe96090c8ac"
+      "version": "v0.34",
+      "checksum": "54730c867c6e1148536fdcb370e63a7762d989ea87b62488ad4caff64d43f263"
     },
     {
       "name": "gdbsrv",
@@ -163,11 +163,11 @@
     },
     {
       "name": "ps5upload",
-      "filename": "ps5upload_v4.3.2.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v4.3.2/ps5upload_v4.3.2.elf",
+      "filename": "ps5upload_v4.4.0.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v4.4.0/ps5upload_v4.4.0.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v4.3.2",
-      "checksum": "5cc36fbcea9ffd99eabca7d192c2c8f2e471446e029e042d38f9f06722d2b2ac"
+      "version": "v4.4.0",
+      "checksum": "dde0fd9edee7a9cc2fbb0fc43117cf0e8d207a94e3f0d1c28ea59e0e7b5d986e"
     },
     {
       "name": "airpsx",
