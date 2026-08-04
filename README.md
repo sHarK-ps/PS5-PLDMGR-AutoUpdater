@@ -37,7 +37,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
-| **nanoDNS** | [0.3](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_dns/nanoDNS/0.3/nanoDNS_v0.3.elf) | `ce1c8b3103...` | Un serveur DNS ultra-léger et rapide idéal pour rediriger les requêtes de la console vers votre hôte local d'exploits. |
+| **nanoDNS** | [0.4](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_dns/nanoDNS/0.4/nanoDNS_v0.4.elf) | `dcb845f357...` | Un serveur DNS ultra-léger et rapide idéal pour rediriger les requêtes de la console vers votre hôte local d'exploits. |
 | **Chukei_DNS** | [0.9.0](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_dns/Chukei_DNS/0.9.0/Chukei_DNS_v0.9.0.elf) | `0cf13e1ed8...` | Serveur DNS de redirection d'envergure conçu spécifiquement pour bloquer les mises à jour de Sony et rediriger le guide de l'utilisateur. |
 
 ### 📂 Ps5 File Explorer
