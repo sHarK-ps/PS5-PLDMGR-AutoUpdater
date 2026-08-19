@@ -178,14 +178,6 @@
       "checksum": "18483751ebaea6879b020a9dd87c0a4fb4f1bf09f3708d950362a483f78cc0d0"
     },
     {
-      "name": "ShadowMountPlus",
-      "filename": "ShadowMountPlus_v1.7alpha7.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ShadowMountPlus/1.7alpha7/ShadowMountPlus_v1.7alpha7.elf",
-      "description": "ShadowMountPlus payload for game mounting.",
-      "version": "1.7alpha7",
-      "checksum": "42a215e10d655a6fcca4d837e28efe051993d7e72cb630e9ff83d4b10d5b0c70"
-    },
-    {
       "name": "BackPork",
       "filename": "BackPork_v0.1.elf",
       "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/BackPork/0.1/BackPork_v0.1.elf",
@@ -275,11 +267,11 @@
     },
     {
       "name": "ps5upload",
-      "filename": "ps5upload_v5.3.2.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v5.3.2/ps5upload_v5.3.2.elf",
+      "filename": "ps5upload_v5.3.3.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v5.3.3/ps5upload_v5.3.3.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v5.3.2",
-      "checksum": "ee2dba955f6988e1771eca7b12a707f4e8b97db208d2f2c1c4771148f032732f"
+      "version": "v5.3.3",
+      "checksum": "1b19e30742068581334d5e936f7416ddcb9fdcabb6acbc89c39aba6993f987e0"
     },
     {
       "name": "airpsx",
