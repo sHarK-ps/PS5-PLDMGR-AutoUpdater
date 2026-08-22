@@ -85,9 +85,9 @@
       <description>USB Controller patcher tool for PS5. - Checksum: 69271d91f27397c9ad42150129639ce452ecb405021108f42c6c87926123a6f1</description>
     </item>
     <item>
-      <title>garlic-savemgr (v1.12)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-savemgr/v1.12/garlic-savemgr_v1.12.elf</link>
-      <description>Save manager utility hosted on Forgejo. - Checksum: 245150007dd2c48da6d0fdf791396a31434095e27f0175587b7b18ec3b8d6d5d</description>
+      <title>garlic-savemgr (v1.13)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-savemgr/v1.13/garlic-savemgr_v1.13.elf</link>
+      <description>Save manager utility hosted on Forgejo. - Checksum: b6d366f4101fa2fcc14a353d083ef7e45e1cc86ef457bb20502bd8680dce4d73</description>
     </item>
     <item>
       <title>garlic-worker (v1.1.6)</title>
