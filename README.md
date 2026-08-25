@@ -54,7 +54,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
-| **Spectrum-Library** | [1.4.2](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_freeshop/Spectrum-Library/1.4.2/Spectrum-Library_v1.4.2.elf) | `54755ce62d...` | free store webadmin http://your-ps5-ip:7575. |
+| **Spectrum-Library** | [1.4.3](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_freeshop/Spectrum-Library/1.4.3/Spectrum-Library_v1.4.3.elf) | `11b261457d...` | free store webadmin http://your-ps5-ip:7575. |
 | **pegasus-dl** | [v1.7.0](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_freeshop/pegasus-dl/v1.7.0/pegasus-dl_v1.7.0.elf) | `cb2a4b3c24...` | free store webadmin http://your-ps5-ip:6970. |
 
 ### 💿 Ps5 Game Dump
