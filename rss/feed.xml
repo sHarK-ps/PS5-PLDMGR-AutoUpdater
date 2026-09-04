@@ -115,9 +115,9 @@
       <description>Save manager utility hosted on Forgejo. - Checksum: b6d366f4101fa2fcc14a353d083ef7e45e1cc86ef457bb20502bd8680dce4d73</description>
     </item>
     <item>
-      <title>garlic-worker (v1.1.6)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-worker/v1.1.6/garlic-worker_v1.1.6.elf</link>
-      <description>Garlic worker payload component. - Checksum: a16fdd755e5de0dd047f8680f46763ad60a2cee048a1afc61b9d6496290ddf12</description>
+      <title>garlic-worker (v1.1.7)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-worker/v1.1.7/garlic-worker_v1.1.7.elf</link>
+      <description>Garlic worker payload component. - Checksum: 2643f35cdfe9969cf775220dc4a65bc4ff0d08750c39bfb714b74dbbf29cd396</description>
     </item>
     <item>
       <title>savemnt-offset-dumper (1.0.0)</title>
