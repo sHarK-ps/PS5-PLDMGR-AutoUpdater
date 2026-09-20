@@ -7,7 +7,7 @@
       "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_dns/nanoDNS/0.4/nanoDNS_v0.4.elf",
       "description": "Un serveur DNS ultra-léger et rapide idéal pour rediriger les requêtes de la console vers votre hôte local d'exploits.",
       "version": "0.4",
-      "checksum": "dcb845f3570771275b22b37534bf924a7f8ae219fb91ef00c6bccab85d1c2420"
+      "checksum": "fcfb7d47c3b295560ea1603dc015f7c4950353ef0faca16428bd425680ef1fc5"
     },
     {
       "name": "Chukei_DNS",

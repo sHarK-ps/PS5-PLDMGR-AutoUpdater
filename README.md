@@ -37,7 +37,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
-| **nanoDNS** | [0.4](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_dns/nanoDNS/0.4/nanoDNS_v0.4.elf) | `dcb845f357...` | Un serveur DNS ultra-léger et rapide idéal pour rediriger les requêtes de la console vers votre hôte local d'exploits. |
+| **nanoDNS** | [0.4](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_dns/nanoDNS/0.4/nanoDNS_v0.4.elf) | `fcfb7d47c3...` | Un serveur DNS ultra-léger et rapide idéal pour rediriger les requêtes de la console vers votre hôte local d'exploits. |
 | **Chukei_DNS** | [0.9.0](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_dns/Chukei_DNS/0.9.0/Chukei_DNS_v0.9.0.elf) | `0cf13e1ed8...` | Serveur DNS de redirection d'envergure conçu spécifiquement pour bloquer les mises à jour de Sony et rediriger le guide de l'utilisateur. |
 
 ### 📂 Ps5 File Explorer
@@ -82,7 +82,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
 | **kstuff_EchoStretch** | [v1.6.7](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_kstuff/kstuff_EchoStretch/v1.6.7/kstuff_EchoStretch_v1.6.7.elf) | `f1c1f4b2b6...` | Fnd Kstuff payload for PS5. |
-| **kstuff-lite_EchoStretch** | [v1.10](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_kstuff/kstuff-lite_EchoStretch/v1.10/kstuff-lite_EchoStretch_v1.10.elf) | `82cbb1e70f...` | Lightweight version of kstuff. |
+| **kstuff-lite_EchoStretch** | [v1.11](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_kstuff/kstuff-lite_EchoStretch/v1.11/kstuff-lite_EchoStretch_v1.11.elf) | `ea14edbfe1...` | Lightweight version of kstuff. |
 | **kstuff-lite_drakmor** | [1.2-dr-test2](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_kstuff/kstuff-lite_drakmor/1.2-dr-test2/kstuff-lite_drakmor_v1.2-dr-test2.elf) | `2b699d4110...` | Drakmor's variant of kstuff-lite. |
 
 ### 🐧 Ps5 Linux
@@ -133,7 +133,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | **gdbsrv** | [v0.9](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/gdbsrv/v0.9/gdbsrv_v0.9.elf) | `80952d75f4...` | GDB Debugger server payload. Port: 1234 |
 | **klogsrv** | [v0.9](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/klogsrv/v0.9/klogsrv_v0.9.elf) | `e828ec1442...` | Kernel log server daemon. Port: 3232 |
 | **ftpsrv_drakmor** | [1.6-ng-test2](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ftpsrv_drakmor/1.6-ng-test2/ftpsrv_drakmor_v1.6-ng-test2.elf) | `6364e05294...` | Drakmor's variant of the FTP server. Port: 21 |
-| **ps5upload** | [v5.30.0](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v5.30.0/ps5upload_v5.30.0.elf) | `5d459934a2...` | PS5 Upload server / tool. Port: 9025 |
+| **ps5upload** | [v5.31.1](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v5.31.1/ps5upload_v5.31.1.elf) | `c366ebdec7...` | PS5 Upload server / tool. Port: 9025 |
 | **airpsx** | [0.19](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/airpsx/0.19/airpsx_v0.19.elf) | `ae025ca772...` | AirPSX server tool for PS5 ecosystem. |
 
 ### 📦 Ps5 Themes-Avatars
