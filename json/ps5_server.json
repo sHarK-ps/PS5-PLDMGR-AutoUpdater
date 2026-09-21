@@ -75,19 +75,19 @@
     },
     {
       "name": "ftpsrv_drakmor",
-      "filename": "ftpsrv_drakmor_v1.6-ng-test2.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ftpsrv_drakmor/1.6-ng-test2/ftpsrv_drakmor_v1.6-ng-test2.elf",
+      "filename": "ftpsrv_drakmor_v1.16-ng-stable.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ftpsrv_drakmor/1.16-ng-stable/ftpsrv_drakmor_v1.16-ng-stable.elf",
       "description": "Drakmor's variant of the FTP server. Port: 21",
-      "version": "1.6-ng-test2",
-      "checksum": "6364e0529416f400be123c52acdcda68efd5179d971c060286022131fd047b8e"
+      "version": "1.16-ng-stable",
+      "checksum": "f19ae469b25453a7a4af4529527521d31f143100f18a2c6839666e7121c8bd32"
     },
     {
       "name": "ps5upload",
-      "filename": "ps5upload_v5.31.1.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v5.31.1/ps5upload_v5.31.1.elf",
+      "filename": "ps5upload_v5.31.4.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v5.31.4/ps5upload_v5.31.4.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v5.31.1",
-      "checksum": "c366ebdec72c53154938d3dc319ca9ee6b1bbceee52344755e88774c3d3b0956"
+      "version": "v5.31.4",
+      "checksum": "420bdd4d9328ab1068f32ef1a19f96387586ddd2a308744f81957d04d8a41d3b"
     },
     {
       "name": "airpsx",

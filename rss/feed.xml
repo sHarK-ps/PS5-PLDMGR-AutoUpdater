@@ -67,7 +67,7 @@
     <item>
       <title>kstuff-lite_EchoStretch (v1.11)</title>
       <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_kstuff/kstuff-lite_EchoStretch/v1.11/kstuff-lite_EchoStretch_v1.11.elf</link>
-      <description>Lightweight version of kstuff. - Checksum: ea14edbfe18ddc04f10dc09c4b1bf0c26e95b34a115a797722d6eda6298769c7</description>
+      <description>Lightweight version of kstuff. - Checksum: 62d9bb6f16531e1c10fd522cb918431eaa3319dcd37405af5cc0b2240d7b2ee5</description>
     </item>
     <item>
       <title>kstuff-lite_drakmor (1.2-dr-test2)</title>
@@ -245,14 +245,14 @@
       <description>Kernel log server daemon. Port: 3232 - Checksum: e828ec144231f81547cb58bc7d2c396fa984be0c2295f31364b58017816dcceb</description>
     </item>
     <item>
-      <title>ftpsrv_drakmor (1.6-ng-test2)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ftpsrv_drakmor/1.6-ng-test2/ftpsrv_drakmor_v1.6-ng-test2.elf</link>
-      <description>Drakmor's variant of the FTP server. Port: 21 - Checksum: 6364e0529416f400be123c52acdcda68efd5179d971c060286022131fd047b8e</description>
+      <title>ftpsrv_drakmor (1.16-ng-stable)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ftpsrv_drakmor/1.16-ng-stable/ftpsrv_drakmor_v1.16-ng-stable.elf</link>
+      <description>Drakmor's variant of the FTP server. Port: 21 - Checksum: f19ae469b25453a7a4af4529527521d31f143100f18a2c6839666e7121c8bd32</description>
     </item>
     <item>
-      <title>ps5upload (v5.31.1)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v5.31.1/ps5upload_v5.31.1.elf</link>
-      <description>PS5 Upload server / tool. Port: 9025 - Checksum: c366ebdec72c53154938d3dc319ca9ee6b1bbceee52344755e88774c3d3b0956</description>
+      <title>ps5upload (v5.31.4)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v5.31.4/ps5upload_v5.31.4.elf</link>
+      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 420bdd4d9328ab1068f32ef1a19f96387586ddd2a308744f81957d04d8a41d3b</description>
     </item>
     <item>
       <title>airpsx (0.19)</title>
