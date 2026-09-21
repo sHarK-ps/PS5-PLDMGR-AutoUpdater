@@ -180,6 +180,11 @@
       <description>PS5 App Dumper payload. - Checksum: 18483751ebaea6879b020a9dd87c0a4fb4f1bf09f3708d950362a483f78cc0d0</description>
     </item>
     <item>
+      <title>ShadowMountPlus (1.7beta2)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ShadowMountPlus/1.7beta2/ShadowMountPlus_v1.7beta2.elf</link>
+      <description>ShadowMountPlus payload for game mounting. - Checksum: 3f716a7b2220c7e87e87452ae05cad689ef842d3beb4cdad6c526cb6dfc2b6b5</description>
+    </item>
+    <item>
       <title>BackPork (0.1)</title>
       <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/BackPork/0.1/BackPork_v0.1.elf</link>
       <description>BackPork PS5 tool. - Checksum: d74e4cd119b2bb1fd423f2f5b1c9a7f096b3e588c753af1ab48b983d56216a52</description>
@@ -248,6 +253,11 @@
       <title>ftpsrv_drakmor (1.16-ng-stable)</title>
       <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ftpsrv_drakmor/1.16-ng-stable/ftpsrv_drakmor_v1.16-ng-stable.elf</link>
       <description>Drakmor's variant of the FTP server. Port: 21 - Checksum: f19ae469b25453a7a4af4529527521d31f143100f18a2c6839666e7121c8bd32</description>
+    </item>
+    <item>
+      <title>ps5-ezremote-server (1.10)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5-ezremote-server/1.10/ps5-ezremote-server_v1.10.elf</link>
+      <description>Easy remote server component. Port: 8080 - Checksum: fa69eb0b49894356b84ce996de863d53884e5506a8fbcc0d079759a23b8905f3</description>
     </item>
     <item>
       <title>ps5upload (v5.31.4)</title>
