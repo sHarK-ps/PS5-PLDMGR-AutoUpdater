@@ -3,11 +3,11 @@
   "payloads": [
     {
       "name": "Spectrum-Library",
-      "filename": "Spectrum-Library_v1.4.6.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_freeshop/Spectrum-Library/1.4.6/Spectrum-Library_v1.4.6.elf",
+      "filename": "Spectrum-Library_v1.4.7.bin",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_freeshop/Spectrum-Library/1.4.7/Spectrum-Library_v1.4.7.bin",
       "description": "free store webadmin http://your-ps5-ip:7575.",
-      "version": "1.4.6",
-      "checksum": "73dd3f3938867ac970207ae8e4093e2d0c5b005bcad1ff9ff2aeb5d34294a161"
+      "version": "1.4.7",
+      "checksum": "9c7b60380153cda2eb4a6f20ddc46774a621706388714d0fd97b492a6152f751"
     },
     {
       "name": "pegasus-dl",
