@@ -139,11 +139,11 @@
     },
     {
       "name": "ps5upload",
-      "filename": "ps5upload_v5.39.0.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v5.39.0/ps5upload_v5.39.0.elf",
+      "filename": "ps5upload_v5.39.1.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v5.39.1/ps5upload_v5.39.1.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v5.39.0",
-      "checksum": "e8f39878d26b190e05403e0429b763dc66aa44180de39e34c51a86cca20856c7"
+      "version": "v5.39.1",
+      "checksum": "a50d66033f66cb9d6600c810066b699e59b1a0cc3d7e98bffd5a0b6eb9ebd1a3"
     },
     {
       "name": "airpsx",
@@ -211,11 +211,11 @@
     },
     {
       "name": "pldmgr",
-      "filename": "pldmgr_v0.5.1.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.5.1/pldmgr_v0.5.1.elf",
+      "filename": "pldmgr_v0.5.2.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.5.2/pldmgr_v0.5.2.elf",
       "description": "Interface d'administration et de gestion réseau pour envoyer, activer et ordonner vos fichiers ELF/BIN sur la console.",
-      "version": "v0.5.1",
-      "checksum": "05617c69ea145d1c11b8f7a6b7d3bd9e6df3831afd25d71a4ac85d63fb8e28aa"
+      "version": "v0.5.2",
+      "checksum": "62b3ba2a4937c2afc502f9a4e7242cca538610ebb4ae2800c7c6f72e7f268e7c"
     },
     {
       "name": "ELF_Arsenal",
