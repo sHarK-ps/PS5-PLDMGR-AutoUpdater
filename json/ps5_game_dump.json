@@ -11,11 +11,11 @@
     },
     {
       "name": "ps5-app-dumper",
-      "filename": "ps5-app-dumper_v1.11.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ps5-app-dumper/v1.11/ps5-app-dumper_v1.11.elf",
+      "filename": "ps5-app-dumper_v2.00.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ps5-app-dumper/v2.00/ps5-app-dumper_v2.00.elf",
       "description": "PS5 App Dumper payload.",
-      "version": "v1.11",
-      "checksum": "18483751ebaea6879b020a9dd87c0a4fb4f1bf09f3708d950362a483f78cc0d0"
+      "version": "v2.00",
+      "checksum": "b6fea71afb8937fcd1a933116c620e989acba25b7049eaeaa00cdc1bd604d686"
     },
     {
       "name": "ShadowMountPlus",

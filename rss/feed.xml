@@ -115,9 +115,9 @@
       <description>free store webadmin http://your-ps5-ip:7575. - Checksum: 9c7b60380153cda2eb4a6f20ddc46774a621706388714d0fd97b492a6152f751</description>
     </item>
     <item>
-      <title>pegasus-dl (v1.9.0)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_freeshop/pegasus-dl/v1.9.0/pegasus-dl_v1.9.0.elf</link>
-      <description>free store webadmin http://your-ps5-ip:6970. - Checksum: 6336c626f0fbdef1272cc5d4e0239d7b44bf40f8106679083cf50d4c8e02389b</description>
+      <title>pegasus-dl (v1.10.0)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_freeshop/pegasus-dl/v1.10.0/pegasus-dl_v1.10.0.elf</link>
+      <description>free store webadmin http://your-ps5-ip:6970. - Checksum: 724b245d8de08e5a16865180fac7f30eda72b94d45c9cc73686d9b2defc33f66</description>
     </item>
     <item>
       <title>uds-trophy-unlocker (v1.0.0)</title>
@@ -130,9 +130,9 @@
       <description>Le Homebrew Enabler (HEN) de référence pour la PS5 avec serveurs de triche, plugins et gestionnaire de mémoire intégrés. - Checksum: 4845cac45095361b8983b14d6690622183b0dcfbf6d7fda16e161aa91ff0531e</description>
     </item>
     <item>
-      <title>PS5_Unified_Autoloader (v0.1.4-955249d)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_hen_loader/PS5_Unified_Autoloader/v0.1.4-955249d/PS5_Unified_Autoloader_v0.1.4-955249d.elf</link>
-      <description>Chargeur universel de payloads permettant de lancer automatiquement vos outils favoris au démarrage de l'exploit. - Checksum: 31d12ba2b0b11462a91756f4b8c7857e90674fc8df02fe74155c7c2a8f27a4fd</description>
+      <title>PS5_Unified_Autoloader (v0.1.5-915a65e)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_hen_loader/PS5_Unified_Autoloader/v0.1.5-915a65e/PS5_Unified_Autoloader_v0.1.5-915a65e.elf</link>
+      <description>Chargeur universel de payloads permettant de lancer automatiquement vos outils favoris au démarrage de l'exploit. - Checksum: c8e36ea06cfd37c5fad356ff9fcd09d3e62065d88170b5119ce8f1eeb3efacac</description>
     </item>
     <item>
       <title>pldmgr (v0.5.2)</title>
@@ -260,9 +260,9 @@
       <description>Tool to compress PS5 games. - Checksum: e55e90aaade13b6e0d4316c1597ef90a21b67a06475c3e25de054224bc1e941b</description>
     </item>
     <item>
-      <title>ps5-app-dumper (v1.11)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ps5-app-dumper/v1.11/ps5-app-dumper_v1.11.elf</link>
-      <description>PS5 App Dumper payload. - Checksum: 18483751ebaea6879b020a9dd87c0a4fb4f1bf09f3708d950362a483f78cc0d0</description>
+      <title>ps5-app-dumper (v2.00)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ps5-app-dumper/v2.00/ps5-app-dumper_v2.00.elf</link>
+      <description>PS5 App Dumper payload. - Checksum: b6fea71afb8937fcd1a933116c620e989acba25b7049eaeaa00cdc1bd604d686</description>
     </item>
     <item>
       <title>ShadowMountPlus (1.7beta2)</title>

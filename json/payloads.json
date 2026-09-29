@@ -179,11 +179,11 @@
     },
     {
       "name": "pegasus-dl",
-      "filename": "pegasus-dl_v1.9.0.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_freeshop/pegasus-dl/v1.9.0/pegasus-dl_v1.9.0.elf",
+      "filename": "pegasus-dl_v1.10.0.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_freeshop/pegasus-dl/v1.10.0/pegasus-dl_v1.10.0.elf",
       "description": "free store webadmin http://your-ps5-ip:6970.",
-      "version": "v1.9.0",
-      "checksum": "6336c626f0fbdef1272cc5d4e0239d7b44bf40f8106679083cf50d4c8e02389b"
+      "version": "v1.10.0",
+      "checksum": "724b245d8de08e5a16865180fac7f30eda72b94d45c9cc73686d9b2defc33f66"
     },
     {
       "name": "uds-trophy-unlocker",
@@ -203,11 +203,11 @@
     },
     {
       "name": "PS5_Unified_Autoloader",
-      "filename": "PS5_Unified_Autoloader_v0.1.4-955249d.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_hen_loader/PS5_Unified_Autoloader/v0.1.4-955249d/PS5_Unified_Autoloader_v0.1.4-955249d.elf",
+      "filename": "PS5_Unified_Autoloader_v0.1.5-915a65e.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_hen_loader/PS5_Unified_Autoloader/v0.1.5-915a65e/PS5_Unified_Autoloader_v0.1.5-915a65e.elf",
       "description": "Chargeur universel de payloads permettant de lancer automatiquement vos outils favoris au démarrage de l'exploit.",
-      "version": "v0.1.4-955249d",
-      "checksum": "31d12ba2b0b11462a91756f4b8c7857e90674fc8df02fe74155c7c2a8f27a4fd"
+      "version": "v0.1.5-915a65e",
+      "checksum": "c8e36ea06cfd37c5fad356ff9fcd09d3e62065d88170b5119ce8f1eeb3efacac"
     },
     {
       "name": "pldmgr",
@@ -411,11 +411,11 @@
     },
     {
       "name": "ps5-app-dumper",
-      "filename": "ps5-app-dumper_v1.11.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ps5-app-dumper/v1.11/ps5-app-dumper_v1.11.elf",
+      "filename": "ps5-app-dumper_v2.00.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ps5-app-dumper/v2.00/ps5-app-dumper_v2.00.elf",
       "description": "PS5 App Dumper payload.",
-      "version": "v1.11",
-      "checksum": "18483751ebaea6879b020a9dd87c0a4fb4f1bf09f3708d950362a483f78cc0d0"
+      "version": "v2.00",
+      "checksum": "b6fea71afb8937fcd1a933116c620e989acba25b7049eaeaa00cdc1bd604d686"
     },
     {
       "name": "ShadowMountPlus",
