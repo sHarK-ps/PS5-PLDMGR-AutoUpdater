@@ -90,9 +90,9 @@
       <description>Easy remote server component. Port: 8080 - Checksum: 0f36b7ea3c3380303e2c74ec8d31a2c53d822cc4f4fd05cb5931d6b4f8b33c03</description>
     </item>
     <item>
-      <title>ps5upload (v5.39.1)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v5.39.1/ps5upload_v5.39.1.elf</link>
-      <description>PS5 Upload server / tool. Port: 9025 - Checksum: a50d66033f66cb9d6600c810066b699e59b1a0cc3d7e98bffd5a0b6eb9ebd1a3</description>
+      <title>ps5upload (v5.40.0)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v5.40.0/ps5upload_v5.40.0.elf</link>
+      <description>PS5 Upload server / tool. Port: 9025 - Checksum: d10ba9d979ac6a18bd8d3d77ea3845ae592761768c9aec89e2b71735cda2927b</description>
     </item>
     <item>
       <title>airpsx (0.19)</title>
@@ -115,9 +115,9 @@
       <description>free store webadmin http://your-ps5-ip:7575. - Checksum: 9c7b60380153cda2eb4a6f20ddc46774a621706388714d0fd97b492a6152f751</description>
     </item>
     <item>
-      <title>pegasus-dl (v1.10.0)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_freeshop/pegasus-dl/v1.10.0/pegasus-dl_v1.10.0.elf</link>
-      <description>free store webadmin http://your-ps5-ip:6970. - Checksum: 724b245d8de08e5a16865180fac7f30eda72b94d45c9cc73686d9b2defc33f66</description>
+      <title>pegasus-dl (v1.10.1)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_freeshop/pegasus-dl/v1.10.1/pegasus-dl_v1.10.1.elf</link>
+      <description>free store webadmin http://your-ps5-ip:6970. - Checksum: b24fdc62fc6cad14684b214a9c5be6c1221585afbf9493e387ab90f9dee21138</description>
     </item>
     <item>
       <title>uds-trophy-unlocker (v1.0.0)</title>

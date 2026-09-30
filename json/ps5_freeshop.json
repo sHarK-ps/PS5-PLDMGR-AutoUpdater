@@ -11,11 +11,11 @@
     },
     {
       "name": "pegasus-dl",
-      "filename": "pegasus-dl_v1.10.0.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_freeshop/pegasus-dl/v1.10.0/pegasus-dl_v1.10.0.elf",
+      "filename": "pegasus-dl_v1.10.1.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_freeshop/pegasus-dl/v1.10.1/pegasus-dl_v1.10.1.elf",
       "description": "free store webadmin http://your-ps5-ip:6970.",
-      "version": "v1.10.0",
-      "checksum": "724b245d8de08e5a16865180fac7f30eda72b94d45c9cc73686d9b2defc33f66"
+      "version": "v1.10.1",
+      "checksum": "b24fdc62fc6cad14684b214a9c5be6c1221585afbf9493e387ab90f9dee21138"
     }
   ]
 }
