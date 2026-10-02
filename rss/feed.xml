@@ -110,6 +110,11 @@
       <description>Ghostpad controller input utility. - Checksum: 94d43a8db7ec9df6e18f0a0da25aac0f60e1a0b14d35bfff261f6f5cdeabdba1</description>
     </item>
     <item>
+      <title>Spectrum-Library (1.4.8)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_freeshop/Spectrum-Library/1.4.8/Spectrum-Library_v1.4.8.elf</link>
+      <description>free store webadmin http://your-ps5-ip:7575. - Checksum: 5d1372d48f76167e3f9e24b335cf571ea6e4b3960e6b7202d2802b0f78c3a519</description>
+    </item>
+    <item>
       <title>pegasus-dl (v1.10.1)</title>
       <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_freeshop/pegasus-dl/v1.10.1/pegasus-dl_v1.10.1.elf</link>
       <description>free store webadmin http://your-ps5-ip:6970. - Checksum: b24fdc62fc6cad14684b214a9c5be6c1221585afbf9493e387ab90f9dee21138</description>
@@ -140,9 +145,9 @@
       <description>Boîte à outils regroupant une collection complète de payloads utilitaires pour les consoles jailbreakées. - Checksum: 20cdb0979ce627aff8e684a4506e18390a72492d5e3aa15ecef0bfe1bca08bb5</description>
     </item>
     <item>
-      <title>np-fake-signin (v1.3)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/PS5_Activation/np-fake-signin/v1.3/np-fake-signin_v1.3.elf</link>
-      <description>Fake activate PS5 without PSN. - Checksum: f5c66fcb9e3f512e5463a7123d819b87f063d9955639366fa7ad26a2f0abefa4</description>
+      <title>np-fake-signin (v1.4)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/PS5_Activation/np-fake-signin/v1.4/np-fake-signin_v1.4.elf</link>
+      <description>Fake activate PS5 without PSN. - Checksum: 9ec8562b3e3f6508071e280037e225371d8a6c297e74b8ae4d240e357ee38eca</description>
     </item>
     <item>
       <title>ps5-linux-loader (v2.5)</title>
