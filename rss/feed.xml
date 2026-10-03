@@ -260,9 +260,9 @@
       <description>Tool to compress PS5 games. - Checksum: e55e90aaade13b6e0d4316c1597ef90a21b67a06475c3e25de054224bc1e941b</description>
     </item>
     <item>
-      <title>ps5-app-dumper (v2.00)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ps5-app-dumper/v2.00/ps5-app-dumper_v2.00.elf</link>
-      <description>PS5 App Dumper payload. - Checksum: b6fea71afb8937fcd1a933116c620e989acba25b7049eaeaa00cdc1bd604d686</description>
+      <title>ps5-app-dumper (v2.10)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ps5-app-dumper/v2.10/ps5-app-dumper_v2.10.elf</link>
+      <description>PS5 App Dumper payload. - Checksum: c850f1df6f2787824d6ddeeed69ce4144e00569b32135973401c2985cfb0345b</description>
     </item>
     <item>
       <title>ShadowMountPlus (1.7beta3)</title>

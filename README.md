@@ -63,7 +63,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
 | **PS5-Game-Compressor** | [v1.0.4](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/PS5-Game-Compressor/v1.0.4/PS5-Game-Compressor_v1.0.4.elf) | `e55e90aaad...` | Tool to compress PS5 games. |
-| **ps5-app-dumper** | [v2.00](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ps5-app-dumper/v2.00/ps5-app-dumper_v2.00.elf) | `b6fea71afb...` | PS5 App Dumper payload. |
+| **ps5-app-dumper** | [v2.10](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ps5-app-dumper/v2.10/ps5-app-dumper_v2.10.elf) | `c850f1df6f...` | PS5 App Dumper payload. |
 | **ShadowMountPlus** | [1.7beta3](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ShadowMountPlus/1.7beta3/ShadowMountPlus_v1.7beta3.elf) | `2a7427e20b...` | ShadowMountPlus payload for game mounting. |
 | **BackPork** | [0.1](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/BackPork/0.1/BackPork_v0.1.elf) | `d74e4cd119...` | BackPork PS5 tool. |
 
