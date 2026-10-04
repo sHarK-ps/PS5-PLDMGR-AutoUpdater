@@ -110,11 +110,6 @@
       <description>Ghostpad controller input utility. - Checksum: 94d43a8db7ec9df6e18f0a0da25aac0f60e1a0b14d35bfff261f6f5cdeabdba1</description>
     </item>
     <item>
-      <title>Spectrum-Library (1.4.8)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_freeshop/Spectrum-Library/1.4.8/Spectrum-Library_v1.4.8.elf</link>
-      <description>free store webadmin http://your-ps5-ip:7575. - Checksum: 5d1372d48f76167e3f9e24b335cf571ea6e4b3960e6b7202d2802b0f78c3a519</description>
-    </item>
-    <item>
       <title>pegasus-dl (v1.10.1)</title>
       <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_freeshop/pegasus-dl/v1.10.1/pegasus-dl_v1.10.1.elf</link>
       <description>free store webadmin http://your-ps5-ip:6970. - Checksum: b24fdc62fc6cad14684b214a9c5be6c1221585afbf9493e387ab90f9dee21138</description>

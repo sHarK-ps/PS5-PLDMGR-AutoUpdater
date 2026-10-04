@@ -54,7 +54,6 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
-| **Spectrum-Library** | [1.4.8](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_freeshop/Spectrum-Library/1.4.8/Spectrum-Library_v1.4.8.elf) | `5d1372d48f...` | free store webadmin http://your-ps5-ip:7575. |
 | **pegasus-dl** | [v1.10.1](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_freeshop/pegasus-dl/v1.10.1/pegasus-dl_v1.10.1.elf) | `b24fdc62fc...` | free store webadmin http://your-ps5-ip:6970. |
 
 ### 💿 Ps5 Game Dump
@@ -176,7 +175,6 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 - **LightningMods** : [etaHEN](https://github.com/etaHEN/etaHEN)
 - **NikoBellikJR31** : [PS5-Custom-Tool-Manager-](https://github.com/NikoBellikJR31/PS5-Custom-Tool-Manager-)
 - **OpenSourcereR-dev** : [ps5debug-NG](https://github.com/OpenSourcereR-dev/ps5debug-NG)
-- **Phoenixx1202** : [Spectrum-Library](https://github.com/Phoenixx1202/Spectrum-Library)
 - **SonicIso** : [ELF Arsenal](https://git.etawen.dev/soniciso/elf-arsenal)
 - **StonedModder** : [ChronicLoader-PS5-Payload](https://github.com/StonedModder/ChronicLoader-PS5-Payload)
 - **StonedModder** : [Ghostpad](https://github.com/StonedModder/Ghostpad)
