@@ -1,4 +1,13 @@
 {
   "name": "Ps5 Activation",
-  "payloads": []
+  "payloads": [
+    {
+      "name": "np-fake-signin",
+      "filename": "np-fake-signin_v1.4.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/PS5_Activation/np-fake-signin/v1.4/np-fake-signin_v1.4.elf",
+      "description": "Fake activate PS5 without PSN.",
+      "version": "v1.4",
+      "checksum": "9ec8562b3e3f6508071e280037e225371d8a6c297e74b8ae4d240e357ee38eca"
+    }
+  ]
 }

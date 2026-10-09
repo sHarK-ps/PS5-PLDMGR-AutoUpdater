@@ -5,6 +5,16 @@
     <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/</link>
     <description>Suivi automatique des payloads</description>
     <item>
+      <title>garlic-savemgr (v1.13.1)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-savemgr/v1.13.1/garlic-savemgr_v1.13.1.elf</link>
+      <description>Save manager utility hosted on Forgejo. - Checksum: b0fc2fcdda977d2a1207d77148746859b7ea7f3cfcad02828a7a9b49651807f5</description>
+    </item>
+    <item>
+      <title>garlic-worker (v1.1.7)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-worker/v1.1.7/garlic-worker_v1.1.7.elf</link>
+      <description>Garlic worker payload component. - Checksum: 2643f35cdfe9969cf775220dc4a65bc4ff0d08750c39bfb714b74dbbf29cd396</description>
+    </item>
+    <item>
       <title>savemnt-offset-dumper (1.0.0)</title>
       <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/savemnt-offset-dumper/1.0.0/savemnt-offset-dumper_v1.0.0.elf</link>
       <description>Offset dumper for save mounting utilities. - Checksum: 946328551f74e3b6a34a7c0169f9b40792e392775768b84874b55ecdff71222e</description>
@@ -80,9 +90,9 @@
       <description>Easy remote server component. Port: 8080 - Checksum: 0f36b7ea3c3380303e2c74ec8d31a2c53d822cc4f4fd05cb5931d6b4f8b33c03</description>
     </item>
     <item>
-      <title>ps5upload (v6.5.2)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v6.5.2/ps5upload_v6.5.2.elf</link>
-      <description>PS5 Upload server / tool. Port: 9025 - Checksum: bc95c23288272cfd669a062affc0e6886f0008dd0d869cc1f7f87ab2c6af3481</description>
+      <title>ps5upload (v6.6.3)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v6.6.3/ps5upload_v6.6.3.elf</link>
+      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 0c03c7648eb99b4c63d662198b6cd71df58ee775522bcd20a3d4527b475802ed</description>
     </item>
     <item>
       <title>airpsx (0.19)</title>
@@ -123,6 +133,16 @@
       <title>pldmgr (v0.5.2)</title>
       <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.5.2/pldmgr_v0.5.2.elf</link>
       <description>Interface d'administration et de gestion réseau pour envoyer, activer et ordonner vos fichiers ELF/BIN sur la console. - Checksum: 62b3ba2a4937c2afc502f9a4e7242cca538610ebb4ae2800c7c6f72e7f268e7c</description>
+    </item>
+    <item>
+      <title>ELF_Arsenal (v1.6.23)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_hen_loader/ELF_Arsenal/v1.6.23/ELF_Arsenal_v1.6.23.elf</link>
+      <description>Boîte à outils regroupant une collection complète de payloads utilitaires pour les consoles jailbreakées. - Checksum: 20cdb0979ce627aff8e684a4506e18390a72492d5e3aa15ecef0bfe1bca08bb5</description>
+    </item>
+    <item>
+      <title>np-fake-signin (v1.4)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/PS5_Activation/np-fake-signin/v1.4/np-fake-signin_v1.4.elf</link>
+      <description>Fake activate PS5 without PSN. - Checksum: 9ec8562b3e3f6508071e280037e225371d8a6c297e74b8ae4d240e357ee38eca</description>
     </item>
     <item>
       <title>ps5-linux-loader (v2.5)</title>
