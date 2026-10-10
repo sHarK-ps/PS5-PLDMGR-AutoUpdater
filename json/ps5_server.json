@@ -91,11 +91,11 @@
     },
     {
       "name": "ps5upload",
-      "filename": "ps5upload_v6.7.3.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v6.7.3/ps5upload_v6.7.3.elf",
+      "filename": "ps5upload_v6.8.1.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v6.8.1/ps5upload_v6.8.1.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v6.7.3",
-      "checksum": "468740692643ecef083da7d761169c09accec4f43b199a64df9c394ecd6b5df3"
+      "version": "v6.8.1",
+      "checksum": "4593fcbd6169b67a4dcbfda8f13b0f0485b9ac93adff19ab515957e2c1fa397b"
     },
     {
       "name": "airpsx",
