@@ -29,7 +29,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
-| **CheatRunner** | [v0.17.2](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/PS5_Cheat/CheatRunner/v0.17.2/CheatRunner_v0.17.2.elf) | `36ad03e236...` | CheatRunner. |
+| **CheatRunner** | [v0.18](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/PS5_Cheat/CheatRunner/v0.18/CheatRunner_v0.18.elf) | `4ae1ea4e37...` | CheatRunner. |
 | **kylin-core-community-lite-v131-global-release** | [Source-Fixe](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/PS5_Cheat/kylin-core/Source-Fixe/kylin-core-community-lite-v131-global-release.elf) | `2b731fc60b...` | kylin-core |
 
 ### 🌐 Ps5 Dns
@@ -63,7 +63,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | :--- | :--- | :--- | :--- |
 | **PS5-Game-Compressor** | [v1.0.4](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/PS5-Game-Compressor/v1.0.4/PS5-Game-Compressor_v1.0.4.elf) | `e55e90aaad...` | Tool to compress PS5 games. |
 | **ps5-app-dumper** | [v2.10](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ps5-app-dumper/v2.10/ps5-app-dumper_v2.10.elf) | `c850f1df6f...` | PS5 App Dumper payload. |
-| **ShadowMountPlus** | [1.7beta4](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ShadowMountPlus/1.7beta4/ShadowMountPlus_v1.7beta4.elf) | `fc4e5f715e...` | ShadowMountPlus payload for game mounting. |
+| **ShadowMountPlus** | [1.7-beta5fix1](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ShadowMountPlus/1.7-beta5fix1/ShadowMountPlus_v1.7-beta5fix1.elf) | `e85fd63b70...` | ShadowMountPlus payload for game mounting. |
 | **BackPork** | [0.1](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/BackPork/0.1/BackPork_v0.1.elf) | `d74e4cd119...` | BackPork PS5 tool. |
 
 ### 🚀 Ps5 HEN Loader
@@ -134,7 +134,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | **klogsrv** | [v0.9](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/klogsrv/v0.9/klogsrv_v0.9.elf) | `e828ec1442...` | Kernel log server daemon. Port: 3232 |
 | **ftpsrv_drakmor** | [1.16-ng-stable](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ftpsrv_drakmor/1.16-ng-stable/ftpsrv_drakmor_v1.16-ng-stable.elf) | `f19ae469b2...` | Drakmor's variant of the FTP server. Port: 21 |
 | **ps5-ezremote-server** | [1.11](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5-ezremote-server/1.11/ps5-ezremote-server_v1.11.elf) | `0f36b7ea3c...` | Easy remote server component. Port: 8080 |
-| **ps5upload** | [v6.8.1](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v6.8.1/ps5upload_v6.8.1.elf) | `4593fcbd61...` | PS5 Upload server / tool. Port: 9025 |
+| **ps5upload** | [v6.8.2](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v6.8.2/ps5upload_v6.8.2.elf) | `e9cb922ea4...` | PS5 Upload server / tool. Port: 9025 |
 | **airpsx** | [0.19](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/airpsx/0.19/airpsx_v0.19.elf) | `ae025ca772...` | AirPSX server tool for PS5 ecosystem. |
 
 ### 📦 Ps5 Themes-Avatars

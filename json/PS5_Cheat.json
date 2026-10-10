@@ -3,11 +3,11 @@
   "payloads": [
     {
       "name": "CheatRunner",
-      "filename": "CheatRunner_v0.17.2.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/PS5_Cheat/CheatRunner/v0.17.2/CheatRunner_v0.17.2.elf",
+      "filename": "CheatRunner_v0.18.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/PS5_Cheat/CheatRunner/v0.18/CheatRunner_v0.18.elf",
       "description": "CheatRunner.",
-      "version": "v0.17.2",
-      "checksum": "36ad03e236e6603aaaf05d95ed3399c7b54475a9bceba085cbe02899bc88ae0f"
+      "version": "v0.18",
+      "checksum": "4ae1ea4e37b2e67d5487355ddf671f166861ed6dceea348c048ad060770c0140"
     },
     {
       "name": "kylin-core-community-lite-v131-global-release",

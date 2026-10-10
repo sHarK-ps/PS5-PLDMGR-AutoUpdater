@@ -90,9 +90,9 @@
       <description>Easy remote server component. Port: 8080 - Checksum: 0f36b7ea3c3380303e2c74ec8d31a2c53d822cc4f4fd05cb5931d6b4f8b33c03</description>
     </item>
     <item>
-      <title>ps5upload (v6.8.1)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v6.8.1/ps5upload_v6.8.1.elf</link>
-      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 4593fcbd6169b67a4dcbfda8f13b0f0485b9ac93adff19ab515957e2c1fa397b</description>
+      <title>ps5upload (v6.8.2)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v6.8.2/ps5upload_v6.8.2.elf</link>
+      <description>PS5 Upload server / tool. Port: 9025 - Checksum: e9cb922ea48f3e8007aefd2862c2d41dd522eea11a92c846b136333ab37e9e0d</description>
     </item>
     <item>
       <title>airpsx (0.19)</title>
@@ -215,9 +215,9 @@
       <description>Utility to get Remote Play PIN. - Checksum: 1d611c1856dd2f4b4b6cb42ead1128a7f08a26585788f92de79fa4f67d721472</description>
     </item>
     <item>
-      <title>CheatRunner (v0.17.2)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/PS5_Cheat/CheatRunner/v0.17.2/CheatRunner_v0.17.2.elf</link>
-      <description>CheatRunner. - Checksum: 36ad03e236e6603aaaf05d95ed3399c7b54475a9bceba085cbe02899bc88ae0f</description>
+      <title>CheatRunner (v0.18)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/PS5_Cheat/CheatRunner/v0.18/CheatRunner_v0.18.elf</link>
+      <description>CheatRunner. - Checksum: 4ae1ea4e37b2e67d5487355ddf671f166861ed6dceea348c048ad060770c0140</description>
     </item>
     <item>
       <title>kylin-core-community-lite-v131-global-release (Source-Fixe)</title>
@@ -260,9 +260,9 @@
       <description>PS5 App Dumper payload. - Checksum: c850f1df6f2787824d6ddeeed69ce4144e00569b32135973401c2985cfb0345b</description>
     </item>
     <item>
-      <title>ShadowMountPlus (1.7beta4)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ShadowMountPlus/1.7beta4/ShadowMountPlus_v1.7beta4.elf</link>
-      <description>ShadowMountPlus payload for game mounting. - Checksum: fc4e5f715e76660ce34bde2adb10eaf1d069cb2cdf06f7a380896dfb62bd0c4a</description>
+      <title>ShadowMountPlus (1.7-beta5fix1)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ShadowMountPlus/1.7-beta5fix1/ShadowMountPlus_v1.7-beta5fix1.elf</link>
+      <description>ShadowMountPlus payload for game mounting. - Checksum: e85fd63b705498488f39c09c9aea6f9fa22e0df2e932865de49a8cedf25172d5</description>
     </item>
     <item>
       <title>BackPork (0.1)</title>

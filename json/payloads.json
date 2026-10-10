@@ -139,11 +139,11 @@
     },
     {
       "name": "ps5upload",
-      "filename": "ps5upload_v6.8.1.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v6.8.1/ps5upload_v6.8.1.elf",
+      "filename": "ps5upload_v6.8.2.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v6.8.2/ps5upload_v6.8.2.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v6.8.1",
-      "checksum": "4593fcbd6169b67a4dcbfda8f13b0f0485b9ac93adff19ab515957e2c1fa397b"
+      "version": "v6.8.2",
+      "checksum": "e9cb922ea48f3e8007aefd2862c2d41dd522eea11a92c846b136333ab37e9e0d"
     },
     {
       "name": "airpsx",
@@ -339,11 +339,11 @@
     },
     {
       "name": "CheatRunner",
-      "filename": "CheatRunner_v0.17.2.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/PS5_Cheat/CheatRunner/v0.17.2/CheatRunner_v0.17.2.elf",
+      "filename": "CheatRunner_v0.18.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/PS5_Cheat/CheatRunner/v0.18/CheatRunner_v0.18.elf",
       "description": "CheatRunner.",
-      "version": "v0.17.2",
-      "checksum": "36ad03e236e6603aaaf05d95ed3399c7b54475a9bceba085cbe02899bc88ae0f"
+      "version": "v0.18",
+      "checksum": "4ae1ea4e37b2e67d5487355ddf671f166861ed6dceea348c048ad060770c0140"
     },
     {
       "name": "kylin-core-community-lite-v131-global-release",
@@ -411,11 +411,11 @@
     },
     {
       "name": "ShadowMountPlus",
-      "filename": "ShadowMountPlus_v1.7beta4.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ShadowMountPlus/1.7beta4/ShadowMountPlus_v1.7beta4.elf",
+      "filename": "ShadowMountPlus_v1.7-beta5fix1.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ShadowMountPlus/1.7-beta5fix1/ShadowMountPlus_v1.7-beta5fix1.elf",
       "description": "ShadowMountPlus payload for game mounting.",
-      "version": "1.7beta4",
-      "checksum": "fc4e5f715e76660ce34bde2adb10eaf1d069cb2cdf06f7a380896dfb62bd0c4a"
+      "version": "1.7-beta5fix1",
+      "checksum": "e85fd63b705498488f39c09c9aea6f9fa22e0df2e932865de49a8cedf25172d5"
     },
     {
       "name": "BackPork",
