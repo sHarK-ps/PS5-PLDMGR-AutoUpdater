@@ -65,9 +65,9 @@
       <description>FTP server background daemon. Port: 21 - Checksum: 7d4b31c83eae4e056580482a3a074e1db25922efc74ac1e439473b45d71a5938</description>
     </item>
     <item>
-      <title>websrv (v0.34)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/websrv/v0.34/websrv_v0.34.elf</link>
-      <description>HTTP Web server payload. Port: 8080 - Checksum: 54730c867c6e1148536fdcb370e63a7762d989ea87b62488ad4caff64d43f263</description>
+      <title>websrv (v0.35)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/websrv/v0.35/websrv_v0.35.elf</link>
+      <description>HTTP Web server payload. Port: 8080 - Checksum: 25501b41887a42789792d1367edd2fc892454bfe6b0b1519bc36456a581f264c</description>
     </item>
     <item>
       <title>gdbsrv (v0.9)</title>
@@ -90,9 +90,9 @@
       <description>Easy remote server component. Port: 8080 - Checksum: 0f36b7ea3c3380303e2c74ec8d31a2c53d822cc4f4fd05cb5931d6b4f8b33c03</description>
     </item>
     <item>
-      <title>ps5upload (v6.8.2)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v6.8.2/ps5upload_v6.8.2.elf</link>
-      <description>PS5 Upload server / tool. Port: 9025 - Checksum: e9cb922ea48f3e8007aefd2862c2d41dd522eea11a92c846b136333ab37e9e0d</description>
+      <title>ps5upload (v7.0.1)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v7.0.1/ps5upload_v7.0.1.elf</link>
+      <description>PS5 Upload server / tool. Port: 9025 - Checksum: cf37ffb531a7dd56fb78d72eb01b5ec44fed40959504581a432b49a8d8352291</description>
     </item>
     <item>
       <title>airpsx (0.19)</title>

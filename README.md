@@ -129,12 +129,12 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | **zhttp** | [v1.6.0](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/zftpd/v1.6.0/zhttp_v1.6.0.elf) | `fc59b60aab...` | FTP server payload for PS5. Port: 21 |
 | **elfldr** | [v0.26](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/elfldr/v0.26/elfldr_v0.26.elf) | `ed6d587a05...` | ELF Loader utility. Port: 9020 / 9021 |
 | **ftpsrv_ps5-payload** | [v0.21.1](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ftpsrv_ps5-payload/v0.21.1/ftpsrv_ps5-payload_v0.21.1.elf) | `7d4b31c83e...` | FTP server background daemon. Port: 21 |
-| **websrv** | [v0.34](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/websrv/v0.34/websrv_v0.34.elf) | `54730c867c...` | HTTP Web server payload. Port: 8080 |
+| **websrv** | [v0.35](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/websrv/v0.35/websrv_v0.35.elf) | `25501b4188...` | HTTP Web server payload. Port: 8080 |
 | **gdbsrv** | [v0.9](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/gdbsrv/v0.9/gdbsrv_v0.9.elf) | `80952d75f4...` | GDB Debugger server payload. Port: 1234 |
 | **klogsrv** | [v0.9](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/klogsrv/v0.9/klogsrv_v0.9.elf) | `e828ec1442...` | Kernel log server daemon. Port: 3232 |
 | **ftpsrv_drakmor** | [1.16-ng-stable](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ftpsrv_drakmor/1.16-ng-stable/ftpsrv_drakmor_v1.16-ng-stable.elf) | `f19ae469b2...` | Drakmor's variant of the FTP server. Port: 21 |
 | **ps5-ezremote-server** | [1.11](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5-ezremote-server/1.11/ps5-ezremote-server_v1.11.elf) | `0f36b7ea3c...` | Easy remote server component. Port: 8080 |
-| **ps5upload** | [v6.8.2](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v6.8.2/ps5upload_v6.8.2.elf) | `e9cb922ea4...` | PS5 Upload server / tool. Port: 9025 |
+| **ps5upload** | [v7.0.1](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v7.0.1/ps5upload_v7.0.1.elf) | `cf37ffb531...` | PS5 Upload server / tool. Port: 9025 |
 | **airpsx** | [0.19](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/airpsx/0.19/airpsx_v0.19.elf) | `ae025ca772...` | AirPSX server tool for PS5 ecosystem. |
 
 ### 📦 Ps5 Themes-Avatars
