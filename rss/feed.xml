@@ -90,9 +90,9 @@
       <description>Easy remote server component. Port: 8080 - Checksum: 0f36b7ea3c3380303e2c74ec8d31a2c53d822cc4f4fd05cb5931d6b4f8b33c03</description>
     </item>
     <item>
-      <title>ps5upload (v7.0.29)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v7.0.29/ps5upload_v7.0.29.elf</link>
-      <description>PS5 Upload server / tool. Port: 9025 - Checksum: fa935b612129c225342cb7016159bfa3d5f4cbef75bb4132ce1e0ade03ae39da</description>
+      <title>ps5upload (v7.0.32)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v7.0.32/ps5upload_v7.0.32.elf</link>
+      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 05f0fd48d3983cd34c03163950f545446a4db0e34eaf3131753e3fb8fbdf1f3d</description>
     </item>
     <item>
       <title>airpsx (0.19)</title>
