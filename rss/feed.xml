@@ -5,9 +5,9 @@
     <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/</link>
     <description>Suivi automatique des payloads</description>
     <item>
-      <title>garlic-savemgr (v1.13.1)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-savemgr/v1.13.1/garlic-savemgr_v1.13.1.elf</link>
-      <description>Save manager utility hosted on Forgejo. - Checksum: b0fc2fcdda977d2a1207d77148746859b7ea7f3cfcad02828a7a9b49651807f5</description>
+      <title>garlic-savemgr (v1.14.0)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-savemgr/v1.14.0/garlic-savemgr_v1.14.0.elf</link>
+      <description>Save manager utility hosted on Forgejo. - Checksum: 0b96822e3f554666b7fa4ead673c60ef602e5534a9f01a45e94d0580bd6e9edd</description>
     </item>
     <item>
       <title>garlic-worker (v1.1.7)</title>
@@ -90,9 +90,9 @@
       <description>Easy remote server component. Port: 8080 - Checksum: 0f36b7ea3c3380303e2c74ec8d31a2c53d822cc4f4fd05cb5931d6b4f8b33c03</description>
     </item>
     <item>
-      <title>ps5upload (v7.1.2)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v7.1.2/ps5upload_v7.1.2.elf</link>
-      <description>PS5 Upload server / tool. Port: 9025 - Checksum: dde5731e9423112c243cde2c13165b5992f99e3ec35eb423e2c2bcbfab0ee564</description>
+      <title>ps5upload (v7.1.4)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v7.1.4/ps5upload_v7.1.4.elf</link>
+      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 71398d65f2f7cd3d0a35ab16f7aee1f51f0f2d2d5b8ab3a184a62b68805cf775</description>
     </item>
     <item>
       <title>airpsx (0.19)</title>
