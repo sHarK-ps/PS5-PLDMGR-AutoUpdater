@@ -131,11 +131,11 @@
     },
     {
       "name": "ps5-ezremote-server",
-      "filename": "ps5-ezremote-server_v1.11.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5-ezremote-server/1.11/ps5-ezremote-server_v1.11.elf",
+      "filename": "ps5-ezremote-server_v1.13.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5-ezremote-server/1.13/ps5-ezremote-server_v1.13.elf",
       "description": "Easy remote server component. Port: 8080",
-      "version": "1.11",
-      "checksum": "0f36b7ea3c3380303e2c74ec8d31a2c53d822cc4f4fd05cb5931d6b4f8b33c03"
+      "version": "1.13",
+      "checksum": "0563ed163a921dd9d2fe8bb5e12ab60c28f9175cc1cb2f718a389213cecca807"
     },
     {
       "name": "ps5upload",
