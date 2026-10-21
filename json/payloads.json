@@ -3,11 +3,11 @@
   "payloads": [
     {
       "name": "garlic-savemgr",
-      "filename": "garlic-savemgr_v1.14.0.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-savemgr/v1.14.0/garlic-savemgr_v1.14.0.elf",
+      "filename": "garlic-savemgr_v1.14.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-savemgr/v1.14/garlic-savemgr_v1.14.elf",
       "description": "Save manager utility hosted on Forgejo.",
-      "version": "v1.14.0",
-      "checksum": "0b96822e3f554666b7fa4ead673c60ef602e5534a9f01a45e94d0580bd6e9edd"
+      "version": "v1.14",
+      "checksum": "57763da9d36ae1cb0c744e90a59a06cb54e4eae0c9a8dec62ce774f892c624b9"
     },
     {
       "name": "garlic-worker",
@@ -411,11 +411,11 @@
     },
     {
       "name": "ShadowMountPlus",
-      "filename": "ShadowMountPlus_v1.7beta6-fix2.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ShadowMountPlus/1.7beta6-fix2/ShadowMountPlus_v1.7beta6-fix2.elf",
+      "filename": "ShadowMountPlus_v1.7beta7.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ShadowMountPlus/1.7beta7/ShadowMountPlus_v1.7beta7.elf",
       "description": "ShadowMountPlus payload for game mounting.",
-      "version": "1.7beta6-fix2",
-      "checksum": "ec87ad20f78be2d7cb82e9d77e72352b079e049baac3c1a211960ccd6f252e62"
+      "version": "1.7beta7",
+      "checksum": "a8f9d7f76e8749912508ade0cd5c78076b5bbf1271813c78c80c3d3d9d4777ee"
     },
     {
       "name": "BackPork",

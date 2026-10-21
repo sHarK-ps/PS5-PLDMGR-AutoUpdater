@@ -5,9 +5,9 @@
     <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/</link>
     <description>Suivi automatique des payloads</description>
     <item>
-      <title>garlic-savemgr (v1.14.0)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-savemgr/v1.14.0/garlic-savemgr_v1.14.0.elf</link>
-      <description>Save manager utility hosted on Forgejo. - Checksum: 0b96822e3f554666b7fa4ead673c60ef602e5534a9f01a45e94d0580bd6e9edd</description>
+      <title>garlic-savemgr (v1.14)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-savemgr/v1.14/garlic-savemgr_v1.14.elf</link>
+      <description>Save manager utility hosted on Forgejo. - Checksum: 57763da9d36ae1cb0c744e90a59a06cb54e4eae0c9a8dec62ce774f892c624b9</description>
     </item>
     <item>
       <title>garlic-worker (v1.1.7)</title>
@@ -260,9 +260,9 @@
       <description>PS5 App Dumper payload. - Checksum: c850f1df6f2787824d6ddeeed69ce4144e00569b32135973401c2985cfb0345b</description>
     </item>
     <item>
-      <title>ShadowMountPlus (1.7beta6-fix2)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ShadowMountPlus/1.7beta6-fix2/ShadowMountPlus_v1.7beta6-fix2.elf</link>
-      <description>ShadowMountPlus payload for game mounting. - Checksum: ec87ad20f78be2d7cb82e9d77e72352b079e049baac3c1a211960ccd6f252e62</description>
+      <title>ShadowMountPlus (1.7beta7)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ShadowMountPlus/1.7beta7/ShadowMountPlus_v1.7beta7.elf</link>
+      <description>ShadowMountPlus payload for game mounting. - Checksum: a8f9d7f76e8749912508ade0cd5c78076b5bbf1271813c78c80c3d3d9d4777ee</description>
     </item>
     <item>
       <title>BackPork (0.1)</title>
