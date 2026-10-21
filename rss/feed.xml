@@ -125,9 +125,9 @@
       <description>Le Homebrew Enabler (HEN) de référence pour la PS5 avec serveurs de triche, plugins et gestionnaire de mémoire intégrés. - Checksum: 4845cac45095361b8983b14d6690622183b0dcfbf6d7fda16e161aa91ff0531e</description>
     </item>
     <item>
-      <title>PS5_Unified_Autoloader (v0.1.5-915a65e)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_hen_loader/PS5_Unified_Autoloader/v0.1.5-915a65e/PS5_Unified_Autoloader_v0.1.5-915a65e.elf</link>
-      <description>Chargeur universel de payloads permettant de lancer automatiquement vos outils favoris au démarrage de l'exploit. - Checksum: c8e36ea06cfd37c5fad356ff9fcd09d3e62065d88170b5119ce8f1eeb3efacac</description>
+      <title>PS5_Unified_Autoloader (v0.1.6-e7093cd)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_hen_loader/PS5_Unified_Autoloader/v0.1.6-e7093cd/PS5_Unified_Autoloader_v0.1.6-e7093cd.elf</link>
+      <description>Chargeur universel de payloads permettant de lancer automatiquement vos outils favoris au démarrage de l'exploit. - Checksum: edc4f805404f80497026ba2d74f675ee7043b1ef7f4ed92b82c1ef200aac123d</description>
     </item>
     <item>
       <title>pldmgr (v0.6.3)</title>
@@ -260,9 +260,9 @@
       <description>PS5 App Dumper payload. - Checksum: c850f1df6f2787824d6ddeeed69ce4144e00569b32135973401c2985cfb0345b</description>
     </item>
     <item>
-      <title>ShadowMountPlus (1.7-beta5fix1)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ShadowMountPlus/1.7-beta5fix1/ShadowMountPlus_v1.7-beta5fix1.elf</link>
-      <description>ShadowMountPlus payload for game mounting. - Checksum: e85fd63b705498488f39c09c9aea6f9fa22e0df2e932865de49a8cedf25172d5</description>
+      <title>ShadowMountPlus (1.7beta6-fix2)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ShadowMountPlus/1.7beta6-fix2/ShadowMountPlus_v1.7beta6-fix2.elf</link>
+      <description>ShadowMountPlus payload for game mounting. - Checksum: ec87ad20f78be2d7cb82e9d77e72352b079e049baac3c1a211960ccd6f252e62</description>
     </item>
     <item>
       <title>BackPork (0.1)</title>
