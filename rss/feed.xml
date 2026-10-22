@@ -20,19 +20,24 @@
       <description>Offset dumper for save mounting utilities. - Checksum: 946328551f74e3b6a34a7c0169f9b40792e392775768b84874b55ecdff71222e</description>
     </item>
     <item>
-      <title>bfpilot-core (Source-Fixe)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_file_explorer/BFpilot-Core/Source-Fixe/bfpilot-core_v0.2.1.elf</link>
-      <description>BFpilot is a lightweight PS5 payload that serves a browser-based file manager. - Checksum: 4375479705f599147533e3ec667fb18bf03fe9de17eb29fb54c5998078d429e0</description>
+      <title>pegasus-dl (v1.11.0)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_freeshop/pegasus-dl/v1.11.0/pegasus-dl_v1.11.0.elf</link>
+      <description>free store webadmin http://your-ps5-ip:6970. - Checksum: 32b69c2089bb545abfabd04d5827444698f9c4f1bc4915d72247cb781e8c23d9</description>
     </item>
     <item>
-      <title>bfpilot-full (Source-Fixe)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_file_explorer/BFpilot-Full/Source-Fixe/bfpilot-full_v0.2.1.elf</link>
-      <description>BFpilot is a lightweight PS5 payload that serves a browser-based file manager. - Checksum: c5b66745332a4b353b0b32abd0ec408b179e7b6a7d22bd9c0db4be7250633fc7</description>
+      <title>CheatRunner (v0.18)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/PS5_Cheat/CheatRunner/v0.18/CheatRunner_v0.18.elf</link>
+      <description>CheatRunner. - Checksum: 4ae1ea4e37b2e67d5487355ddf671f166861ed6dceea348c048ad060770c0140</description>
     </item>
     <item>
-      <title>lapy_jb_daemon (Source-Fixe)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_file_explorer/Lapy_JB_Daemon/Source-Fixe/lapy_jb_daemon.elf</link>
-      <description>Daemon pour le jailbreak de Lapy - Checksum: e8230ac4597b8f0388e75d7515ad1a2e251c4589cc3b8d56a483ffae73627eed</description>
+      <title>kylin-core-community-lite-v131-global-release (Source-Fixe)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/PS5_Cheat/kylin-core/Source-Fixe/kylin-core-community-lite-v131-global-release.elf</link>
+      <description>kylin-core - Checksum: 2b731fc60b3d7996667b372bb8e31df7125d209ecacbb6838312a51b24b65c29</description>
+    </item>
+    <item>
+      <title>uds-trophy-unlocker (v1.0.0)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_trophy/uds-trophy-unlocker/v1.0.0/uds-trophy-unlocker_v1.0.0.elf</link>
+      <description>Trophy unlocker utility for PS5 hosted on Forgejo. - Checksum: 3a338eccaa236e13e52b790140146f4cf8fd10aa79fd9127e2a91880bd85a1cb</description>
     </item>
     <item>
       <title>zhttp (v1.6.0)</title>
@@ -45,14 +50,14 @@
       <description>FTP server payload for PS5. Port: 21 - Checksum: 8696fb9fc05106ba4e18e3b64c2c294952cc92487ca94614f1d6b053134545bf</description>
     </item>
     <item>
-      <title>zftp (v1.6.0)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/zftpd/v1.6.0/zftp_v1.6.0.elf</link>
-      <description>FTP server payload for PS5. Port: 21 - Checksum: 39ed57bef579282418f822da2e58ea5d56acfa5aa4cd38816744b1f610bfa14d</description>
-    </item>
-    <item>
       <title>zhttp (v1.6.0)</title>
       <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/zftpd/v1.6.0/zhttp_v1.6.0.elf</link>
       <description>FTP server payload for PS5. Port: 21 - Checksum: fc59b60aab2dce9a8bae385c106bfa174048d765c826101355f1f010a789b497</description>
+    </item>
+    <item>
+      <title>zftp (v1.6.0)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/zftpd/v1.6.0/zftp_v1.6.0.elf</link>
+      <description>FTP server payload for PS5. Port: 21 - Checksum: 39ed57bef579282418f822da2e58ea5d56acfa5aa4cd38816744b1f610bfa14d</description>
     </item>
     <item>
       <title>elfldr (v0.27)</title>
@@ -90,14 +95,39 @@
       <description>Easy remote server component. Port: 8080 - Checksum: 0563ed163a921dd9d2fe8bb5e12ab60c28f9175cc1cb2f718a389213cecca807</description>
     </item>
     <item>
-      <title>ps5upload (v7.1.16)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v7.1.16/ps5upload_v7.1.16.elf</link>
-      <description>PS5 Upload server / tool. Port: 9025 - Checksum: df095f4492602e5824297fb2cb45802ca4d415006b2ce8222b9940cb942bd880</description>
+      <title>ps5upload (v7.1.18)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v7.1.18/ps5upload_v7.1.18.elf</link>
+      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 360529ccbd9f00b9341f8ca72ed15851e3324ff69341304b7e93e12977aa7470</description>
     </item>
     <item>
       <title>airpsx (0.19)</title>
       <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/airpsx/0.19/airpsx_v0.19.elf</link>
       <description>AirPSX server tool for PS5 ecosystem. - Checksum: ae025ca7727b3a8abf6a705903ca9116a6fa6e7f7ead606916109cf9044c5d63</description>
+    </item>
+    <item>
+      <title>kstuff_EchoStretch (v1.6.7)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_kstuff/kstuff_EchoStretch/v1.6.7/kstuff_EchoStretch_v1.6.7.elf</link>
+      <description>Fnd Kstuff payload for PS5. - Checksum: f1c1f4b2b6395644af04cbe9828aba58586acf7aacb9e01113cac92ce16e3569</description>
+    </item>
+    <item>
+      <title>kstuff-lite_EchoStretch (v1.11)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_kstuff/kstuff-lite_EchoStretch/v1.11/kstuff-lite_EchoStretch_v1.11.elf</link>
+      <description>Lightweight version of kstuff. - Checksum: ab9a6cb4d3b1daf139d4d646e402b1cf569071acd64599c936d7a3a6164dc779</description>
+    </item>
+    <item>
+      <title>kstuff-lite_drakmor (1.2-dr-test2)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_kstuff/kstuff-lite_drakmor/1.2-dr-test2/kstuff-lite_drakmor_v1.2-dr-test2.elf</link>
+      <description>Drakmor's variant of kstuff-lite. - Checksum: 2b699d411079a21dba7c39a02993fc0fb21e52f434103e884a0c892fafe56b75</description>
+    </item>
+    <item>
+      <title>PS5-Custom-Tool-Manager- (Custom)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_themes-avatars/PS5-Custom-Tool-Manager-/Custom/PS5-Custom-Tool-Manager-_vCustom.elf</link>
+      <description>Custom manager tool for PS5 personalization. - Checksum: 297824ceaf6ea53fde57550adf9b5c2fc44c63ef60e8196ab92d351d1615d9cb</description>
+    </item>
+    <item>
+      <title>ps5-wallpaper-modd (v1.0)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_themes-avatars/ps5-wallpaper-modd/v1.0/ps5-wallpaper-modd_v1.0.elf</link>
+      <description>Wallpaper modification utility for PS5. - Checksum: b18a866bac9deff45b921b7d3ea6143d541117b56c666d817ecdc81961829139</description>
     </item>
     <item>
       <title>ChronicLoader-PS5-Payload (0.1)</title>
@@ -110,14 +140,9 @@
       <description>Ghostpad controller input utility. - Checksum: 94d43a8db7ec9df6e18f0a0da25aac0f60e1a0b14d35bfff261f6f5cdeabdba1</description>
     </item>
     <item>
-      <title>pegasus-dl (v1.11.0)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_freeshop/pegasus-dl/v1.11.0/pegasus-dl_v1.11.0.elf</link>
-      <description>free store webadmin http://your-ps5-ip:6970. - Checksum: 32b69c2089bb545abfabd04d5827444698f9c4f1bc4915d72247cb781e8c23d9</description>
-    </item>
-    <item>
-      <title>uds-trophy-unlocker (v1.0.0)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_trophy/uds-trophy-unlocker/v1.0.0/uds-trophy-unlocker_v1.0.0.elf</link>
-      <description>Trophy unlocker utility for PS5 hosted on Forgejo. - Checksum: 3a338eccaa236e13e52b790140146f4cf8fd10aa79fd9127e2a91880bd85a1cb</description>
+      <title>ps5-linux-loader (v2.5)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_linux/ps5-linux-loader/v2.5/ps5-linux-loader_v2.5.elf</link>
+      <description>Linux loader payload for the PS5. - Checksum: 9fc48733077145d1d204a4c9cdb879baaab1e711a604dd73af0dd4a807d6bc49</description>
     </item>
     <item>
       <title>etaHEN (2.5B)</title>
@@ -140,26 +165,6 @@
       <description>Boîte à outils regroupant une collection complète de payloads utilitaires pour les consoles jailbreakées. - Checksum: 20cdb0979ce627aff8e684a4506e18390a72492d5e3aa15ecef0bfe1bca08bb5</description>
     </item>
     <item>
-      <title>np-fake-signin (v1.4)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/PS5_Activation/np-fake-signin/v1.4/np-fake-signin_v1.4.elf</link>
-      <description>Fake activate PS5 without PSN. - Checksum: 9ec8562b3e3f6508071e280037e225371d8a6c297e74b8ae4d240e357ee38eca</description>
-    </item>
-    <item>
-      <title>ps5-linux-loader (v2.5)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_linux/ps5-linux-loader/v2.5/ps5-linux-loader_v2.5.elf</link>
-      <description>Linux loader payload for the PS5. - Checksum: 9fc48733077145d1d204a4c9cdb879baaab1e711a604dd73af0dd4a807d6bc49</description>
-    </item>
-    <item>
-      <title>PS5-Custom-Tool-Manager- (Custom)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_themes-avatars/PS5-Custom-Tool-Manager-/Custom/PS5-Custom-Tool-Manager-_vCustom.elf</link>
-      <description>Custom manager tool for PS5 personalization. - Checksum: 297824ceaf6ea53fde57550adf9b5c2fc44c63ef60e8196ab92d351d1615d9cb</description>
-    </item>
-    <item>
-      <title>ps5-wallpaper-modd (v1.0)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_themes-avatars/ps5-wallpaper-modd/v1.0/ps5-wallpaper-modd_v1.0.elf</link>
-      <description>Wallpaper modification utility for PS5. - Checksum: b18a866bac9deff45b921b7d3ea6143d541117b56c666d817ecdc81961829139</description>
-    </item>
-    <item>
       <title>ps5debug-NG (1.3.2)</title>
       <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_sdk_debug/ps5debug-NG/1.3.2/ps5debug-NG_v1.3.2.elf</link>
       <description>Next generation debugger payload for PS5. - Checksum: 949b0e6e0fe3f24f4a820319fd76d9ccb92f9770cbb1a64b09a8eca5c1fc9ff3</description>
@@ -175,14 +180,14 @@
       <description>SELF pager payload tool. - Checksum: a86c3e69ed38656310b41af4f9221bdb2264ff4daf93fb4c2515fd54a216b701</description>
     </item>
     <item>
-      <title>ps5-self-pager-shellcore (v1.2)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-shellcore_v1.2.elf</link>
-      <description>SELF pager payload tool. - Checksum: 2b500bc356b5bcfca5c3e5187bcec0a37c80ed05e39348b8f06bd2e5a6f3342b</description>
-    </item>
-    <item>
       <title>ps5-self-pager-game (v1.2)</title>
       <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-game_v1.2.elf</link>
       <description>SELF pager payload tool. - Checksum: 73d94fea5de9086cac26385c117a0b3098890c447d67536877fb7b51c9145aac</description>
+    </item>
+    <item>
+      <title>ps5-self-pager-shellcore (v1.2)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-shellcore_v1.2.elf</link>
+      <description>SELF pager payload tool. - Checksum: 2b500bc356b5bcfca5c3e5187bcec0a37c80ed05e39348b8f06bd2e5a6f3342b</description>
     </item>
     <item>
       <title>ps5-self-pager-full-system (v1.2)</title>
@@ -190,9 +195,9 @@
       <description>SELF pager payload tool. - Checksum: fb498d4112611619150281e0c44afbd09f144c09eaca3ab3f5b306b39450d13a</description>
     </item>
     <item>
-      <title>ps5-self-decrypter-game (v0.5.2)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-game_v0.5.2.elf</link>
-      <description>SELF decrypter tool for PS5 binaries. - Checksum: 190b350759b4f9d50949325e84d131e0953f37a9df271c329ba43c80c0ac7a57</description>
+      <title>ps5-self-decrypter-shellcore (v0.5.2)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-shellcore_v0.5.2.elf</link>
+      <description>SELF decrypter tool for PS5 binaries. - Checksum: 15050c691c21c790ae970a1ee99ad3918dd1065fe5512c762fccee6d521c8066</description>
     </item>
     <item>
       <title>ps5-self-decrypter-system-common-lib (v0.5.2)</title>
@@ -200,9 +205,9 @@
       <description>SELF decrypter tool for PS5 binaries. - Checksum: 6a16c6457c604db4846632510da0975f49faba08e6cab9cfd7f84d78b4557d97</description>
     </item>
     <item>
-      <title>ps5-self-decrypter-shellcore (v0.5.2)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-shellcore_v0.5.2.elf</link>
-      <description>SELF decrypter tool for PS5 binaries. - Checksum: 15050c691c21c790ae970a1ee99ad3918dd1065fe5512c762fccee6d521c8066</description>
+      <title>ps5-self-decrypter-game (v0.5.2)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-game_v0.5.2.elf</link>
+      <description>SELF decrypter tool for PS5 binaries. - Checksum: 190b350759b4f9d50949325e84d131e0953f37a9df271c329ba43c80c0ac7a57</description>
     </item>
     <item>
       <title>ps5-self-decrypter-full-system (v0.5.2)</title>
@@ -215,39 +220,9 @@
       <description>Utility to get Remote Play PIN. - Checksum: 1d611c1856dd2f4b4b6cb42ead1128a7f08a26585788f92de79fa4f67d721472</description>
     </item>
     <item>
-      <title>CheatRunner (v0.18)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/PS5_Cheat/CheatRunner/v0.18/CheatRunner_v0.18.elf</link>
-      <description>CheatRunner. - Checksum: 4ae1ea4e37b2e67d5487355ddf671f166861ed6dceea348c048ad060770c0140</description>
-    </item>
-    <item>
-      <title>kylin-core-community-lite-v131-global-release (Source-Fixe)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/PS5_Cheat/kylin-core/Source-Fixe/kylin-core-community-lite-v131-global-release.elf</link>
-      <description>kylin-core - Checksum: 2b731fc60b3d7996667b372bb8e31df7125d209ecacbb6838312a51b24b65c29</description>
-    </item>
-    <item>
-      <title>kstuff_EchoStretch (v1.6.7)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_kstuff/kstuff_EchoStretch/v1.6.7/kstuff_EchoStretch_v1.6.7.elf</link>
-      <description>Fnd Kstuff payload for PS5. - Checksum: f1c1f4b2b6395644af04cbe9828aba58586acf7aacb9e01113cac92ce16e3569</description>
-    </item>
-    <item>
-      <title>kstuff-lite_EchoStretch (v1.11)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_kstuff/kstuff-lite_EchoStretch/v1.11/kstuff-lite_EchoStretch_v1.11.elf</link>
-      <description>Lightweight version of kstuff. - Checksum: ab9a6cb4d3b1daf139d4d646e402b1cf569071acd64599c936d7a3a6164dc779</description>
-    </item>
-    <item>
-      <title>kstuff-lite_drakmor (1.2-dr-test2)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_kstuff/kstuff-lite_drakmor/1.2-dr-test2/kstuff-lite_drakmor_v1.2-dr-test2.elf</link>
-      <description>Drakmor's variant of kstuff-lite. - Checksum: 2b699d411079a21dba7c39a02993fc0fb21e52f434103e884a0c892fafe56b75</description>
-    </item>
-    <item>
-      <title>nanoDNS (0.4)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_dns/nanoDNS/0.4/nanoDNS_v0.4.elf</link>
-      <description>Un serveur DNS ultra-léger et rapide idéal pour rediriger les requêtes de la console vers votre hôte local d'exploits. - Checksum: fcfb7d47c3b295560ea1603dc015f7c4950353ef0faca16428bd425680ef1fc5</description>
-    </item>
-    <item>
-      <title>Chukei_DNS (0.9.0)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_dns/Chukei_DNS/0.9.0/Chukei_DNS_v0.9.0.elf</link>
-      <description>Serveur DNS de redirection d'envergure conçu spécifiquement pour bloquer les mises à jour de Sony et rediriger le guide de l'utilisateur. - Checksum: 0cf13e1ed87b57ffa4fdcfca5d9afe1572be29b4f632677cedf17657a972d750</description>
+      <title>np-fake-signin (v1.4)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/PS5_Activation/np-fake-signin/v1.4/np-fake-signin_v1.4.elf</link>
+      <description>Fake activate PS5 without PSN. - Checksum: 9ec8562b3e3f6508071e280037e225371d8a6c297e74b8ae4d240e357ee38eca</description>
     </item>
     <item>
       <title>PS5-Game-Compressor (v1.0.4)</title>
@@ -268,6 +243,31 @@
       <title>BackPork (0.1)</title>
       <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/BackPork/0.1/BackPork_v0.1.elf</link>
       <description>BackPork PS5 tool. - Checksum: d74e4cd119b2bb1fd423f2f5b1c9a7f096b3e588c753af1ab48b983d56216a52</description>
+    </item>
+    <item>
+      <title>nanoDNS (0.4)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_dns/nanoDNS/0.4/nanoDNS_v0.4.elf</link>
+      <description>Un serveur DNS ultra-léger et rapide idéal pour rediriger les requêtes de la console vers votre hôte local d'exploits. - Checksum: fcfb7d47c3b295560ea1603dc015f7c4950353ef0faca16428bd425680ef1fc5</description>
+    </item>
+    <item>
+      <title>Chukei_DNS (0.9.0)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_dns/Chukei_DNS/0.9.0/Chukei_DNS_v0.9.0.elf</link>
+      <description>Serveur DNS de redirection d'envergure conçu spécifiquement pour bloquer les mises à jour de Sony et rediriger le guide de l'utilisateur. - Checksum: 0cf13e1ed87b57ffa4fdcfca5d9afe1572be29b4f632677cedf17657a972d750</description>
+    </item>
+    <item>
+      <title>bfpilot-core (Source-Fixe)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_file_explorer/BFpilot-Core/Source-Fixe/bfpilot-core_v0.2.1.elf</link>
+      <description>BFpilot is a lightweight PS5 payload that serves a browser-based file manager. - Checksum: 4375479705f599147533e3ec667fb18bf03fe9de17eb29fb54c5998078d429e0</description>
+    </item>
+    <item>
+      <title>bfpilot-full (Source-Fixe)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_file_explorer/BFpilot-Full/Source-Fixe/bfpilot-full_v0.2.1.elf</link>
+      <description>BFpilot is a lightweight PS5 payload that serves a browser-based file manager. - Checksum: c5b66745332a4b353b0b32abd0ec408b179e7b6a7d22bd9c0db4be7250633fc7</description>
+    </item>
+    <item>
+      <title>lapy_jb_daemon (Source-Fixe)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_file_explorer/Lapy_JB_Daemon/Source-Fixe/lapy_jb_daemon.elf</link>
+      <description>Daemon pour le jailbreak de Lapy - Checksum: e8230ac4597b8f0388e75d7515ad1a2e251c4589cc3b8d56a483ffae73627eed</description>
     </item>
   </channel>
 </rss>
