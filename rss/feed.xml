@@ -5,9 +5,9 @@
     <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/</link>
     <description>Suivi automatique des payloads</description>
     <item>
-      <title>garlic-savemgr (v1.14)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-savemgr/v1.14/garlic-savemgr_v1.14.elf</link>
-      <description>Save manager utility hosted on Forgejo. - Checksum: 57763da9d36ae1cb0c744e90a59a06cb54e4eae0c9a8dec62ce774f892c624b9</description>
+      <title>garlic-savemgr (v1.15-beta1)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-savemgr/v1.15-beta1/garlic-savemgr_v1.15-beta1.elf</link>
+      <description>Save manager utility hosted on Forgejo. - Checksum: 9777e49916968b5327be9d3799d25f1d3b810d3c853c448d38c8bbd120124787</description>
     </item>
     <item>
       <title>garlic-worker (v1.1.7)</title>
