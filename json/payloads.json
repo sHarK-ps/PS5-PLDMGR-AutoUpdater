@@ -139,11 +139,11 @@
     },
     {
       "name": "ps5upload",
-      "filename": "ps5upload_v7.4.4.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v7.4.4/ps5upload_v7.4.4.elf",
+      "filename": "ps5upload_v7.5.1.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v7.5.1/ps5upload_v7.5.1.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v7.4.4",
-      "checksum": "6ee60f88ab7e35e88ba85ce4714576e7e8a68fb1adcd540fd4a518ffdc2f0f9f"
+      "version": "v7.5.1",
+      "checksum": "021c03c15d1b077558f8966ca46f38636f1934c084b930545098167e11abbc7b"
     },
     {
       "name": "airpsx",
@@ -168,14 +168,6 @@
       "description": "Ghostpad controller input utility.",
       "version": "v1.0.0",
       "checksum": "94d43a8db7ec9df6e18f0a0da25aac0f60e1a0b14d35bfff261f6f5cdeabdba1"
-    },
-    {
-      "name": "pegasus-dl",
-      "filename": "pegasus-dl_v1.11.0.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_freeshop/pegasus-dl/v1.11.0/pegasus-dl_v1.11.0.elf",
-      "description": "free store webadmin http://your-ps5-ip:6970.",
-      "version": "v1.11.0",
-      "checksum": "32b69c2089bb545abfabd04d5827444698f9c4f1bc4915d72247cb781e8c23d9"
     },
     {
       "name": "uds-trophy-unlocker",
