@@ -90,9 +90,9 @@
       <description>Easy remote server component. Port: 8080 - Checksum: 0563ed163a921dd9d2fe8bb5e12ab60c28f9175cc1cb2f718a389213cecca807</description>
     </item>
     <item>
-      <title>ps5upload (v7.5.3)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v7.5.3/ps5upload_v7.5.3.elf</link>
-      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 2beb6924e2ecd5fa865c1ca2211009ba4bcf03457f4b9a089ab6945ff65e3ac3</description>
+      <title>ps5upload (v8.0.0)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v8.0.0/ps5upload_v8.0.0.elf</link>
+      <description>PS5 Upload server / tool. Port: 9025 - Checksum: cf6ac538f3b373baac8fd4cd8111e6e1a3f3477219501c6ef15ff5b133680967</description>
     </item>
     <item>
       <title>airpsx (0.19)</title>
@@ -255,9 +255,9 @@
       <description>PS5 App Dumper payload. - Checksum: c850f1df6f2787824d6ddeeed69ce4144e00569b32135973401c2985cfb0345b</description>
     </item>
     <item>
-      <title>ShadowMountPlus (1.7beta7)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ShadowMountPlus/1.7beta7/ShadowMountPlus_v1.7beta7.elf</link>
-      <description>ShadowMountPlus payload for game mounting. - Checksum: a8f9d7f76e8749912508ade0cd5c78076b5bbf1271813c78c80c3d3d9d4777ee</description>
+      <title>ShadowMountPlus (1.7beta8)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ShadowMountPlus/1.7beta8/ShadowMountPlus_v1.7beta8.elf</link>
+      <description>ShadowMountPlus payload for game mounting. - Checksum: 7163472217a2390f5bcbe3b61a96963976f7b7bd84d960b8d926f35b9cbecf28</description>
     </item>
     <item>
       <title>BackPork (0.1)</title>
