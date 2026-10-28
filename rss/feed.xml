@@ -30,9 +30,9 @@
       <description>PS5 App Dumper payload. - Checksum: c850f1df6f2787824d6ddeeed69ce4144e00569b32135973401c2985cfb0345b</description>
     </item>
     <item>
-      <title>ShadowMountPlus (1.7beta9)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ShadowMountPlus/1.7beta9/ShadowMountPlus_v1.7beta9.elf</link>
-      <description>ShadowMountPlus payload for game mounting. - Checksum: 928a5a7e33d2801c1c14a5ed8ad83fcab07957ba3a5daccd382dba67d408b3e2</description>
+      <title>ShadowMountPlus (1.7beta10)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ShadowMountPlus/1.7beta10/ShadowMountPlus_v1.7beta10.elf</link>
+      <description>ShadowMountPlus payload for game mounting. - Checksum: 8c6798232ae2a8fbcd209ab97fc4f8d4d47cf23b7eecfaa6349c0bfeb8e4a3d3</description>
     </item>
     <item>
       <title>BackPork (0.1)</title>
@@ -211,13 +211,13 @@
     </item>
     <item>
       <title>zhttp (v1.7.0)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/zftpd/v1.7.0/zhttp_v1.7.0.elf</link>
-      <description>FTP server payload for PS5. Port: 21 - Checksum: 8f78ac0cde64a0744b82663d4a6bf8c1d7e937876dceddc219a21164578bd96e</description>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/zftpd/v1.7.0/zhttp_v1.7.0.bin</link>
+      <description>FTP server payload for PS5. Port: 21 - Checksum: 319e74f31230b9c3506bea5c4793fe05cbbcb42ecbb66e72140e245d1491f242</description>
     </item>
     <item>
       <title>zhttp (v1.7.0)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/zftpd/v1.7.0/zhttp_v1.7.0.bin</link>
-      <description>FTP server payload for PS5. Port: 21 - Checksum: 319e74f31230b9c3506bea5c4793fe05cbbcb42ecbb66e72140e245d1491f242</description>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/zftpd/v1.7.0/zhttp_v1.7.0.elf</link>
+      <description>FTP server payload for PS5. Port: 21 - Checksum: 8f78ac0cde64a0744b82663d4a6bf8c1d7e937876dceddc219a21164578bd96e</description>
     </item>
     <item>
       <title>elfldr (v0.27)</title>
@@ -260,9 +260,9 @@
       <description>Easy remote server component. Port: 8080 - Checksum: 0563ed163a921dd9d2fe8bb5e12ab60c28f9175cc1cb2f718a389213cecca807</description>
     </item>
     <item>
-      <title>ps5upload (v8.6.1)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v8.6.1/ps5upload_v8.6.1.elf</link>
-      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 3e7d67537a2eac9f92ae9330a90682499610b06a5058dd47cb99c2b567c62671</description>
+      <title>ps5upload (v8.8.1)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v8.8.1/ps5upload_v8.8.1.elf</link>
+      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 54d9feb2bb8f876d829f3305d4aaf90244d48dff0aa94468b26ddec17a6dda56</description>
     </item>
     <item>
       <title>airpsx (0.19)</title>
