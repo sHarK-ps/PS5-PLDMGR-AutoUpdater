@@ -30,9 +30,9 @@
       <description>PS5 App Dumper payload. - Checksum: c850f1df6f2787824d6ddeeed69ce4144e00569b32135973401c2985cfb0345b</description>
     </item>
     <item>
-      <title>ShadowMountPlus (1.7beta10)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ShadowMountPlus/1.7beta10/ShadowMountPlus_v1.7beta10.elf</link>
-      <description>ShadowMountPlus payload for game mounting. - Checksum: 8c6798232ae2a8fbcd209ab97fc4f8d4d47cf23b7eecfaa6349c0bfeb8e4a3d3</description>
+      <title>ShadowMountPlus (1.7beta11)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ShadowMountPlus/1.7beta11/ShadowMountPlus_v1.7beta11.elf</link>
+      <description>ShadowMountPlus payload for game mounting. - Checksum: 08c843018750bef013fe3a4de5f80c5c9738c6c2dafa2406e6b6e68d7585f3da</description>
     </item>
     <item>
       <title>BackPork (0.1)</title>
@@ -260,9 +260,9 @@
       <description>Easy remote server component. Port: 8080 - Checksum: 0563ed163a921dd9d2fe8bb5e12ab60c28f9175cc1cb2f718a389213cecca807</description>
     </item>
     <item>
-      <title>ps5upload (v9.0.1)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v9.0.1/ps5upload_v9.0.1.elf</link>
-      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 36317d7d360faad3aeac6127199e7e61514dc2c2cc5f83c10835682951806d9f</description>
+      <title>ps5upload (v9.2.2)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v9.2.2/ps5upload_v9.2.2.elf</link>
+      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 9b7ea36573c7fb7c78ea89d598a01b6cf6e49a52951279abfc8d09aeb6ae3cc5</description>
     </item>
     <item>
       <title>airpsx (0.19)</title>
