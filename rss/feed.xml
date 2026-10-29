@@ -120,9 +120,9 @@
       <description>Le Homebrew Enabler (HEN) de référence pour la PS5 avec serveurs de triche, plugins et gestionnaire de mémoire intégrés. - Checksum: 4845cac45095361b8983b14d6690622183b0dcfbf6d7fda16e161aa91ff0531e</description>
     </item>
     <item>
-      <title>PS5_Unified_Autoloader (v0.1.6-e7093cd)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_hen_loader/PS5_Unified_Autoloader/v0.1.6-e7093cd/PS5_Unified_Autoloader_v0.1.6-e7093cd.elf</link>
-      <description>Chargeur universel de payloads permettant de lancer automatiquement vos outils favoris au démarrage de l'exploit. - Checksum: edc4f805404f80497026ba2d74f675ee7043b1ef7f4ed92b82c1ef200aac123d</description>
+      <title>PS5_Unified_Autoloader (v0.1.7-abc3b82)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_hen_loader/PS5_Unified_Autoloader/v0.1.7-abc3b82/PS5_Unified_Autoloader_v0.1.7-abc3b82.elf</link>
+      <description>Chargeur universel de payloads permettant de lancer automatiquement vos outils favoris au démarrage de l'exploit. - Checksum: cc6a464ceaa23472cc35d557efe60a5fc3f8ebd46cf1a84790c04a2be9c5bee1</description>
     </item>
     <item>
       <title>pldmgr (v0.6.3)</title>
@@ -260,9 +260,9 @@
       <description>Easy remote server component. Port: 8080 - Checksum: 0563ed163a921dd9d2fe8bb5e12ab60c28f9175cc1cb2f718a389213cecca807</description>
     </item>
     <item>
-      <title>ps5upload (v8.10.0)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v8.10.0/ps5upload_v8.10.0.elf</link>
-      <description>PS5 Upload server / tool. Port: 9025 - Checksum: d863502e034ccb7d632b296305c4cb121b0716619b9cf14b8c6a88c511b6f473</description>
+      <title>ps5upload (v9.0.1)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v9.0.1/ps5upload_v9.0.1.elf</link>
+      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 36317d7d360faad3aeac6127199e7e61514dc2c2cc5f83c10835682951806d9f</description>
     </item>
     <item>
       <title>airpsx (0.19)</title>

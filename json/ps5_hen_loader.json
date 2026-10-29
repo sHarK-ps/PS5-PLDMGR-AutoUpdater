@@ -11,11 +11,11 @@
     },
     {
       "name": "PS5_Unified_Autoloader",
-      "filename": "PS5_Unified_Autoloader_v0.1.6-e7093cd.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_hen_loader/PS5_Unified_Autoloader/v0.1.6-e7093cd/PS5_Unified_Autoloader_v0.1.6-e7093cd.elf",
+      "filename": "PS5_Unified_Autoloader_v0.1.7-abc3b82.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_hen_loader/PS5_Unified_Autoloader/v0.1.7-abc3b82/PS5_Unified_Autoloader_v0.1.7-abc3b82.elf",
       "description": "Chargeur universel de payloads permettant de lancer automatiquement vos outils favoris au démarrage de l'exploit.",
-      "version": "v0.1.6-e7093cd",
-      "checksum": "edc4f805404f80497026ba2d74f675ee7043b1ef7f4ed92b82c1ef200aac123d"
+      "version": "v0.1.7-abc3b82",
+      "checksum": "cc6a464ceaa23472cc35d557efe60a5fc3f8ebd46cf1a84790c04a2be9c5bee1"
     },
     {
       "name": "pldmgr",
