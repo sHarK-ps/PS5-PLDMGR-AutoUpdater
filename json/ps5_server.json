@@ -83,11 +83,11 @@
     },
     {
       "name": "ps5-ezremote-client",
-      "filename": "ps5-ezremote-client_v2.16.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5-ezremote-client/2.16/ps5-ezremote-client_v2.16.elf",
+      "filename": "ps5-ezremote-client_v2.17.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5-ezremote-client/2.17/ps5-ezremote-client_v2.17.elf",
       "description": "Easy remote client application for PS5.",
-      "version": "2.16",
-      "checksum": "f9ed69c486627b6fba408ad2aea8cc96737b5909994fa9bce9d51189cc4e4157"
+      "version": "2.17",
+      "checksum": "eda226e008efae5f14bd9e4fb0dd27ee198d1e3b525aa4ab1079e410e66f5e3c"
     },
     {
       "name": "ps5-ezremote-server",
@@ -99,11 +99,11 @@
     },
     {
       "name": "ps5upload",
-      "filename": "ps5upload_v9.4.1.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v9.4.1/ps5upload_v9.4.1.elf",
+      "filename": "ps5upload_v9.5.1.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v9.5.1/ps5upload_v9.5.1.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v9.4.1",
-      "checksum": "b276e08c0b82dd29abbe7bbe7b23ed21adafc5a89737f5deba4787ed2ceccad8"
+      "version": "v9.5.1",
+      "checksum": "6c113d167d7fe4c4f3e036e8556d044ab3b04e7f45fe53778f8dbea158ede8d7"
     },
     {
       "name": "airpsx",

@@ -250,9 +250,9 @@
       <description>Drakmor's variant of the FTP server. Port: 21 - Checksum: f19ae469b25453a7a4af4529527521d31f143100f18a2c6839666e7121c8bd32</description>
     </item>
     <item>
-      <title>ps5-ezremote-client (2.16)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5-ezremote-client/2.16/ps5-ezremote-client_v2.16.elf</link>
-      <description>Easy remote client application for PS5. - Checksum: f9ed69c486627b6fba408ad2aea8cc96737b5909994fa9bce9d51189cc4e4157</description>
+      <title>ps5-ezremote-client (2.17)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5-ezremote-client/2.17/ps5-ezremote-client_v2.17.elf</link>
+      <description>Easy remote client application for PS5. - Checksum: eda226e008efae5f14bd9e4fb0dd27ee198d1e3b525aa4ab1079e410e66f5e3c</description>
     </item>
     <item>
       <title>ps5-ezremote-server (1.13)</title>
@@ -260,9 +260,9 @@
       <description>Easy remote server component. Port: 8080 - Checksum: 0563ed163a921dd9d2fe8bb5e12ab60c28f9175cc1cb2f718a389213cecca807</description>
     </item>
     <item>
-      <title>ps5upload (v9.4.1)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v9.4.1/ps5upload_v9.4.1.elf</link>
-      <description>PS5 Upload server / tool. Port: 9025 - Checksum: b276e08c0b82dd29abbe7bbe7b23ed21adafc5a89737f5deba4787ed2ceccad8</description>
+      <title>ps5upload (v9.5.1)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v9.5.1/ps5upload_v9.5.1.elf</link>
+      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 6c113d167d7fe4c4f3e036e8556d044ab3b04e7f45fe53778f8dbea158ede8d7</description>
     </item>
     <item>
       <title>airpsx (0.19)</title>
