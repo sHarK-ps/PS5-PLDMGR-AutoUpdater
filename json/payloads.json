@@ -2,92 +2,28 @@
   "name": "AIO Store",
   "payloads": [
     {
-      "name": "kstuff_EchoStretch",
-      "filename": "kstuff_EchoStretch_v1.6.7.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_kstuff/kstuff_EchoStretch/v1.6.7/kstuff_EchoStretch_v1.6.7.elf",
-      "description": "Fnd Kstuff payload for PS5.",
-      "version": "v1.6.7",
-      "checksum": "f1c1f4b2b6395644af04cbe9828aba58586acf7aacb9e01113cac92ce16e3569"
+      "name": "uds-trophy-unlocker",
+      "filename": "uds-trophy-unlocker_v1.0.0.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_trophy/uds-trophy-unlocker/v1.0.0/uds-trophy-unlocker_v1.0.0.elf",
+      "description": "Trophy unlocker utility for PS5 hosted on Forgejo.",
+      "version": "v1.0.0",
+      "checksum": "3a338eccaa236e13e52b790140146f4cf8fd10aa79fd9127e2a91880bd85a1cb"
     },
     {
-      "name": "kstuff-lite_EchoStretch",
-      "filename": "kstuff-lite_EchoStretch_v1.11.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_kstuff/kstuff-lite_EchoStretch/v1.11/kstuff-lite_EchoStretch_v1.11.elf",
-      "description": "Lightweight version of kstuff.",
-      "version": "v1.11",
-      "checksum": "ab9a6cb4d3b1daf139d4d646e402b1cf569071acd64599c936d7a3a6164dc779"
-    },
-    {
-      "name": "kstuff-lite_drakmor",
-      "filename": "kstuff-lite_drakmor_v1.2-dr-test2.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_kstuff/kstuff-lite_drakmor/1.2-dr-test2/kstuff-lite_drakmor_v1.2-dr-test2.elf",
-      "description": "Drakmor's variant of kstuff-lite.",
-      "version": "1.2-dr-test2",
-      "checksum": "2b699d411079a21dba7c39a02993fc0fb21e52f434103e884a0c892fafe56b75"
-    },
-    {
-      "name": "PS5-Game-Compressor",
-      "filename": "PS5-Game-Compressor_v1.0.4.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/PS5-Game-Compressor/v1.0.4/PS5-Game-Compressor_v1.0.4.elf",
-      "description": "Tool to compress PS5 games.",
-      "version": "v1.0.4",
-      "checksum": "e55e90aaade13b6e0d4316c1597ef90a21b67a06475c3e25de054224bc1e941b"
-    },
-    {
-      "name": "ps5-app-dumper",
-      "filename": "ps5-app-dumper_v2.10.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ps5-app-dumper/v2.10/ps5-app-dumper_v2.10.elf",
-      "description": "PS5 App Dumper payload.",
-      "version": "v2.10",
-      "checksum": "c850f1df6f2787824d6ddeeed69ce4144e00569b32135973401c2985cfb0345b"
-    },
-    {
-      "name": "ShadowMountPlus",
-      "filename": "ShadowMountPlus_v1.7beta11.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ShadowMountPlus/1.7beta11/ShadowMountPlus_v1.7beta11.elf",
-      "description": "ShadowMountPlus payload for game mounting.",
-      "version": "1.7beta11",
-      "checksum": "08c843018750bef013fe3a4de5f80c5c9738c6c2dafa2406e6b6e68d7585f3da"
-    },
-    {
-      "name": "BackPork",
-      "filename": "BackPork_v0.1.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/BackPork/0.1/BackPork_v0.1.elf",
-      "description": "BackPork PS5 tool.",
+      "name": "ChronicLoader-PS5-Payload",
+      "filename": "ChronicLoader-PS5-Payload_v0.1.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_utility/ChronicLoader-PS5-Payload/0.1/ChronicLoader-PS5-Payload_v0.1.elf",
+      "description": "ChronicLoader utility payload for PS5.",
       "version": "0.1",
-      "checksum": "d74e4cd119b2bb1fd423f2f5b1c9a7f096b3e588c753af1ab48b983d56216a52"
+      "checksum": "3561120f85e0ec32de5de15cdd61a1fe8d5146eb4c6aa99ee88209914a2774b1"
     },
     {
-      "name": "bfpilot-core",
-      "filename": "bfpilot-core_v0.2.1.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_file_explorer/BFpilot-Core/Source-Fixe/bfpilot-core_v0.2.1.elf",
-      "description": "BFpilot is a lightweight PS5 payload that serves a browser-based file manager.",
-      "version": "Source-Fixe",
-      "checksum": "4375479705f599147533e3ec667fb18bf03fe9de17eb29fb54c5998078d429e0"
-    },
-    {
-      "name": "bfpilot-full",
-      "filename": "bfpilot-full_v0.2.1.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_file_explorer/BFpilot-Full/Source-Fixe/bfpilot-full_v0.2.1.elf",
-      "description": "BFpilot is a lightweight PS5 payload that serves a browser-based file manager.",
-      "version": "Source-Fixe",
-      "checksum": "c5b66745332a4b353b0b32abd0ec408b179e7b6a7d22bd9c0db4be7250633fc7"
-    },
-    {
-      "name": "lapy_jb_daemon",
-      "filename": "lapy_jb_daemon.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_file_explorer/Lapy_JB_Daemon/Source-Fixe/lapy_jb_daemon.elf",
-      "description": "Daemon pour le jailbreak de Lapy",
-      "version": "Source-Fixe",
-      "checksum": "e8230ac4597b8f0388e75d7515ad1a2e251c4589cc3b8d56a483ffae73627eed"
-    },
-    {
-      "name": "np-fake-signin",
-      "filename": "np-fake-signin_v1.4.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/PS5_Activation/np-fake-signin/v1.4/np-fake-signin_v1.4.elf",
-      "description": "Fake activate PS5 without PSN.",
-      "version": "v1.4",
-      "checksum": "9ec8562b3e3f6508071e280037e225371d8a6c297e74b8ae4d240e357ee38eca"
+      "name": "Ghostpad",
+      "filename": "Ghostpad_v1.0.0.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_utility/Ghostpad/v1.0.0/Ghostpad_v1.0.0.elf",
+      "description": "Ghostpad controller input utility.",
+      "version": "v1.0.0",
+      "checksum": "94d43a8db7ec9df6e18f0a0da25aac0f60e1a0b14d35bfff261f6f5cdeabdba1"
     },
     {
       "name": "nanoDNS",
@@ -106,12 +42,12 @@
       "checksum": "0cf13e1ed87b57ffa4fdcfca5d9afe1572be29b4f632677cedf17657a972d750"
     },
     {
-      "name": "ps5-linux-loader",
-      "filename": "ps5-linux-loader_v2.5.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_linux/ps5-linux-loader/v2.5/ps5-linux-loader_v2.5.elf",
-      "description": "Linux loader payload for the PS5.",
-      "version": "v2.5",
-      "checksum": "9fc48733077145d1d204a4c9cdb879baaab1e711a604dd73af0dd4a807d6bc49"
+      "name": "np-fake-signin",
+      "filename": "np-fake-signin_v1.4.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/PS5_Activation/np-fake-signin/v1.4/np-fake-signin_v1.4.elf",
+      "description": "Fake activate PS5 without PSN.",
+      "version": "v1.4",
+      "checksum": "9ec8562b3e3f6508071e280037e225371d8a6c297e74b8ae4d240e357ee38eca"
     },
     {
       "name": "CheatRunner",
@@ -128,54 +64,6 @@
       "description": "kylin-core",
       "version": "Source-Fixe",
       "checksum": "2b731fc60b3d7996667b372bb8e31df7125d209ecacbb6838312a51b24b65c29"
-    },
-    {
-      "name": "uds-trophy-unlocker",
-      "filename": "uds-trophy-unlocker_v1.0.0.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_trophy/uds-trophy-unlocker/v1.0.0/uds-trophy-unlocker_v1.0.0.elf",
-      "description": "Trophy unlocker utility for PS5 hosted on Forgejo.",
-      "version": "v1.0.0",
-      "checksum": "3a338eccaa236e13e52b790140146f4cf8fd10aa79fd9127e2a91880bd85a1cb"
-    },
-    {
-      "name": "PS5-Custom-Tool-Manager-",
-      "filename": "PS5-Custom-Tool-Manager-_vCustom.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_themes-avatars/PS5-Custom-Tool-Manager-/Custom/PS5-Custom-Tool-Manager-_vCustom.elf",
-      "description": "Custom manager tool for PS5 personalization.",
-      "version": "Custom",
-      "checksum": "297824ceaf6ea53fde57550adf9b5c2fc44c63ef60e8196ab92d351d1615d9cb"
-    },
-    {
-      "name": "ps5-wallpaper-modd",
-      "filename": "ps5-wallpaper-modd_v1.0.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_themes-avatars/ps5-wallpaper-modd/v1.0/ps5-wallpaper-modd_v1.0.elf",
-      "description": "Wallpaper modification utility for PS5.",
-      "version": "v1.0",
-      "checksum": "b18a866bac9deff45b921b7d3ea6143d541117b56c666d817ecdc81961829139"
-    },
-    {
-      "name": "garlic-savemgr",
-      "filename": "garlic-savemgr_v1.15-beta1.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-savemgr/v1.15-beta1/garlic-savemgr_v1.15-beta1.elf",
-      "description": "Save manager utility hosted on Forgejo.",
-      "version": "v1.15-beta1",
-      "checksum": "9777e49916968b5327be9d3799d25f1d3b810d3c853c448d38c8bbd120124787"
-    },
-    {
-      "name": "garlic-worker",
-      "filename": "garlic-worker_v1.1.7.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-worker/v1.1.7/garlic-worker_v1.1.7.elf",
-      "description": "Garlic worker payload component.",
-      "version": "v1.1.7",
-      "checksum": "2643f35cdfe9969cf775220dc4a65bc4ff0d08750c39bfb714b74dbbf29cd396"
-    },
-    {
-      "name": "savemnt-offset-dumper",
-      "filename": "savemnt-offset-dumper_v1.0.0.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/savemnt-offset-dumper/1.0.0/savemnt-offset-dumper_v1.0.0.elf",
-      "description": "Offset dumper for save mounting utilities.",
-      "version": "1.0.0",
-      "checksum": "946328551f74e3b6a34a7c0169f9b40792e392775768b84874b55ecdff71222e"
     },
     {
       "name": "etaHEN",
@@ -210,116 +98,84 @@
       "checksum": "20cdb0979ce627aff8e684a4506e18390a72492d5e3aa15ecef0bfe1bca08bb5"
     },
     {
-      "name": "ps5debug-NG",
-      "filename": "ps5debug-NG_v1.3.2.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_sdk_debug/ps5debug-NG/1.3.2/ps5debug-NG_v1.3.2.elf",
-      "description": "Next generation debugger payload for PS5.",
-      "version": "1.3.2",
-      "checksum": "949b0e6e0fe3f24f4a820319fd76d9ccb92f9770cbb1a64b09a8eca5c1fc9ff3"
+      "name": "kstuff_EchoStretch",
+      "filename": "kstuff_EchoStretch_v1.6.7.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_kstuff/kstuff_EchoStretch/v1.6.7/kstuff_EchoStretch_v1.6.7.elf",
+      "description": "Fnd Kstuff payload for PS5.",
+      "version": "v1.6.7",
+      "checksum": "f1c1f4b2b6395644af04cbe9828aba58586acf7aacb9e01113cac92ce16e3569"
     },
     {
-      "name": "ps5-fw-spoof",
-      "filename": "ps5-fw-spoof_v26616621599.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_sdk_debug/ps5-fw-spoof/26616621599/ps5-fw-spoof_v26616621599.elf",
-      "description": "Firmware spoofer utility for PS5.",
-      "version": "26616621599",
-      "checksum": "f1754521caa92a6a1ac313a1b6c969ec49d67750e290ba99870958290a0961f0"
+      "name": "kstuff-lite_EchoStretch",
+      "filename": "kstuff-lite_EchoStretch_v1.11.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_kstuff/kstuff-lite_EchoStretch/v1.11/kstuff-lite_EchoStretch_v1.11.elf",
+      "description": "Lightweight version of kstuff.",
+      "version": "v1.11",
+      "checksum": "ab9a6cb4d3b1daf139d4d646e402b1cf569071acd64599c936d7a3a6164dc779"
     },
     {
-      "name": "ps5-self-pager-system-common-lib",
-      "filename": "ps5-self-pager-system-common-lib_v1.2.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-system-common-lib_v1.2.elf",
-      "description": "SELF pager payload tool.",
-      "version": "v1.2",
-      "checksum": "a86c3e69ed38656310b41af4f9221bdb2264ff4daf93fb4c2515fd54a216b701"
+      "name": "kstuff-lite_drakmor",
+      "filename": "kstuff-lite_drakmor_v1.2-dr-test2.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_kstuff/kstuff-lite_drakmor/1.2-dr-test2/kstuff-lite_drakmor_v1.2-dr-test2.elf",
+      "description": "Drakmor's variant of kstuff-lite.",
+      "version": "1.2-dr-test2",
+      "checksum": "2b699d411079a21dba7c39a02993fc0fb21e52f434103e884a0c892fafe56b75"
     },
     {
-      "name": "ps5-self-pager-game",
-      "filename": "ps5-self-pager-game_v1.2.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-game_v1.2.elf",
-      "description": "SELF pager payload tool.",
-      "version": "v1.2",
-      "checksum": "73d94fea5de9086cac26385c117a0b3098890c447d67536877fb7b51c9145aac"
+      "name": "bfpilot-core",
+      "filename": "bfpilot-core_v0.2.1.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_file_explorer/BFpilot-Core/Source-Fixe/bfpilot-core_v0.2.1.elf",
+      "description": "BFpilot is a lightweight PS5 payload that serves a browser-based file manager.",
+      "version": "Source-Fixe",
+      "checksum": "4375479705f599147533e3ec667fb18bf03fe9de17eb29fb54c5998078d429e0"
     },
     {
-      "name": "ps5-self-pager-shellcore",
-      "filename": "ps5-self-pager-shellcore_v1.2.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-shellcore_v1.2.elf",
-      "description": "SELF pager payload tool.",
-      "version": "v1.2",
-      "checksum": "2b500bc356b5bcfca5c3e5187bcec0a37c80ed05e39348b8f06bd2e5a6f3342b"
+      "name": "bfpilot-full",
+      "filename": "bfpilot-full_v0.2.1.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_file_explorer/BFpilot-Full/Source-Fixe/bfpilot-full_v0.2.1.elf",
+      "description": "BFpilot is a lightweight PS5 payload that serves a browser-based file manager.",
+      "version": "Source-Fixe",
+      "checksum": "c5b66745332a4b353b0b32abd0ec408b179e7b6a7d22bd9c0db4be7250633fc7"
     },
     {
-      "name": "ps5-self-pager-full-system",
-      "filename": "ps5-self-pager-full-system_v1.2.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-full-system_v1.2.elf",
-      "description": "SELF pager payload tool.",
-      "version": "v1.2",
-      "checksum": "fb498d4112611619150281e0c44afbd09f144c09eaca3ab3f5b306b39450d13a"
+      "name": "lapy_jb_daemon",
+      "filename": "lapy_jb_daemon.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_file_explorer/Lapy_JB_Daemon/Source-Fixe/lapy_jb_daemon.elf",
+      "description": "Daemon pour le jailbreak de Lapy",
+      "version": "Source-Fixe",
+      "checksum": "e8230ac4597b8f0388e75d7515ad1a2e251c4589cc3b8d56a483ffae73627eed"
     },
     {
-      "name": "ps5-self-decrypter-shellcore",
-      "filename": "ps5-self-decrypter-shellcore_v0.5.2.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-shellcore_v0.5.2.elf",
-      "description": "SELF decrypter tool for PS5 binaries.",
-      "version": "v0.5.2",
-      "checksum": "15050c691c21c790ae970a1ee99ad3918dd1065fe5512c762fccee6d521c8066"
+      "name": "garlic-savemgr",
+      "filename": "garlic-savemgr_v1.15-beta1.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-savemgr/v1.15-beta1/garlic-savemgr_v1.15-beta1.elf",
+      "description": "Save manager utility hosted on Forgejo.",
+      "version": "v1.15-beta1",
+      "checksum": "9777e49916968b5327be9d3799d25f1d3b810d3c853c448d38c8bbd120124787"
     },
     {
-      "name": "ps5-self-decrypter-full-system",
-      "filename": "ps5-self-decrypter-full-system_v0.5.2.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-full-system_v0.5.2.elf",
-      "description": "SELF decrypter tool for PS5 binaries.",
-      "version": "v0.5.2",
-      "checksum": "46340d3048a977f5603b3def0a0ba1c85b5c182891388442e51b39e281257b6a"
+      "name": "garlic-worker",
+      "filename": "garlic-worker_v1.1.7.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-worker/v1.1.7/garlic-worker_v1.1.7.elf",
+      "description": "Garlic worker payload component.",
+      "version": "v1.1.7",
+      "checksum": "2643f35cdfe9969cf775220dc4a65bc4ff0d08750c39bfb714b74dbbf29cd396"
     },
     {
-      "name": "ps5-self-decrypter-system-common-lib",
-      "filename": "ps5-self-decrypter-system-common-lib_v0.5.2.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-system-common-lib_v0.5.2.elf",
-      "description": "SELF decrypter tool for PS5 binaries.",
-      "version": "v0.5.2",
-      "checksum": "6a16c6457c604db4846632510da0975f49faba08e6cab9cfd7f84d78b4557d97"
+      "name": "savemnt-offset-dumper",
+      "filename": "savemnt-offset-dumper_v1.0.0.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/savemnt-offset-dumper/1.0.0/savemnt-offset-dumper_v1.0.0.elf",
+      "description": "Offset dumper for save mounting utilities.",
+      "version": "1.0.0",
+      "checksum": "946328551f74e3b6a34a7c0169f9b40792e392775768b84874b55ecdff71222e"
     },
     {
-      "name": "ps5-self-decrypter-game",
-      "filename": "ps5-self-decrypter-game_v0.5.2.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-game_v0.5.2.elf",
-      "description": "SELF decrypter tool for PS5 binaries.",
-      "version": "v0.5.2",
-      "checksum": "190b350759b4f9d50949325e84d131e0953f37a9df271c329ba43c80c0ac7a57"
-    },
-    {
-      "name": "ps5-remoteplay-get-pin",
-      "filename": "ps5-remoteplay-get-pin_v0.1.1.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_sdk_debug/ps5-remoteplay-get-pin/v0.1.1/ps5-remoteplay-get-pin_v0.1.1.elf",
-      "description": "Utility to get Remote Play PIN.",
-      "version": "v0.1.1",
-      "checksum": "1d611c1856dd2f4b4b6cb42ead1128a7f08a26585788f92de79fa4f67d721472"
-    },
-    {
-      "name": "ChronicLoader-PS5-Payload",
-      "filename": "ChronicLoader-PS5-Payload_v0.1.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_utility/ChronicLoader-PS5-Payload/0.1/ChronicLoader-PS5-Payload_v0.1.elf",
-      "description": "ChronicLoader utility payload for PS5.",
-      "version": "0.1",
-      "checksum": "3561120f85e0ec32de5de15cdd61a1fe8d5146eb4c6aa99ee88209914a2774b1"
-    },
-    {
-      "name": "Ghostpad",
-      "filename": "Ghostpad_v1.0.0.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_utility/Ghostpad/v1.0.0/Ghostpad_v1.0.0.elf",
-      "description": "Ghostpad controller input utility.",
-      "version": "v1.0.0",
-      "checksum": "94d43a8db7ec9df6e18f0a0da25aac0f60e1a0b14d35bfff261f6f5cdeabdba1"
-    },
-    {
-      "name": "zftp",
-      "filename": "zftp_v1.7.0.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/zftpd/v1.7.0/zftp_v1.7.0.elf",
+      "name": "zhttp",
+      "filename": "zhttp_v1.7.0.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/zftpd/v1.7.0/zhttp_v1.7.0.elf",
       "description": "FTP server payload for PS5. Port: 21",
       "version": "v1.7.0",
-      "checksum": "533ef2ea5f56af392419b6ce6d05112da79428c2fef252a1a2bcf388be617484"
+      "checksum": "8f78ac0cde64a0744b82663d4a6bf8c1d7e937876dceddc219a21164578bd96e"
     },
     {
       "name": "zftp",
@@ -338,12 +194,12 @@
       "checksum": "319e74f31230b9c3506bea5c4793fe05cbbcb42ecbb66e72140e245d1491f242"
     },
     {
-      "name": "zhttp",
-      "filename": "zhttp_v1.7.0.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/zftpd/v1.7.0/zhttp_v1.7.0.elf",
+      "name": "zftp",
+      "filename": "zftp_v1.7.0.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/zftpd/v1.7.0/zftp_v1.7.0.elf",
       "description": "FTP server payload for PS5. Port: 21",
       "version": "v1.7.0",
-      "checksum": "8f78ac0cde64a0744b82663d4a6bf8c1d7e937876dceddc219a21164578bd96e"
+      "checksum": "533ef2ea5f56af392419b6ce6d05112da79428c2fef252a1a2bcf388be617484"
     },
     {
       "name": "elfldr",
@@ -411,11 +267,11 @@
     },
     {
       "name": "ps5upload",
-      "filename": "ps5upload_v9.11.0.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v9.11.0/ps5upload_v9.11.0.elf",
+      "filename": "ps5upload_v10.0.1.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v10.0.1/ps5upload_v10.0.1.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v9.11.0",
-      "checksum": "ea961717fb823398dbf346a215cab21aba8cf7a966fb8be53b9d48e75543bdd9"
+      "version": "v10.0.1",
+      "checksum": "c5da95b6438a6d68e8c453df8ea84fb0341744f5fc9dae0781371b350450c3cc"
     },
     {
       "name": "airpsx",
@@ -424,6 +280,150 @@
       "description": "AirPSX server tool for PS5 ecosystem.",
       "version": "0.19",
       "checksum": "ae025ca7727b3a8abf6a705903ca9116a6fa6e7f7ead606916109cf9044c5d63"
+    },
+    {
+      "name": "PS5-Game-Compressor",
+      "filename": "PS5-Game-Compressor_v1.0.4.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/PS5-Game-Compressor/v1.0.4/PS5-Game-Compressor_v1.0.4.elf",
+      "description": "Tool to compress PS5 games.",
+      "version": "v1.0.4",
+      "checksum": "e55e90aaade13b6e0d4316c1597ef90a21b67a06475c3e25de054224bc1e941b"
+    },
+    {
+      "name": "ps5-app-dumper",
+      "filename": "ps5-app-dumper_v2.10.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ps5-app-dumper/v2.10/ps5-app-dumper_v2.10.elf",
+      "description": "PS5 App Dumper payload.",
+      "version": "v2.10",
+      "checksum": "c850f1df6f2787824d6ddeeed69ce4144e00569b32135973401c2985cfb0345b"
+    },
+    {
+      "name": "ShadowMountPlus",
+      "filename": "ShadowMountPlus_v1.7beta11.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ShadowMountPlus/1.7beta11/ShadowMountPlus_v1.7beta11.elf",
+      "description": "ShadowMountPlus payload for game mounting.",
+      "version": "1.7beta11",
+      "checksum": "08c843018750bef013fe3a4de5f80c5c9738c6c2dafa2406e6b6e68d7585f3da"
+    },
+    {
+      "name": "BackPork",
+      "filename": "BackPork_v0.1.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/BackPork/0.1/BackPork_v0.1.elf",
+      "description": "BackPork PS5 tool.",
+      "version": "0.1",
+      "checksum": "d74e4cd119b2bb1fd423f2f5b1c9a7f096b3e588c753af1ab48b983d56216a52"
+    },
+    {
+      "name": "ps5debug-NG",
+      "filename": "ps5debug-NG_v1.3.2.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_sdk_debug/ps5debug-NG/1.3.2/ps5debug-NG_v1.3.2.elf",
+      "description": "Next generation debugger payload for PS5.",
+      "version": "1.3.2",
+      "checksum": "949b0e6e0fe3f24f4a820319fd76d9ccb92f9770cbb1a64b09a8eca5c1fc9ff3"
+    },
+    {
+      "name": "ps5-fw-spoof",
+      "filename": "ps5-fw-spoof_v26616621599.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_sdk_debug/ps5-fw-spoof/26616621599/ps5-fw-spoof_v26616621599.elf",
+      "description": "Firmware spoofer utility for PS5.",
+      "version": "26616621599",
+      "checksum": "f1754521caa92a6a1ac313a1b6c969ec49d67750e290ba99870958290a0961f0"
+    },
+    {
+      "name": "ps5-self-pager-game",
+      "filename": "ps5-self-pager-game_v1.2.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-game_v1.2.elf",
+      "description": "SELF pager payload tool.",
+      "version": "v1.2",
+      "checksum": "73d94fea5de9086cac26385c117a0b3098890c447d67536877fb7b51c9145aac"
+    },
+    {
+      "name": "ps5-self-pager-full-system",
+      "filename": "ps5-self-pager-full-system_v1.2.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-full-system_v1.2.elf",
+      "description": "SELF pager payload tool.",
+      "version": "v1.2",
+      "checksum": "fb498d4112611619150281e0c44afbd09f144c09eaca3ab3f5b306b39450d13a"
+    },
+    {
+      "name": "ps5-self-pager-system-common-lib",
+      "filename": "ps5-self-pager-system-common-lib_v1.2.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-system-common-lib_v1.2.elf",
+      "description": "SELF pager payload tool.",
+      "version": "v1.2",
+      "checksum": "a86c3e69ed38656310b41af4f9221bdb2264ff4daf93fb4c2515fd54a216b701"
+    },
+    {
+      "name": "ps5-self-pager-shellcore",
+      "filename": "ps5-self-pager-shellcore_v1.2.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_sdk_debug/ps5-self-pager/v1.2/ps5-self-pager-shellcore_v1.2.elf",
+      "description": "SELF pager payload tool.",
+      "version": "v1.2",
+      "checksum": "2b500bc356b5bcfca5c3e5187bcec0a37c80ed05e39348b8f06bd2e5a6f3342b"
+    },
+    {
+      "name": "ps5-self-decrypter-full-system",
+      "filename": "ps5-self-decrypter-full-system_v0.5.2.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-full-system_v0.5.2.elf",
+      "description": "SELF decrypter tool for PS5 binaries.",
+      "version": "v0.5.2",
+      "checksum": "46340d3048a977f5603b3def0a0ba1c85b5c182891388442e51b39e281257b6a"
+    },
+    {
+      "name": "ps5-self-decrypter-system-common-lib",
+      "filename": "ps5-self-decrypter-system-common-lib_v0.5.2.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-system-common-lib_v0.5.2.elf",
+      "description": "SELF decrypter tool for PS5 binaries.",
+      "version": "v0.5.2",
+      "checksum": "6a16c6457c604db4846632510da0975f49faba08e6cab9cfd7f84d78b4557d97"
+    },
+    {
+      "name": "ps5-self-decrypter-shellcore",
+      "filename": "ps5-self-decrypter-shellcore_v0.5.2.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-shellcore_v0.5.2.elf",
+      "description": "SELF decrypter tool for PS5 binaries.",
+      "version": "v0.5.2",
+      "checksum": "15050c691c21c790ae970a1ee99ad3918dd1065fe5512c762fccee6d521c8066"
+    },
+    {
+      "name": "ps5-self-decrypter-game",
+      "filename": "ps5-self-decrypter-game_v0.5.2.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_sdk_debug/PS5-SELF-Decrypter/v0.5.2/ps5-self-decrypter-game_v0.5.2.elf",
+      "description": "SELF decrypter tool for PS5 binaries.",
+      "version": "v0.5.2",
+      "checksum": "190b350759b4f9d50949325e84d131e0953f37a9df271c329ba43c80c0ac7a57"
+    },
+    {
+      "name": "ps5-remoteplay-get-pin",
+      "filename": "ps5-remoteplay-get-pin_v0.1.1.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_sdk_debug/ps5-remoteplay-get-pin/v0.1.1/ps5-remoteplay-get-pin_v0.1.1.elf",
+      "description": "Utility to get Remote Play PIN.",
+      "version": "v0.1.1",
+      "checksum": "1d611c1856dd2f4b4b6cb42ead1128a7f08a26585788f92de79fa4f67d721472"
+    },
+    {
+      "name": "PS5-Custom-Tool-Manager-",
+      "filename": "PS5-Custom-Tool-Manager-_vCustom.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_themes-avatars/PS5-Custom-Tool-Manager-/Custom/PS5-Custom-Tool-Manager-_vCustom.elf",
+      "description": "Custom manager tool for PS5 personalization.",
+      "version": "Custom",
+      "checksum": "297824ceaf6ea53fde57550adf9b5c2fc44c63ef60e8196ab92d351d1615d9cb"
+    },
+    {
+      "name": "ps5-wallpaper-modd",
+      "filename": "ps5-wallpaper-modd_v1.0.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_themes-avatars/ps5-wallpaper-modd/v1.0/ps5-wallpaper-modd_v1.0.elf",
+      "description": "Wallpaper modification utility for PS5.",
+      "version": "v1.0",
+      "checksum": "b18a866bac9deff45b921b7d3ea6143d541117b56c666d817ecdc81961829139"
+    },
+    {
+      "name": "ps5-linux-loader",
+      "filename": "ps5-linux-loader_v2.5.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_linux/ps5-linux-loader/v2.5/ps5-linux-loader_v2.5.elf",
+      "description": "Linux loader payload for the PS5.",
+      "version": "v2.5",
+      "checksum": "9fc48733077145d1d204a4c9cdb879baaab1e711a604dd73af0dd4a807d6bc49"
     }
   ]
 }

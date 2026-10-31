@@ -2,12 +2,12 @@
   "name": "Ps5 Server",
   "payloads": [
     {
-      "name": "zftp",
-      "filename": "zftp_v1.7.0.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/zftpd/v1.7.0/zftp_v1.7.0.elf",
+      "name": "zhttp",
+      "filename": "zhttp_v1.7.0.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/zftpd/v1.7.0/zhttp_v1.7.0.elf",
       "description": "FTP server payload for PS5. Port: 21",
       "version": "v1.7.0",
-      "checksum": "533ef2ea5f56af392419b6ce6d05112da79428c2fef252a1a2bcf388be617484"
+      "checksum": "8f78ac0cde64a0744b82663d4a6bf8c1d7e937876dceddc219a21164578bd96e"
     },
     {
       "name": "zftp",
@@ -26,12 +26,12 @@
       "checksum": "319e74f31230b9c3506bea5c4793fe05cbbcb42ecbb66e72140e245d1491f242"
     },
     {
-      "name": "zhttp",
-      "filename": "zhttp_v1.7.0.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/zftpd/v1.7.0/zhttp_v1.7.0.elf",
+      "name": "zftp",
+      "filename": "zftp_v1.7.0.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/zftpd/v1.7.0/zftp_v1.7.0.elf",
       "description": "FTP server payload for PS5. Port: 21",
       "version": "v1.7.0",
-      "checksum": "8f78ac0cde64a0744b82663d4a6bf8c1d7e937876dceddc219a21164578bd96e"
+      "checksum": "533ef2ea5f56af392419b6ce6d05112da79428c2fef252a1a2bcf388be617484"
     },
     {
       "name": "elfldr",
@@ -99,11 +99,11 @@
     },
     {
       "name": "ps5upload",
-      "filename": "ps5upload_v9.11.0.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v9.11.0/ps5upload_v9.11.0.elf",
+      "filename": "ps5upload_v10.0.1.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v10.0.1/ps5upload_v10.0.1.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v9.11.0",
-      "checksum": "ea961717fb823398dbf346a215cab21aba8cf7a966fb8be53b9d48e75543bdd9"
+      "version": "v10.0.1",
+      "checksum": "c5da95b6438a6d68e8c453df8ea84fb0341744f5fc9dae0781371b350450c3cc"
     },
     {
       "name": "airpsx",
