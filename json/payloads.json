@@ -251,10 +251,10 @@
     },
     {
       "name": "ps5-ezremote-client",
-      "filename": "ps5-ezremote-client_v2.17.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5-ezremote-client/2.17/ps5-ezremote-client_v2.17.elf",
+      "filename": "ps5-ezremote-client_v2.18.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5-ezremote-client/2.18/ps5-ezremote-client_v2.18.elf",
       "description": "Easy remote client application for PS5.",
-      "version": "2.17",
+      "version": "2.18",
       "checksum": "eda226e008efae5f14bd9e4fb0dd27ee198d1e3b525aa4ab1079e410e66f5e3c"
     },
     {
