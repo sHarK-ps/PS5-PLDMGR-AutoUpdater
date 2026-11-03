@@ -35,9 +35,9 @@
       <description>Fake activate PS5 without PSN. - Checksum: 9ec8562b3e3f6508071e280037e225371d8a6c297e74b8ae4d240e357ee38eca</description>
     </item>
     <item>
-      <title>CheatRunner (v0.18)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/PS5_Cheat/CheatRunner/v0.18/CheatRunner_v0.18.elf</link>
-      <description>CheatRunner. - Checksum: 4ae1ea4e37b2e67d5487355ddf671f166861ed6dceea348c048ad060770c0140</description>
+      <title>CheatRunner (v0.18.1)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/PS5_Cheat/CheatRunner/v0.18.1/CheatRunner_v0.18.1.elf</link>
+      <description>CheatRunner. - Checksum: 80535260027983f09fc9d131e11e13591de61ef5eeea458825598263862d2ce8</description>
     </item>
     <item>
       <title>kylin-core-community-lite-v131-global-release (Source-Fixe)</title>
@@ -170,9 +170,9 @@
       <description>Easy remote server component. Port: 8080 - Checksum: 0563ed163a921dd9d2fe8bb5e12ab60c28f9175cc1cb2f718a389213cecca807</description>
     </item>
     <item>
-      <title>ps5upload (v11.0.0)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v11.0.0/ps5upload_v11.0.0.elf</link>
-      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 027f62daaf060c90d159da9e2988e44fcc5f128ad866cb1b67d49a77d6485998</description>
+      <title>ps5upload (v11.0.1)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v11.0.1/ps5upload_v11.0.1.elf</link>
+      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 7a5f7d1b8c1cbf6d7d1030294b7623793d544f6a4933224c73cc936b33386f2f</description>
     </item>
     <item>
       <title>airpsx (0.19)</title>
