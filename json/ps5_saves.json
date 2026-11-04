@@ -11,11 +11,11 @@
     },
     {
       "name": "garlic-worker",
-      "filename": "garlic-worker_v1.1.7.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-worker/v1.1.7/garlic-worker_v1.1.7.elf",
+      "filename": "garlic-worker_v1.1.8.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-worker/v1.1.8/garlic-worker_v1.1.8.elf",
       "description": "Garlic worker payload component.",
-      "version": "v1.1.7",
-      "checksum": "2643f35cdfe9969cf775220dc4a65bc4ff0d08750c39bfb714b74dbbf29cd396"
+      "version": "v1.1.8",
+      "checksum": "7d50cfca84e2f456e1b0bd6e60ab2291e81fdeeb04e7816fbf900b2dba3b69db"
     },
     {
       "name": "savemnt-offset-dumper",
