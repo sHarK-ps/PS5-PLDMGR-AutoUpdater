@@ -403,11 +403,11 @@
     },
     {
       "name": "garlic-savemgr",
-      "filename": "garlic-savemgr_v1.15-beta1.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-savemgr/v1.15-beta1/garlic-savemgr_v1.15-beta1.elf",
+      "filename": "garlic-savemgr_v1.15-beta2.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-savemgr/v1.15-beta2/garlic-savemgr_v1.15-beta2.elf",
       "description": "Save manager utility hosted on Forgejo.",
-      "version": "v1.15-beta1",
-      "checksum": "9777e49916968b5327be9d3799d25f1d3b810d3c853c448d38c8bbd120124787"
+      "version": "v1.15-beta2",
+      "checksum": "f3733b5ee291fb89dd515b659f34273dad437e054b8abb50a1d7f69d812c11b3"
     },
     {
       "name": "garlic-worker",

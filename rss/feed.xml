@@ -255,9 +255,9 @@
       <description>Wallpaper modification utility for PS5. - Checksum: b18a866bac9deff45b921b7d3ea6143d541117b56c666d817ecdc81961829139</description>
     </item>
     <item>
-      <title>garlic-savemgr (v1.15-beta1)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-savemgr/v1.15-beta1/garlic-savemgr_v1.15-beta1.elf</link>
-      <description>Save manager utility hosted on Forgejo. - Checksum: 9777e49916968b5327be9d3799d25f1d3b810d3c853c448d38c8bbd120124787</description>
+      <title>garlic-savemgr (v1.15-beta2)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-savemgr/v1.15-beta2/garlic-savemgr_v1.15-beta2.elf</link>
+      <description>Save manager utility hosted on Forgejo. - Checksum: f3733b5ee291fb89dd515b659f34273dad437e054b8abb50a1d7f69d812c11b3</description>
     </item>
     <item>
       <title>garlic-worker (v1.1.8)</title>
