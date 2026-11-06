@@ -371,11 +371,11 @@
     },
     {
       "name": "ps5upload",
-      "filename": "ps5upload_v11.2.5.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v11.2.5/ps5upload_v11.2.5.elf",
+      "filename": "ps5upload_v11.2.8.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v11.2.8/ps5upload_v11.2.8.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v11.2.5",
-      "checksum": "a2c51a140fe3c701edc854decfe0cc120ec155bd8f99c9d49feac8cb5d057f80"
+      "version": "v11.2.8",
+      "checksum": "a76ae6f70ee8cb0b536ee39f60855cee627a01f33271699020ee35989a9a8f37"
     },
     {
       "name": "airpsx",
@@ -419,11 +419,11 @@
     },
     {
       "name": "garlic-worker",
-      "filename": "garlic-worker_v1.3.3.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-worker/v1.3.3/garlic-worker_v1.3.3.elf",
+      "filename": "garlic-worker_v1.3.6.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-worker/v1.3.6/garlic-worker_v1.3.6.elf",
       "description": "Garlic worker payload component.",
-      "version": "v1.3.3",
-      "checksum": "1016686195a2b3b9f67ff87a3a5ae64fb0e3e74a9a3ae5c5ddfb8d36fa0df0ca"
+      "version": "v1.3.6",
+      "checksum": "f11b710e8e86d2818215219937f36bc9fb44ae880782c2865819bfacd3be11b2"
     },
     {
       "name": "savemnt-offset-dumper",

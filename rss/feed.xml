@@ -235,9 +235,9 @@
       <description>Easy remote server component. Port: 8080 - Checksum: 0563ed163a921dd9d2fe8bb5e12ab60c28f9175cc1cb2f718a389213cecca807</description>
     </item>
     <item>
-      <title>ps5upload (v11.2.5)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v11.2.5/ps5upload_v11.2.5.elf</link>
-      <description>PS5 Upload server / tool. Port: 9025 - Checksum: a2c51a140fe3c701edc854decfe0cc120ec155bd8f99c9d49feac8cb5d057f80</description>
+      <title>ps5upload (v11.2.8)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v11.2.8/ps5upload_v11.2.8.elf</link>
+      <description>PS5 Upload server / tool. Port: 9025 - Checksum: a76ae6f70ee8cb0b536ee39f60855cee627a01f33271699020ee35989a9a8f37</description>
     </item>
     <item>
       <title>airpsx (0.19)</title>
@@ -265,9 +265,9 @@
       <description>Save manager utility hosted on Forgejo. - Checksum: 52ada30119d4f40800047f6bb8ece2beb15f836b3f3c74fda100e80fb54da30e</description>
     </item>
     <item>
-      <title>garlic-worker (v1.3.3)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-worker/v1.3.3/garlic-worker_v1.3.3.elf</link>
-      <description>Garlic worker payload component. - Checksum: 1016686195a2b3b9f67ff87a3a5ae64fb0e3e74a9a3ae5c5ddfb8d36fa0df0ca</description>
+      <title>garlic-worker (v1.3.6)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-worker/v1.3.6/garlic-worker_v1.3.6.elf</link>
+      <description>Garlic worker payload component. - Checksum: f11b710e8e86d2818215219937f36bc9fb44ae880782c2865819bfacd3be11b2</description>
     </item>
     <item>
       <title>savemnt-offset-dumper (1.0.0)</title>
