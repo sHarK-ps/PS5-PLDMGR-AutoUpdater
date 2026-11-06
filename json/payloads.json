@@ -210,6 +210,14 @@
       "checksum": "94d43a8db7ec9df6e18f0a0da25aac0f60e1a0b14d35bfff261f6f5cdeabdba1"
     },
     {
+      "name": "Ghostcontrol-PS5-USB-Controller-Patcher",
+      "filename": "Ghostcontrol-PS5-USB-Controller-Patcher_v2.2.5-beta.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_utility/Ghostcontrol-PS5-USB-Controller-Patcher/v2.2.5-beta/Ghostcontrol-PS5-USB-Controller-Patcher_v2.2.5-beta.elf",
+      "description": "USB Controller patcher tool for PS5.",
+      "version": "v2.2.5-beta",
+      "checksum": "9252b95bdf019f83628e454d03c15709fd2a59abf1f218e3d02f141eae1e9a19"
+    },
+    {
       "name": "nanoDNS",
       "filename": "nanoDNS_v0.4.elf",
       "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_dns/nanoDNS/0.4/nanoDNS_v0.4.elf",
@@ -363,11 +371,11 @@
     },
     {
       "name": "ps5upload",
-      "filename": "ps5upload_v11.2.3.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v11.2.3/ps5upload_v11.2.3.elf",
+      "filename": "ps5upload_v11.2.4.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v11.2.4/ps5upload_v11.2.4.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v11.2.3",
-      "checksum": "0a0fd1cd7946e5bd364dfaaadc0e7b01c35c33fd48302385378ff743646b129a"
+      "version": "v11.2.4",
+      "checksum": "06fb08963fb31c59ab277d5e1b109481c546fc1128a664b06ca70a9c2078e374"
     },
     {
       "name": "airpsx",
@@ -403,11 +411,11 @@
     },
     {
       "name": "garlic-savemgr",
-      "filename": "garlic-savemgr_v1.15-beta8.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-savemgr/v1.15-beta8/garlic-savemgr_v1.15-beta8.elf",
+      "filename": "garlic-savemgr_v1.15-beta11.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-savemgr/v1.15-beta11/garlic-savemgr_v1.15-beta11.elf",
       "description": "Save manager utility hosted on Forgejo.",
-      "version": "v1.15-beta8",
-      "checksum": "b1efd3066156a0ac4c5f47504a4d1e4b79f3e3f523c3c6e296a3acc53b98364f"
+      "version": "v1.15-beta11",
+      "checksum": "ea2e068f09118a8fd444ae458d9625d589a3cd648012be23ddef478613e97557"
     },
     {
       "name": "garlic-worker",

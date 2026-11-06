@@ -135,6 +135,11 @@
       <description>Ghostpad controller input utility. - Checksum: 94d43a8db7ec9df6e18f0a0da25aac0f60e1a0b14d35bfff261f6f5cdeabdba1</description>
     </item>
     <item>
+      <title>Ghostcontrol-PS5-USB-Controller-Patcher (v2.2.5-beta)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_utility/Ghostcontrol-PS5-USB-Controller-Patcher/v2.2.5-beta/Ghostcontrol-PS5-USB-Controller-Patcher_v2.2.5-beta.elf</link>
+      <description>USB Controller patcher tool for PS5. - Checksum: 9252b95bdf019f83628e454d03c15709fd2a59abf1f218e3d02f141eae1e9a19</description>
+    </item>
+    <item>
       <title>nanoDNS (0.4)</title>
       <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_dns/nanoDNS/0.4/nanoDNS_v0.4.elf</link>
       <description>Un serveur DNS ultra-léger et rapide idéal pour rediriger les requêtes de la console vers votre hôte local d'exploits. - Checksum: fcfb7d47c3b295560ea1603dc015f7c4950353ef0faca16428bd425680ef1fc5</description>
@@ -230,9 +235,9 @@
       <description>Easy remote server component. Port: 8080 - Checksum: 0563ed163a921dd9d2fe8bb5e12ab60c28f9175cc1cb2f718a389213cecca807</description>
     </item>
     <item>
-      <title>ps5upload (v11.2.3)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v11.2.3/ps5upload_v11.2.3.elf</link>
-      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 0a0fd1cd7946e5bd364dfaaadc0e7b01c35c33fd48302385378ff743646b129a</description>
+      <title>ps5upload (v11.2.4)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v11.2.4/ps5upload_v11.2.4.elf</link>
+      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 06fb08963fb31c59ab277d5e1b109481c546fc1128a664b06ca70a9c2078e374</description>
     </item>
     <item>
       <title>airpsx (0.19)</title>
@@ -255,9 +260,9 @@
       <description>Wallpaper modification utility for PS5. - Checksum: b18a866bac9deff45b921b7d3ea6143d541117b56c666d817ecdc81961829139</description>
     </item>
     <item>
-      <title>garlic-savemgr (v1.15-beta8)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-savemgr/v1.15-beta8/garlic-savemgr_v1.15-beta8.elf</link>
-      <description>Save manager utility hosted on Forgejo. - Checksum: b1efd3066156a0ac4c5f47504a4d1e4b79f3e3f523c3c6e296a3acc53b98364f</description>
+      <title>garlic-savemgr (v1.15-beta11)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-savemgr/v1.15-beta11/garlic-savemgr_v1.15-beta11.elf</link>
+      <description>Save manager utility hosted on Forgejo. - Checksum: ea2e068f09118a8fd444ae458d9625d589a3cd648012be23ddef478613e97557</description>
     </item>
     <item>
       <title>garlic-worker (v1.2.3)</title>

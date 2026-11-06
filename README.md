@@ -90,7 +90,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
-| **garlic-savemgr** | [v1.15-beta8](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-savemgr/v1.15-beta8/garlic-savemgr_v1.15-beta8.elf) | `b1efd30661...` | Save manager utility hosted on Forgejo. |
+| **garlic-savemgr** | [v1.15-beta11](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-savemgr/v1.15-beta11/garlic-savemgr_v1.15-beta11.elf) | `ea2e068f09...` | Save manager utility hosted on Forgejo. |
 | **garlic-worker** | [v1.2.3](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-worker/v1.2.3/garlic-worker_v1.2.3.elf) | `a6c65b1bca...` | Garlic worker payload component. |
 | **savemnt-offset-dumper** | [1.0.0](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/savemnt-offset-dumper/1.0.0/savemnt-offset-dumper_v1.0.0.elf) | `946328551f...` | Offset dumper for save mounting utilities. |
 
@@ -128,7 +128,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | **ftpsrv_drakmor** | [1.16-ng-stable](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ftpsrv_drakmor/1.16-ng-stable/ftpsrv_drakmor_v1.16-ng-stable.elf) | `f19ae469b2...` | Drakmor's variant of the FTP server. Port: 21 |
 | **ps5-ezremote-client** | [2.19](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5-ezremote-client/2.19/ps5-ezremote-client_v2.19.elf) | `eda226e008...` | Easy remote client application for PS5. |
 | **ps5-ezremote-server** | [1.13](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5-ezremote-server/1.13/ps5-ezremote-server_v1.13.elf) | `0563ed163a...` | Easy remote server component. Port: 8080 |
-| **ps5upload** | [v11.2.3](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v11.2.3/ps5upload_v11.2.3.elf) | `0a0fd1cd79...` | PS5 Upload server / tool. Port: 9025 |
+| **ps5upload** | [v11.2.4](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v11.2.4/ps5upload_v11.2.4.elf) | `06fb08963f...` | PS5 Upload server / tool. Port: 9025 |
 | **airpsx** | [0.19](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/airpsx/0.19/airpsx_v0.19.elf) | `ae025ca772...` | AirPSX server tool for PS5 ecosystem. |
 
 ### 📦 Ps5 Themes-Avatars
@@ -153,6 +153,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | :--- | :--- | :--- | :--- |
 | **ChronicLoader-PS5-Payload** | [0.1](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_utility/ChronicLoader-PS5-Payload/0.1/ChronicLoader-PS5-Payload_v0.1.elf) | `3561120f85...` | ChronicLoader utility payload for PS5. |
 | **Ghostpad** | [v1.0.0](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_utility/Ghostpad/v1.0.0/Ghostpad_v1.0.0.elf) | `94d43a8db7...` | Ghostpad controller input utility. |
+| **Ghostcontrol-PS5-USB-Controller-Patcher** | [v2.2.5-beta](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_utility/Ghostcontrol-PS5-USB-Controller-Patcher/v2.2.5-beta/Ghostcontrol-PS5-USB-Controller-Patcher_v2.2.5-beta.elf) | `9252b95bdf...` | USB Controller patcher tool for PS5. |
 
 ---
 
@@ -171,6 +172,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 - **OpenSourcereR-dev** : [ps5debug-NG](https://github.com/OpenSourcereR-dev/ps5debug-NG)
 - **SonicIso** : [ELF Arsenal](https://git.etawen.dev/soniciso/elf-arsenal)
 - **StonedModder** : [ChronicLoader-PS5-Payload](https://github.com/StonedModder/ChronicLoader-PS5-Payload)
+- **StonedModder** : [Ghostcontrol-PS5-USB-Controller-Patcher](https://github.com/StonedModder/Ghostcontrol-PS5-USB-Controller-Patcher)
 - **StonedModder** : [Ghostpad](https://github.com/StonedModder/Ghostpad)
 - **StonedModder** : [savemnt-offset-dumper](https://github.com/StonedModder/savemnt-offset-dumper)
 - **aydencharles** : [kylin-core](https://raw.githubusercontent.com/nexgen999/PS5_Payload_Manager_Updater/main/ps5_cheat/kylin-core-community-lite-v131-global-release.elf)
