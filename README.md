@@ -128,7 +128,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | **ftpsrv_drakmor** | [1.16-ng-stable](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ftpsrv_drakmor/1.16-ng-stable/ftpsrv_drakmor_v1.16-ng-stable.elf) | `f19ae469b2...` | Drakmor's variant of the FTP server. Port: 21 |
 | **ps5-ezremote-client** | [2.19](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5-ezremote-client/2.19/ps5-ezremote-client_v2.19.elf) | `eda226e008...` | Easy remote client application for PS5. |
 | **ps5-ezremote-server** | [1.13](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5-ezremote-server/1.13/ps5-ezremote-server_v1.13.elf) | `0563ed163a...` | Easy remote server component. Port: 8080 |
-| **ps5upload** | [v11.2.8](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v11.2.8/ps5upload_v11.2.8.elf) | `a76ae6f70e...` | PS5 Upload server / tool. Port: 9025 |
+| **ps5upload** | [v11.3.0](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v11.3.0/ps5upload_v11.3.0.elf) | `db1d0e2be1...` | PS5 Upload server / tool. Port: 9025 |
 | **airpsx** | [0.19](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/airpsx/0.19/airpsx_v0.19.elf) | `ae025ca772...` | AirPSX server tool for PS5 ecosystem. |
 
 ### 📦 Ps5 Themes-Avatars
