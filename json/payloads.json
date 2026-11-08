@@ -371,11 +371,11 @@
     },
     {
       "name": "ps5upload",
-      "filename": "ps5upload_v11.5.1.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v11.5.1/ps5upload_v11.5.1.elf",
+      "filename": "ps5upload_v11.6.0.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v11.6.0/ps5upload_v11.6.0.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v11.5.1",
-      "checksum": "e6059aafb53eb48b8bc0ce31f2f0db3b0b5e58d97fea7b7cf813e66a5086b08c"
+      "version": "v11.6.0",
+      "checksum": "13dca53b2216d920ad94b9564cba68fd085d4ea0f1f0193be5b5299c9872e67e"
     },
     {
       "name": "airpsx",
@@ -411,11 +411,11 @@
     },
     {
       "name": "garlic-savemgr",
-      "filename": "garlic-savemgr_v1.15-beta12.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-savemgr/v1.15-beta12/garlic-savemgr_v1.15-beta12.elf",
+      "filename": "garlic-savemgr_v1.15-beta14.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-savemgr/v1.15-beta14/garlic-savemgr_v1.15-beta14.elf",
       "description": "Save manager utility hosted on Forgejo.",
-      "version": "v1.15-beta12",
-      "checksum": "52ada30119d4f40800047f6bb8ece2beb15f836b3f3c74fda100e80fb54da30e"
+      "version": "v1.15-beta14",
+      "checksum": "2f9f4b575757b480443282f3c885b1e63cc4637e0ea2a043a8c79e392c792af0"
     },
     {
       "name": "garlic-worker",

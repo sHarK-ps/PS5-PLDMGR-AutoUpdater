@@ -235,9 +235,9 @@
       <description>Easy remote server component. Port: 8080 - Checksum: 0563ed163a921dd9d2fe8bb5e12ab60c28f9175cc1cb2f718a389213cecca807</description>
     </item>
     <item>
-      <title>ps5upload (v11.5.1)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v11.5.1/ps5upload_v11.5.1.elf</link>
-      <description>PS5 Upload server / tool. Port: 9025 - Checksum: e6059aafb53eb48b8bc0ce31f2f0db3b0b5e58d97fea7b7cf813e66a5086b08c</description>
+      <title>ps5upload (v11.6.0)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v11.6.0/ps5upload_v11.6.0.elf</link>
+      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 13dca53b2216d920ad94b9564cba68fd085d4ea0f1f0193be5b5299c9872e67e</description>
     </item>
     <item>
       <title>airpsx (0.19)</title>
@@ -260,9 +260,9 @@
       <description>Wallpaper modification utility for PS5. - Checksum: b18a866bac9deff45b921b7d3ea6143d541117b56c666d817ecdc81961829139</description>
     </item>
     <item>
-      <title>garlic-savemgr (v1.15-beta12)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-savemgr/v1.15-beta12/garlic-savemgr_v1.15-beta12.elf</link>
-      <description>Save manager utility hosted on Forgejo. - Checksum: 52ada30119d4f40800047f6bb8ece2beb15f836b3f3c74fda100e80fb54da30e</description>
+      <title>garlic-savemgr (v1.15-beta14)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-savemgr/v1.15-beta14/garlic-savemgr_v1.15-beta14.elf</link>
+      <description>Save manager utility hosted on Forgejo. - Checksum: 2f9f4b575757b480443282f3c885b1e63cc4637e0ea2a043a8c79e392c792af0</description>
     </item>
     <item>
       <title>garlic-worker (v1.3.9)</title>
