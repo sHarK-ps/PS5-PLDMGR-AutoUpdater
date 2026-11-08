@@ -259,11 +259,11 @@
     },
     {
       "name": "ShadowMountPlus",
-      "filename": "ShadowMountPlus_v1.7beta11.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ShadowMountPlus/1.7beta11/ShadowMountPlus_v1.7beta11.elf",
+      "filename": "ShadowMountPlus_v1.7beta12.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ShadowMountPlus/1.7beta12/ShadowMountPlus_v1.7beta12.elf",
       "description": "ShadowMountPlus payload for game mounting.",
-      "version": "1.7beta11",
-      "checksum": "08c843018750bef013fe3a4de5f80c5c9738c6c2dafa2406e6b6e68d7585f3da"
+      "version": "1.7beta12",
+      "checksum": "8755172ec9bef1bff5453ea75606e0caf7c41b5963f94f5a1087e7e8c6d9b1bd"
     },
     {
       "name": "BackPork",
@@ -315,11 +315,11 @@
     },
     {
       "name": "ftpsrv_ps5-payload",
-      "filename": "ftpsrv_ps5-payload_v0.21.1.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ftpsrv_ps5-payload/v0.21.1/ftpsrv_ps5-payload_v0.21.1.elf",
+      "filename": "ftpsrv_ps5-payload_v0.22.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ftpsrv_ps5-payload/v0.22/ftpsrv_ps5-payload_v0.22.elf",
       "description": "FTP server background daemon. Port: 21",
-      "version": "v0.21.1",
-      "checksum": "0ccfe0097081be0514aabef34390a0f6776226e8b3eefbb047964584e0cfe3a9"
+      "version": "v0.22",
+      "checksum": "5e845b93dac8906f15f72dbe5b3ee07d3a4c47474a3afd4126d8ba4a280b106d"
     },
     {
       "name": "websrv",
@@ -371,11 +371,11 @@
     },
     {
       "name": "ps5upload",
-      "filename": "ps5upload_v11.6.0.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v11.6.0/ps5upload_v11.6.0.elf",
+      "filename": "ps5upload_v12.0.0.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v12.0.0/ps5upload_v12.0.0.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v11.6.0",
-      "checksum": "13dca53b2216d920ad94b9564cba68fd085d4ea0f1f0193be5b5299c9872e67e"
+      "version": "v12.0.0",
+      "checksum": "ec3da9d9a20a9141e722bc1101ade6e6264cbd147566e866f3f823143e9b28a3"
     },
     {
       "name": "airpsx",
@@ -411,19 +411,19 @@
     },
     {
       "name": "garlic-savemgr",
-      "filename": "garlic-savemgr_v1.15-beta14.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-savemgr/v1.15-beta14/garlic-savemgr_v1.15-beta14.elf",
+      "filename": "garlic-savemgr_v1.15-beta15.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-savemgr/v1.15-beta15/garlic-savemgr_v1.15-beta15.elf",
       "description": "Save manager utility hosted on Forgejo.",
-      "version": "v1.15-beta14",
-      "checksum": "2f9f4b575757b480443282f3c885b1e63cc4637e0ea2a043a8c79e392c792af0"
+      "version": "v1.15-beta15",
+      "checksum": "7e6a494eb3d19964e912d9a991014e398d115db36b25b3ab8c31c1bc9dae5758"
     },
     {
       "name": "garlic-worker",
-      "filename": "garlic-worker_v1.3.9.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-worker/v1.3.9/garlic-worker_v1.3.9.elf",
+      "filename": "garlic-worker_v1.4.0.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-worker/v1.4.0/garlic-worker_v1.4.0.elf",
       "description": "Garlic worker payload component.",
-      "version": "v1.3.9",
-      "checksum": "5dc7b486ae7c2ca21e07df8f4d5c331e308e595ece72d8170dfa4a1b768dd7a1"
+      "version": "v1.4.0",
+      "checksum": "accad18a84646a216ab4dc30a2e6e3d71e1796c3e34b64d422fbea4404ad4696"
     },
     {
       "name": "savemnt-offset-dumper",

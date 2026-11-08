@@ -3,19 +3,19 @@
   "payloads": [
     {
       "name": "garlic-savemgr",
-      "filename": "garlic-savemgr_v1.15-beta14.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-savemgr/v1.15-beta14/garlic-savemgr_v1.15-beta14.elf",
+      "filename": "garlic-savemgr_v1.15-beta15.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-savemgr/v1.15-beta15/garlic-savemgr_v1.15-beta15.elf",
       "description": "Save manager utility hosted on Forgejo.",
-      "version": "v1.15-beta14",
-      "checksum": "2f9f4b575757b480443282f3c885b1e63cc4637e0ea2a043a8c79e392c792af0"
+      "version": "v1.15-beta15",
+      "checksum": "7e6a494eb3d19964e912d9a991014e398d115db36b25b3ab8c31c1bc9dae5758"
     },
     {
       "name": "garlic-worker",
-      "filename": "garlic-worker_v1.3.9.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-worker/v1.3.9/garlic-worker_v1.3.9.elf",
+      "filename": "garlic-worker_v1.4.0.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-worker/v1.4.0/garlic-worker_v1.4.0.elf",
       "description": "Garlic worker payload component.",
-      "version": "v1.3.9",
-      "checksum": "5dc7b486ae7c2ca21e07df8f4d5c331e308e595ece72d8170dfa4a1b768dd7a1"
+      "version": "v1.4.0",
+      "checksum": "accad18a84646a216ab4dc30a2e6e3d71e1796c3e34b64d422fbea4404ad4696"
     },
     {
       "name": "savemnt-offset-dumper",

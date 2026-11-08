@@ -43,11 +43,11 @@
     },
     {
       "name": "ftpsrv_ps5-payload",
-      "filename": "ftpsrv_ps5-payload_v0.21.1.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ftpsrv_ps5-payload/v0.21.1/ftpsrv_ps5-payload_v0.21.1.elf",
+      "filename": "ftpsrv_ps5-payload_v0.22.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ftpsrv_ps5-payload/v0.22/ftpsrv_ps5-payload_v0.22.elf",
       "description": "FTP server background daemon. Port: 21",
-      "version": "v0.21.1",
-      "checksum": "0ccfe0097081be0514aabef34390a0f6776226e8b3eefbb047964584e0cfe3a9"
+      "version": "v0.22",
+      "checksum": "5e845b93dac8906f15f72dbe5b3ee07d3a4c47474a3afd4126d8ba4a280b106d"
     },
     {
       "name": "websrv",
@@ -99,11 +99,11 @@
     },
     {
       "name": "ps5upload",
-      "filename": "ps5upload_v11.6.0.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v11.6.0/ps5upload_v11.6.0.elf",
+      "filename": "ps5upload_v12.0.0.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v12.0.0/ps5upload_v12.0.0.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v11.6.0",
-      "checksum": "13dca53b2216d920ad94b9564cba68fd085d4ea0f1f0193be5b5299c9872e67e"
+      "version": "v12.0.0",
+      "checksum": "ec3da9d9a20a9141e722bc1101ade6e6264cbd147566e866f3f823143e9b28a3"
     },
     {
       "name": "airpsx",

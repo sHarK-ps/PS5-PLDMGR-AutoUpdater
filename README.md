@@ -56,7 +56,7 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | :--- | :--- | :--- | :--- |
 | **PS5-Game-Compressor** | [v1.0.4](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/PS5-Game-Compressor/v1.0.4/PS5-Game-Compressor_v1.0.4.elf) | `e55e90aaad...` | Tool to compress PS5 games. |
 | **ps5-app-dumper** | [v2.10](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ps5-app-dumper/v2.10/ps5-app-dumper_v2.10.elf) | `c850f1df6f...` | PS5 App Dumper payload. |
-| **ShadowMountPlus** | [1.7beta11](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ShadowMountPlus/1.7beta11/ShadowMountPlus_v1.7beta11.elf) | `08c8430187...` | ShadowMountPlus payload for game mounting. |
+| **ShadowMountPlus** | [1.7beta12](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ShadowMountPlus/1.7beta12/ShadowMountPlus_v1.7beta12.elf) | `8755172ec9...` | ShadowMountPlus payload for game mounting. |
 | **BackPork** | [0.1](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/BackPork/0.1/BackPork_v0.1.elf) | `d74e4cd119...` | BackPork PS5 tool. |
 
 ### 🚀 Ps5 HEN Loader
@@ -90,8 +90,8 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
-| **garlic-savemgr** | [v1.15-beta14](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-savemgr/v1.15-beta14/garlic-savemgr_v1.15-beta14.elf) | `2f9f4b5757...` | Save manager utility hosted on Forgejo. |
-| **garlic-worker** | [v1.3.9](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-worker/v1.3.9/garlic-worker_v1.3.9.elf) | `5dc7b486ae...` | Garlic worker payload component. |
+| **garlic-savemgr** | [v1.15-beta15](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-savemgr/v1.15-beta15/garlic-savemgr_v1.15-beta15.elf) | `7e6a494eb3...` | Save manager utility hosted on Forgejo. |
+| **garlic-worker** | [v1.4.0](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-worker/v1.4.0/garlic-worker_v1.4.0.elf) | `accad18a84...` | Garlic worker payload component. |
 | **savemnt-offset-dumper** | [1.0.0](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/savemnt-offset-dumper/1.0.0/savemnt-offset-dumper_v1.0.0.elf) | `946328551f...` | Offset dumper for save mounting utilities. |
 
 ### ⚙️ Ps5 Sdk Debug
@@ -121,14 +121,14 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | **zftp** | [v1.7.0](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/zftpd/v1.7.0/zftp_v1.7.0.bin) | `a2018c31c0...` | FTP server payload for PS5. Port: 21 |
 | **zhttp** | [v1.7.0](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/zftpd/v1.7.0/zhttp_v1.7.0.elf) | `8f78ac0cde...` | FTP server payload for PS5. Port: 21 |
 | **elfldr** | [v0.27](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/elfldr/v0.27/elfldr_v0.27.elf) | `82f6227610...` | ELF Loader utility. Port: 9020 / 9021 |
-| **ftpsrv_ps5-payload** | [v0.21.1](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ftpsrv_ps5-payload/v0.21.1/ftpsrv_ps5-payload_v0.21.1.elf) | `0ccfe00970...` | FTP server background daemon. Port: 21 |
+| **ftpsrv_ps5-payload** | [v0.22](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ftpsrv_ps5-payload/v0.22/ftpsrv_ps5-payload_v0.22.elf) | `5e845b93da...` | FTP server background daemon. Port: 21 |
 | **websrv** | [v0.35](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/websrv/v0.35/websrv_v0.35.elf) | `25501b4188...` | HTTP Web server payload. Port: 8080 |
 | **gdbsrv** | [v0.9](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/gdbsrv/v0.9/gdbsrv_v0.9.elf) | `80952d75f4...` | GDB Debugger server payload. Port: 1234 |
 | **klogsrv** | [v0.9](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/klogsrv/v0.9/klogsrv_v0.9.elf) | `e828ec1442...` | Kernel log server daemon. Port: 3232 |
 | **ftpsrv_drakmor** | [1.16-ng-stable](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ftpsrv_drakmor/1.16-ng-stable/ftpsrv_drakmor_v1.16-ng-stable.elf) | `f19ae469b2...` | Drakmor's variant of the FTP server. Port: 21 |
 | **ps5-ezremote-client** | [2.19](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5-ezremote-client/2.19/ps5-ezremote-client_v2.19.elf) | `eda226e008...` | Easy remote client application for PS5. |
 | **ps5-ezremote-server** | [1.13](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5-ezremote-server/1.13/ps5-ezremote-server_v1.13.elf) | `0563ed163a...` | Easy remote server component. Port: 8080 |
-| **ps5upload** | [v11.6.0](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v11.6.0/ps5upload_v11.6.0.elf) | `13dca53b22...` | PS5 Upload server / tool. Port: 9025 |
+| **ps5upload** | [v12.0.0](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v12.0.0/ps5upload_v12.0.0.elf) | `ec3da9d9a2...` | PS5 Upload server / tool. Port: 9025 |
 | **airpsx** | [0.19](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/airpsx/0.19/airpsx_v0.19.elf) | `ae025ca772...` | AirPSX server tool for PS5 ecosystem. |
 
 ### 📦 Ps5 Themes-Avatars

@@ -165,9 +165,9 @@
       <description>PS5 App Dumper payload. - Checksum: c850f1df6f2787824d6ddeeed69ce4144e00569b32135973401c2985cfb0345b</description>
     </item>
     <item>
-      <title>ShadowMountPlus (1.7beta11)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ShadowMountPlus/1.7beta11/ShadowMountPlus_v1.7beta11.elf</link>
-      <description>ShadowMountPlus payload for game mounting. - Checksum: 08c843018750bef013fe3a4de5f80c5c9738c6c2dafa2406e6b6e68d7585f3da</description>
+      <title>ShadowMountPlus (1.7beta12)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_game_dump/ShadowMountPlus/1.7beta12/ShadowMountPlus_v1.7beta12.elf</link>
+      <description>ShadowMountPlus payload for game mounting. - Checksum: 8755172ec9bef1bff5453ea75606e0caf7c41b5963f94f5a1087e7e8c6d9b1bd</description>
     </item>
     <item>
       <title>BackPork (0.1)</title>
@@ -200,9 +200,9 @@
       <description>ELF Loader utility. Port: 9020 / 9021 - Checksum: 82f6227610172c98bad6efe68219fc93a10027035991f47eb4b75532d023407d</description>
     </item>
     <item>
-      <title>ftpsrv_ps5-payload (v0.21.1)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ftpsrv_ps5-payload/v0.21.1/ftpsrv_ps5-payload_v0.21.1.elf</link>
-      <description>FTP server background daemon. Port: 21 - Checksum: 0ccfe0097081be0514aabef34390a0f6776226e8b3eefbb047964584e0cfe3a9</description>
+      <title>ftpsrv_ps5-payload (v0.22)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ftpsrv_ps5-payload/v0.22/ftpsrv_ps5-payload_v0.22.elf</link>
+      <description>FTP server background daemon. Port: 21 - Checksum: 5e845b93dac8906f15f72dbe5b3ee07d3a4c47474a3afd4126d8ba4a280b106d</description>
     </item>
     <item>
       <title>websrv (v0.35)</title>
@@ -235,9 +235,9 @@
       <description>Easy remote server component. Port: 8080 - Checksum: 0563ed163a921dd9d2fe8bb5e12ab60c28f9175cc1cb2f718a389213cecca807</description>
     </item>
     <item>
-      <title>ps5upload (v11.6.0)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v11.6.0/ps5upload_v11.6.0.elf</link>
-      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 13dca53b2216d920ad94b9564cba68fd085d4ea0f1f0193be5b5299c9872e67e</description>
+      <title>ps5upload (v12.0.0)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v12.0.0/ps5upload_v12.0.0.elf</link>
+      <description>PS5 Upload server / tool. Port: 9025 - Checksum: ec3da9d9a20a9141e722bc1101ade6e6264cbd147566e866f3f823143e9b28a3</description>
     </item>
     <item>
       <title>airpsx (0.19)</title>
@@ -260,14 +260,14 @@
       <description>Wallpaper modification utility for PS5. - Checksum: b18a866bac9deff45b921b7d3ea6143d541117b56c666d817ecdc81961829139</description>
     </item>
     <item>
-      <title>garlic-savemgr (v1.15-beta14)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-savemgr/v1.15-beta14/garlic-savemgr_v1.15-beta14.elf</link>
-      <description>Save manager utility hosted on Forgejo. - Checksum: 2f9f4b575757b480443282f3c885b1e63cc4637e0ea2a043a8c79e392c792af0</description>
+      <title>garlic-savemgr (v1.15-beta15)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-savemgr/v1.15-beta15/garlic-savemgr_v1.15-beta15.elf</link>
+      <description>Save manager utility hosted on Forgejo. - Checksum: 7e6a494eb3d19964e912d9a991014e398d115db36b25b3ab8c31c1bc9dae5758</description>
     </item>
     <item>
-      <title>garlic-worker (v1.3.9)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-worker/v1.3.9/garlic-worker_v1.3.9.elf</link>
-      <description>Garlic worker payload component. - Checksum: 5dc7b486ae7c2ca21e07df8f4d5c331e308e595ece72d8170dfa4a1b768dd7a1</description>
+      <title>garlic-worker (v1.4.0)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-worker/v1.4.0/garlic-worker_v1.4.0.elf</link>
+      <description>Garlic worker payload component. - Checksum: accad18a84646a216ab4dc30a2e6e3d71e1796c3e34b64d422fbea4404ad4696</description>
     </item>
     <item>
       <title>savemnt-offset-dumper (1.0.0)</title>
