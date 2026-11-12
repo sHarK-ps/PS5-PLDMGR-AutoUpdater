@@ -371,11 +371,11 @@
     },
     {
       "name": "ps5upload",
-      "filename": "ps5upload_v12.4.8.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v12.4.8/ps5upload_v12.4.8.elf",
+      "filename": "ps5upload_v12.4.10.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v12.4.10/ps5upload_v12.4.10.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v12.4.8",
-      "checksum": "053154034ffdb5057a08a962b68a26708270c78da966ef0a9f433c3f6de860fc"
+      "version": "v12.4.10",
+      "checksum": "c51f52398aa9a9b0c78b5561010dffbaf198511f3daf8388bcf293918810f483"
     },
     {
       "name": "airpsx",
@@ -411,19 +411,19 @@
     },
     {
       "name": "garlic-savemgr",
-      "filename": "garlic-savemgr_v1.15-beta22.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-savemgr/v1.15-beta22/garlic-savemgr_v1.15-beta22.elf",
+      "filename": "garlic-savemgr_v1.15-beta23.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-savemgr/v1.15-beta23/garlic-savemgr_v1.15-beta23.elf",
       "description": "Save manager utility hosted on Forgejo.",
-      "version": "v1.15-beta22",
-      "checksum": "fb8e0860161e3235e57bc9239d61d2b6483cf45395253745c05d34a3c9ebf1ca"
+      "version": "v1.15-beta23",
+      "checksum": "bef727f10a276e4797a16875eb31cb48da7e3e5bb06a0c1dcab46963ddc139f1"
     },
     {
       "name": "garlic-worker",
-      "filename": "garlic-worker_v1.5.5.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-worker/v1.5.5/garlic-worker_v1.5.5.elf",
+      "filename": "garlic-worker_v1.5.6.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-worker/v1.5.6/garlic-worker_v1.5.6.elf",
       "description": "Garlic worker payload component.",
-      "version": "v1.5.5",
-      "checksum": "b758559171b594a3b5ffb985c507b7fa3fb0f72e1ae35de240b21ce12c4da43a"
+      "version": "v1.5.6",
+      "checksum": "9cee1b261cc257e08997c0da109109b24d829c362117ebb293f277087033f5c2"
     },
     {
       "name": "savemnt-offset-dumper",

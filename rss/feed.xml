@@ -235,9 +235,9 @@
       <description>Easy remote server component. Port: 8080 - Checksum: 0563ed163a921dd9d2fe8bb5e12ab60c28f9175cc1cb2f718a389213cecca807</description>
     </item>
     <item>
-      <title>ps5upload (v12.4.8)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v12.4.8/ps5upload_v12.4.8.elf</link>
-      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 053154034ffdb5057a08a962b68a26708270c78da966ef0a9f433c3f6de860fc</description>
+      <title>ps5upload (v12.4.10)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v12.4.10/ps5upload_v12.4.10.elf</link>
+      <description>PS5 Upload server / tool. Port: 9025 - Checksum: c51f52398aa9a9b0c78b5561010dffbaf198511f3daf8388bcf293918810f483</description>
     </item>
     <item>
       <title>airpsx (0.19)</title>
@@ -260,14 +260,14 @@
       <description>Wallpaper modification utility for PS5. - Checksum: b18a866bac9deff45b921b7d3ea6143d541117b56c666d817ecdc81961829139</description>
     </item>
     <item>
-      <title>garlic-savemgr (v1.15-beta22)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-savemgr/v1.15-beta22/garlic-savemgr_v1.15-beta22.elf</link>
-      <description>Save manager utility hosted on Forgejo. - Checksum: fb8e0860161e3235e57bc9239d61d2b6483cf45395253745c05d34a3c9ebf1ca</description>
+      <title>garlic-savemgr (v1.15-beta23)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-savemgr/v1.15-beta23/garlic-savemgr_v1.15-beta23.elf</link>
+      <description>Save manager utility hosted on Forgejo. - Checksum: bef727f10a276e4797a16875eb31cb48da7e3e5bb06a0c1dcab46963ddc139f1</description>
     </item>
     <item>
-      <title>garlic-worker (v1.5.5)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-worker/v1.5.5/garlic-worker_v1.5.5.elf</link>
-      <description>Garlic worker payload component. - Checksum: b758559171b594a3b5ffb985c507b7fa3fb0f72e1ae35de240b21ce12c4da43a</description>
+      <title>garlic-worker (v1.5.6)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-worker/v1.5.6/garlic-worker_v1.5.6.elf</link>
+      <description>Garlic worker payload component. - Checksum: 9cee1b261cc257e08997c0da109109b24d829c362117ebb293f277087033f5c2</description>
     </item>
     <item>
       <title>savemnt-offset-dumper (1.0.0)</title>
