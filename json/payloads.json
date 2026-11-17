@@ -34,14 +34,6 @@
       "checksum": "2a42054fd9725e1d9595ff4add95abc30e5b49446fcdcb96c06775a376a841c4"
     },
     {
-      "name": "ELF_Arsenal",
-      "filename": "ELF_Arsenal_v1.6.23.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_hen_loader/ELF_Arsenal/v1.6.23/ELF_Arsenal_v1.6.23.elf",
-      "description": "Boîte à outils regroupant une collection complète de payloads utilitaires pour les consoles jailbreakées.",
-      "version": "v1.6.23",
-      "checksum": "20cdb0979ce627aff8e684a4506e18390a72492d5e3aa15ecef0bfe1bca08bb5"
-    },
-    {
       "name": "ps5debug-NG",
       "filename": "ps5debug-NG_v1.3.2.elf",
       "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_sdk_debug/ps5debug-NG/1.3.2/ps5debug-NG_v1.3.2.elf",
@@ -371,11 +363,11 @@
     },
     {
       "name": "ps5upload",
-      "filename": "ps5upload_v12.5.1.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v12.5.1/ps5upload_v12.5.1.elf",
+      "filename": "ps5upload_v12.6.0.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v12.6.0/ps5upload_v12.6.0.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v12.5.1",
-      "checksum": "8ad4a30d7a7f542fbe75ce7080f4ae5ffce4fe072a127197aff8dfcb818de514"
+      "version": "v12.6.0",
+      "checksum": "a57fe14b5c3ec449208a90b68a798498653fce259a36f691f366376aa2b93df1"
     },
     {
       "name": "airpsx",
