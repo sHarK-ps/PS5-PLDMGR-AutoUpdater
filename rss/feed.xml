@@ -25,11 +25,6 @@
       <description>Interface d'administration et de gestion réseau pour envoyer, activer et ordonner vos fichiers ELF/BIN sur la console. - Checksum: 2a42054fd9725e1d9595ff4add95abc30e5b49446fcdcb96c06775a376a841c4</description>
     </item>
     <item>
-      <title>ELF_Arsenal (v1.6.23)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_hen_loader/ELF_Arsenal/v1.6.23/ELF_Arsenal_v1.6.23.elf</link>
-      <description>Boîte à outils regroupant une collection complète de payloads utilitaires pour les consoles jailbreakées. - Checksum: 20cdb0979ce627aff8e684a4506e18390a72492d5e3aa15ecef0bfe1bca08bb5</description>
-    </item>
-    <item>
       <title>ps5debug-NG (1.3.2)</title>
       <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_sdk_debug/ps5debug-NG/1.3.2/ps5debug-NG_v1.3.2.elf</link>
       <description>Next generation debugger payload for PS5. - Checksum: 949b0e6e0fe3f24f4a820319fd76d9ccb92f9770cbb1a64b09a8eca5c1fc9ff3</description>
@@ -235,9 +230,9 @@
       <description>Easy remote server component. Port: 8080 - Checksum: 0563ed163a921dd9d2fe8bb5e12ab60c28f9175cc1cb2f718a389213cecca807</description>
     </item>
     <item>
-      <title>ps5upload (v12.6.13)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v12.6.13/ps5upload_v12.6.13.elf</link>
-      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 83b0222253285e3a95db389caaffb3063ea659a3940e7f95c70f5568f887365e</description>
+      <title>ps5upload (v12.6.15)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v12.6.15/ps5upload_v12.6.15.elf</link>
+      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 593eda1e48d31a5b754da3ccbec046ce6c8e70048aead762fc8f631543a6acd2</description>
     </item>
     <item>
       <title>airpsx (0.19)</title>
