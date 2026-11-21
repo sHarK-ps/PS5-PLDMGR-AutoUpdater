@@ -17,13 +17,6 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 
 ## 📦 Liste des Applications & Payloads disponibles par Catégorie
 
-### 🔓 Ps5 Activation
-📂 **Fichier JSON Dédié :** `https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/json/PS5_Activation.json`
-
-| Application | Version | Empreinte SHA-256 | Description |
-| :--- | :--- | :--- | :--- |
-| **np-fake-signin** | [v1.4](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/PS5_Activation/np-fake-signin/v1.4/np-fake-signin_v1.4.elf) | `9ec8562b3e...` | Fake activate PS5 without PSN. |
-
 ### 🏴‍☠️ Ps5 Cheat
 📂 **Fichier JSON Dédié :** `https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/json/PS5_Cheat.json`
 
@@ -67,7 +60,6 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | **etaHEN** | [2.5B](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_hen_loader/etaHEN/2.5B/etaHEN_v2.5B.bin) | `4845cac450...` | Le Homebrew Enabler (HEN) de référence pour la PS5 avec serveurs de triche, plugins et gestionnaire de mémoire intégrés. |
 | **PS5_Unified_Autoloader** | [v0.1.7-abc3b82](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_hen_loader/PS5_Unified_Autoloader/v0.1.7-abc3b82/PS5_Unified_Autoloader_v0.1.7-abc3b82.elf) | `cc6a464cea...` | Chargeur universel de payloads permettant de lancer automatiquement vos outils favoris au démarrage de l'exploit. |
 | **pldmgr** | [v0.6.3](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_hen_loader/PS5_Payload_Manager/v0.6.3/pldmgr_v0.6.3.elf) | `2a42054fd9...` | Interface d'administration et de gestion réseau pour envoyer, activer et ordonner vos fichiers ELF/BIN sur la console. |
-| **ELF_Arsenal** | [v1.6.23](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_hen_loader/ELF_Arsenal/v1.6.23/ELF_Arsenal_v1.6.23.elf) | `20cdb0979c...` | Boîte à outils regroupant une collection complète de payloads utilitaires pour les consoles jailbreakées. |
 
 ### 🧪 Ps5 Kstuff
 📂 **Fichier JSON Dédié :** `https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/json/ps5_kstuff.json`
@@ -91,7 +83,6 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 | Application | Version | Empreinte SHA-256 | Description |
 | :--- | :--- | :--- | :--- |
 | **garlic-savemgr** | [v2.0](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-savemgr/v2.0/garlic-savemgr_v2.0.elf) | `805902a1ef...` | Save manager utility hosted on Forgejo. |
-| **garlic-worker** | [v1.5.6](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-worker/v1.5.6/garlic-worker_v1.5.6.elf) | `9cee1b261c...` | Garlic worker payload component. |
 | **savemnt-offset-dumper** | [1.0.0](https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/savemnt-offset-dumper/1.0.0/savemnt-offset-dumper_v1.0.0.elf) | `946328551f...` | Offset dumper for save mounting utilities. |
 
 ### ⚙️ Ps5 Sdk Debug
@@ -170,7 +161,6 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 - **LightningMods** : [etaHEN](https://github.com/etaHEN/etaHEN)
 - **NikoBellikJR31** : [PS5-Custom-Tool-Manager-](https://github.com/NikoBellikJR31/PS5-Custom-Tool-Manager-)
 - **OpenSourcereR-dev** : [ps5debug-NG](https://github.com/OpenSourcereR-dev/ps5debug-NG)
-- **SonicIso** : [ELF Arsenal](https://git.etawen.dev/soniciso/elf-arsenal)
 - **StonedModder** : [ChronicLoader-PS5-Payload](https://github.com/StonedModder/ChronicLoader-PS5-Payload)
 - **StonedModder** : [Ghostcontrol-PS5-USB-Controller-Patcher](https://github.com/StonedModder/Ghostcontrol-PS5-USB-Controller-Patcher)
 - **StonedModder** : [Ghostpad](https://github.com/StonedModder/Ghostpad)
@@ -183,8 +173,6 @@ Bienvenue sur mon écosystème automatisé pour la scène jailbreak PS5 !
 - **drakmor** : [ftpsrv_drakmor](https://github.com/drakmor/ftpsrv)
 - **drakmor** : [kstuff-lite_drakmor](https://github.com/drakmor/kstuff-lite)
 - **earthonion** : [garlic-savemgr](https://git.etawen.dev/earthonion/garlic-savemgr)
-- **earthonion** : [garlic-worker](https://git.etawen.dev/earthonion/garlic-worker)
-- **earthonion** : [np-fake-signin](https://git.etawen.dev/earthonion/np-fake-signin)
 - **hgr9519** : [ps5-wallpaper-modd](https://github.com/hgr9519/ps5-wallpaper-modd)
 - **idlesauce** : [PS5-SELF-Decrypter](https://github.com/idlesauce/PS5-SELF-Decrypter)
 - **idlesauce** : [ps5-remoteplay-get-pin](https://github.com/idlesauce/ps5-remoteplay-get-pin)

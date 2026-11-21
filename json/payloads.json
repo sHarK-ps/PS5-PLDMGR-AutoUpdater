@@ -394,36 +394,12 @@
       "checksum": "2a42054fd9725e1d9595ff4add95abc30e5b49446fcdcb96c06775a376a841c4"
     },
     {
-      "name": "ELF_Arsenal",
-      "filename": "ELF_Arsenal_v1.6.23.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_hen_loader/ELF_Arsenal/v1.6.23/ELF_Arsenal_v1.6.23.elf",
-      "description": "Boîte à outils regroupant une collection complète de payloads utilitaires pour les consoles jailbreakées.",
-      "version": "v1.6.23",
-      "checksum": "20cdb0979ce627aff8e684a4506e18390a72492d5e3aa15ecef0bfe1bca08bb5"
-    },
-    {
-      "name": "np-fake-signin",
-      "filename": "np-fake-signin_v1.4.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/PS5_Activation/np-fake-signin/v1.4/np-fake-signin_v1.4.elf",
-      "description": "Fake activate PS5 without PSN.",
-      "version": "v1.4",
-      "checksum": "9ec8562b3e3f6508071e280037e225371d8a6c297e74b8ae4d240e357ee38eca"
-    },
-    {
       "name": "garlic-savemgr",
       "filename": "garlic-savemgr_v2.0.elf",
       "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-savemgr/v2.0/garlic-savemgr_v2.0.elf",
       "description": "Save manager utility hosted on Forgejo.",
       "version": "v2.0",
       "checksum": "805902a1ef3d54854850518b11602e0ab973192e0338fc30b28a3a9e4aae5be6"
-    },
-    {
-      "name": "garlic-worker",
-      "filename": "garlic-worker_v1.5.6.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_saves/garlic-worker/v1.5.6/garlic-worker_v1.5.6.elf",
-      "description": "Garlic worker payload component.",
-      "version": "v1.5.6",
-      "checksum": "9cee1b261cc257e08997c0da109109b24d829c362117ebb293f277087033f5c2"
     },
     {
       "name": "savemnt-offset-dumper",
