@@ -85,11 +85,6 @@
       <description>Ghostpad controller input utility. - Checksum: 94d43a8db7ec9df6e18f0a0da25aac0f60e1a0b14d35bfff261f6f5cdeabdba1</description>
     </item>
     <item>
-      <title>Ghostcontrol-PS5-USB-Controller-Patcher (v2.2.5-beta)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_utility/Ghostcontrol-PS5-USB-Controller-Patcher/v2.2.5-beta/Ghostcontrol-PS5-USB-Controller-Patcher_v2.2.5-beta.elf</link>
-      <description>USB Controller patcher tool for PS5. - Checksum: 9252b95bdf019f83628e454d03c15709fd2a59abf1f218e3d02f141eae1e9a19</description>
-    </item>
-    <item>
       <title>zftp (v1.7.0)</title>
       <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/zftpd/v1.7.0/zftp_v1.7.0.elf</link>
       <description>FTP server payload for PS5. Port: 21 - Checksum: 533ef2ea5f56af392419b6ce6d05112da79428c2fef252a1a2bcf388be617484</description>
@@ -150,9 +145,9 @@
       <description>Easy remote server component. Port: 8080 - Checksum: 0563ed163a921dd9d2fe8bb5e12ab60c28f9175cc1cb2f718a389213cecca807</description>
     </item>
     <item>
-      <title>ps5upload (v12.6.25)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v12.6.25/ps5upload_v12.6.25.elf</link>
-      <description>PS5 Upload server / tool. Port: 9025 - Checksum: ebf636206c7773a7232801923e321bebafef592c26de611980d9f83c8e8e0343</description>
+      <title>ps5upload (v12.6.26)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v12.6.26/ps5upload_v12.6.26.elf</link>
+      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 19da4e310383d9152cb96f078ae63e4207dec42ac8793a81719505605253eb13</description>
     </item>
     <item>
       <title>airpsx (0.19)</title>

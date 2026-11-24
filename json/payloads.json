@@ -130,14 +130,6 @@
       "checksum": "94d43a8db7ec9df6e18f0a0da25aac0f60e1a0b14d35bfff261f6f5cdeabdba1"
     },
     {
-      "name": "Ghostcontrol-PS5-USB-Controller-Patcher",
-      "filename": "Ghostcontrol-PS5-USB-Controller-Patcher_v2.2.5-beta.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_utility/Ghostcontrol-PS5-USB-Controller-Patcher/v2.2.5-beta/Ghostcontrol-PS5-USB-Controller-Patcher_v2.2.5-beta.elf",
-      "description": "USB Controller patcher tool for PS5.",
-      "version": "v2.2.5-beta",
-      "checksum": "9252b95bdf019f83628e454d03c15709fd2a59abf1f218e3d02f141eae1e9a19"
-    },
-    {
       "name": "zftp",
       "filename": "zftp_v1.7.0.elf",
       "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/zftpd/v1.7.0/zftp_v1.7.0.elf",
@@ -235,11 +227,11 @@
     },
     {
       "name": "ps5upload",
-      "filename": "ps5upload_v12.6.25.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v12.6.25/ps5upload_v12.6.25.elf",
+      "filename": "ps5upload_v12.6.26.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v12.6.26/ps5upload_v12.6.26.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v12.6.25",
-      "checksum": "ebf636206c7773a7232801923e321bebafef592c26de611980d9f83c8e8e0343"
+      "version": "v12.6.26",
+      "checksum": "19da4e310383d9152cb96f078ae63e4207dec42ac8793a81719505605253eb13"
     },
     {
       "name": "airpsx",
