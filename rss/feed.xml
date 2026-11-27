@@ -85,24 +85,24 @@
       <description>Ghostpad controller input utility. - Checksum: 94d43a8db7ec9df6e18f0a0da25aac0f60e1a0b14d35bfff261f6f5cdeabdba1</description>
     </item>
     <item>
-      <title>zftp (v1.7.0)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/zftpd/v1.7.0/zftp_v1.7.0.elf</link>
-      <description>FTP server payload for PS5. Port: 21 - Checksum: 533ef2ea5f56af392419b6ce6d05112da79428c2fef252a1a2bcf388be617484</description>
+      <title>zftp (v1.7.1)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/zftpd/v1.7.1/zftp_v1.7.1.bin</link>
+      <description>FTP server payload for PS5. Port: 21 - Checksum: f2d6c179e10f11ffd654f01672efc05e6a25ce58036e6db0269f02b4a5d5b63d</description>
     </item>
     <item>
-      <title>zhttp (v1.7.0)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/zftpd/v1.7.0/zhttp_v1.7.0.elf</link>
-      <description>FTP server payload for PS5. Port: 21 - Checksum: 8f78ac0cde64a0744b82663d4a6bf8c1d7e937876dceddc219a21164578bd96e</description>
+      <title>zhttp (v1.7.1)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/zftpd/v1.7.1/zhttp_v1.7.1.elf</link>
+      <description>FTP server payload for PS5. Port: 21 - Checksum: 833adfc1f2274c63a0a1f60a274427ef6f1bc97d2077d13cbc8b91e62f0da6bf</description>
     </item>
     <item>
-      <title>zftp (v1.7.0)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/zftpd/v1.7.0/zftp_v1.7.0.bin</link>
-      <description>FTP server payload for PS5. Port: 21 - Checksum: a2018c31c0fe704687ead89ba864e1995c12812cf2d5ad799a6f70f4eb125a5e</description>
+      <title>zftp (v1.7.1)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/zftpd/v1.7.1/zftp_v1.7.1.elf</link>
+      <description>FTP server payload for PS5. Port: 21 - Checksum: 5a7cf2ff5d73418ea0109468fa7d77fc99356eaa338d58c35198affe60b96ea1</description>
     </item>
     <item>
-      <title>zhttp (v1.7.0)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/zftpd/v1.7.0/zhttp_v1.7.0.bin</link>
-      <description>FTP server payload for PS5. Port: 21 - Checksum: 319e74f31230b9c3506bea5c4793fe05cbbcb42ecbb66e72140e245d1491f242</description>
+      <title>zhttp (v1.7.1)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/zftpd/v1.7.1/zhttp_v1.7.1.bin</link>
+      <description>FTP server payload for PS5. Port: 21 - Checksum: 80d1440e487976927c34d0dfe896829884f8fde44cc1438e950e8c38f5c71693</description>
     </item>
     <item>
       <title>elfldr (v0.28)</title>
@@ -145,9 +145,9 @@
       <description>Easy remote server component. Port: 8080 - Checksum: 0563ed163a921dd9d2fe8bb5e12ab60c28f9175cc1cb2f718a389213cecca807</description>
     </item>
     <item>
-      <title>ps5upload (v12.6.38)</title>
-      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v12.6.38/ps5upload_v12.6.38.elf</link>
-      <description>PS5 Upload server / tool. Port: 9025 - Checksum: da4ec888e0c1d2d4e43f97d71b0ebdca7fdf7aa08a2b019a4a142db709f6dbda</description>
+      <title>ps5upload (v12.6.43)</title>
+      <link>https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v12.6.43/ps5upload_v12.6.43.elf</link>
+      <description>PS5 Upload server / tool. Port: 9025 - Checksum: 8b8bfc0fcdf74e92a6a0c1eb934ead27b94a4cb75f0ff09658a3b7d1cc599a7f</description>
     </item>
     <item>
       <title>airpsx (0.19)</title>

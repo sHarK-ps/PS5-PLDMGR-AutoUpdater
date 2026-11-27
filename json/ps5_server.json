@@ -3,35 +3,35 @@
   "payloads": [
     {
       "name": "zftp",
-      "filename": "zftp_v1.7.0.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/zftpd/v1.7.0/zftp_v1.7.0.elf",
+      "filename": "zftp_v1.7.1.bin",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/zftpd/v1.7.1/zftp_v1.7.1.bin",
       "description": "FTP server payload for PS5. Port: 21",
-      "version": "v1.7.0",
-      "checksum": "533ef2ea5f56af392419b6ce6d05112da79428c2fef252a1a2bcf388be617484"
+      "version": "v1.7.1",
+      "checksum": "f2d6c179e10f11ffd654f01672efc05e6a25ce58036e6db0269f02b4a5d5b63d"
     },
     {
       "name": "zhttp",
-      "filename": "zhttp_v1.7.0.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/zftpd/v1.7.0/zhttp_v1.7.0.elf",
+      "filename": "zhttp_v1.7.1.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/zftpd/v1.7.1/zhttp_v1.7.1.elf",
       "description": "FTP server payload for PS5. Port: 21",
-      "version": "v1.7.0",
-      "checksum": "8f78ac0cde64a0744b82663d4a6bf8c1d7e937876dceddc219a21164578bd96e"
+      "version": "v1.7.1",
+      "checksum": "833adfc1f2274c63a0a1f60a274427ef6f1bc97d2077d13cbc8b91e62f0da6bf"
     },
     {
       "name": "zftp",
-      "filename": "zftp_v1.7.0.bin",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/zftpd/v1.7.0/zftp_v1.7.0.bin",
+      "filename": "zftp_v1.7.1.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/zftpd/v1.7.1/zftp_v1.7.1.elf",
       "description": "FTP server payload for PS5. Port: 21",
-      "version": "v1.7.0",
-      "checksum": "a2018c31c0fe704687ead89ba864e1995c12812cf2d5ad799a6f70f4eb125a5e"
+      "version": "v1.7.1",
+      "checksum": "5a7cf2ff5d73418ea0109468fa7d77fc99356eaa338d58c35198affe60b96ea1"
     },
     {
       "name": "zhttp",
-      "filename": "zhttp_v1.7.0.bin",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/zftpd/v1.7.0/zhttp_v1.7.0.bin",
+      "filename": "zhttp_v1.7.1.bin",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/zftpd/v1.7.1/zhttp_v1.7.1.bin",
       "description": "FTP server payload for PS5. Port: 21",
-      "version": "v1.7.0",
-      "checksum": "319e74f31230b9c3506bea5c4793fe05cbbcb42ecbb66e72140e245d1491f242"
+      "version": "v1.7.1",
+      "checksum": "80d1440e487976927c34d0dfe896829884f8fde44cc1438e950e8c38f5c71693"
     },
     {
       "name": "elfldr",
@@ -99,11 +99,11 @@
     },
     {
       "name": "ps5upload",
-      "filename": "ps5upload_v12.6.38.elf",
-      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v12.6.38/ps5upload_v12.6.38.elf",
+      "filename": "ps5upload_v12.6.43.elf",
+      "url": "https://shark-ps.github.io/PS5-PLDMGR-AutoUpdater/payloads/ps5_server/ps5upload/v12.6.43/ps5upload_v12.6.43.elf",
       "description": "PS5 Upload server / tool. Port: 9025",
-      "version": "v12.6.38",
-      "checksum": "da4ec888e0c1d2d4e43f97d71b0ebdca7fdf7aa08a2b019a4a142db709f6dbda"
+      "version": "v12.6.43",
+      "checksum": "8b8bfc0fcdf74e92a6a0c1eb934ead27b94a4cb75f0ff09658a3b7d1cc599a7f"
     },
     {
       "name": "airpsx",
